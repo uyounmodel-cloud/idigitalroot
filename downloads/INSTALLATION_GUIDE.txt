@@ -1,0 +1,75 @@
+iDigitalRoot — Local website preview installation guide
+
+WHAT THIS IS
+A local preview of the current Public Website candidate on your Windows PC.
+It uses sample published content and the approved design direction. Phase 1
+is still unfinished. Live inquiry submission and analytics are not connected.
+This package opens the Public Website. The CMS is a separate application.
+Admin and the Client Panel belong to later phases and are not included.
+
+BEFORE YOU START
+Use your existing Windows PC with Ubuntu in WSL/WSL2.
+Keep an Internet connection available during preparation.
+Allow approximately 2 GB of free space in Ubuntu for the temporary build.
+You do not need to install Node, Docker or plugins manually.
+You do not need to log in to Cloudflare or enter an API token.
+
+1. DOWNLOAD AND EXTRACT
+Download IDIGITALROOT_PUBLIC_WEBSITE_LOCAL_PREVIEW_v1.zip.
+Right-click it and choose "Extract All".
+Choose a NEW folder, for example Documents\iDigitalRoot-Preview.
+Open the extracted folder. Do not run the launcher inside the ZIP viewer.
+If file extensions are hidden, look for the file named OPEN_WEBSITE_PREVIEW
+whose Type is "Windows Command Script".
+
+2. START THE WEBSITE
+Double-click OPEN_WEBSITE_PREVIEW.cmd.
+A command window will open. Keep it open.
+Preparation can take several minutes. It verifies the source, prepares the
+required tools, installs the pinned dependencies, and builds inside native
+Ubuntu storage. Each launch prepares a fresh temporary preview.
+Your default Windows browser should open when the website is ready.
+No administrator window or PowerShell execution-policy change is required.
+
+3. CHECK THE WEBSITE
+Browse Home, Personal, Students, Toolbox, Workspace and Majors.
+Use the language button to check English and Arabic.
+Try the Personal menu, FAQ, theme control and Workspace tabs.
+Make the browser window narrower to inspect the mobile layout.
+Knowledge uses a clearly marked sample article. Legal text is also a sample,
+not an approved published policy. Some pages may remain unavailable in this
+unfinished candidate. No inquiry will be submitted and no account is created.
+
+If the browser does not open automatically, enter this local address in your
+browser's address bar while the launcher window stays open:
+    http://127.0.0.1:4400
+Arabic is available at:
+    http://127.0.0.1:4400/ar
+These addresses work on your PC while the preview is running. They are not
+public hosted website links. If they do not work, send the logs below; I will
+investigate the WSL/browser forwarding behavior for you.
+
+4. STOP THE WEBSITE
+After checking it, return to the command window and press Enter.
+The launcher stops its own preview services and removes its temporary build.
+Close the command window after it finishes.
+
+IF SOMETHING FAILS
+Send PREVIEW_LOGS.zip from the extracted folder.
+If that file was not created, send WINDOWS_PREVIEW_LAUNCH.log instead.
+Do not reinstall Ubuntu, change Cloudflare login, enter tokens, or debug the
+build yourself. These logs let me diagnose the exact failure.
+
+IMPORTANT LIMITS
+This starts local test services only. It does not deploy or change Cloudflare
+Workers, D1, R2, DNS, Access, secrets, billing or production.
+The Linux build/server/browser path is verified in the cloud. The Windows
+launcher and your particular WSL/Windows browser connection remain unverified
+until you run this package. This preview is not final product acceptance.
+
+SEALED WEBSITE SOURCE
+Version: v1.1.2r6 CANDIDATE
+SHA-256: 677ea259a49364c3f4e8db976c7fa4ac60b8f86c5ba48c7e825184f15e79facd
+The preview fixture is separate from the sealed application source. It uses
+code-owned approved presentation copy and synthetic publications; no live
+CMS or production database is accessed.
