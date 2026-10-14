@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "cms_unchanged_backend_schema_compiled_files": 86,
+  "cms_core_migrations": 16,
+  "cms_analytics_migrations": 2,
+  "frontend_frozen_css_fixtures_lock": "byte-identical to r6",
+  "provider_mutations": false,
+  "new_migration_added": false,
+  "authority_ui_hashes": {
+    "public_website": "d10b1cff47d5912fecb49d88579971f3e21bb19a33b179e29356ea0eac5646fd",
+    "cms_ux": "7f7e099e3c525b27dd8ee285410ad0a9ce71c5055d845219c40a8501f8ee60cf"
+  },
+  "approved_cms_zip": "62f9e7441372b825d4e8535febdf7679d09d9a39464a8f63843f1eadd5c6d257",
+  "cms_candidate_sha256": "f257c85a1beef1b7ad58bb4c1f33a2830ae00d978b8fa6f66261cae9bdd67b41",
+  "fe_r9_sha256": "470d3c93173b01aa9ce0facf4951d83ef3b0db902a502e310ccafc51b5aa77b5"
+}

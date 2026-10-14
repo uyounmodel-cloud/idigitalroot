@@ -21,3 +21,15 @@ Extract the ZIP into a new folder, double-click `OPEN_CMS_PREVIEW.cmd`, and clic
 This launches the exact owner-approved connected CMS v1.5.3, SHA-256 `62f9e7441372b825d4e8535febdf7679d09d9a39464a8f63843f1eadd5c6d257`, without changing its source or UX. It uses temporary local sample data, local review authentication, and simulated provider/media services. CMS changes do **not** update the separate public website preview. Shared publishing integration remains open. Press Enter in the CMS command window to stop it; its sample data resets on restart.
 
 The Linux launcher passed source integrity and module checks, 37 actual Chromium checks (including login, all 27 workspaces and EN/AR editor geometry), and fresh ZIP extraction/startup with a verified runtime download. The approved local server returns a known favicon 404, recorded in the verification evidence. Windows CMS launcher verification and integrated security/QA/release gates remain open. No Cloudflare/provider deployment, production credentials, or paid resources are involved.
+
+## Detailed audience, website and CMS revision
+
+Read the [detailed review](docs/DETAILED_REVIEW.md), [audience-edition architecture](docs/AUDIENCE_EDITION_ARCHITECTURE.md), and [complete first student launch scope](docs/STUDENT_LAUNCH_SCOPE.md).
+
+The owner requires all 12 Toolbox tools and all 16 Student Workspace features for the first commercial student release. These are mandatory scope and remain unimplemented presentation concepts in the public previews. One common CMS entry point with safe edition selection, audience-specific account presentation and authorized Admin control is documented; multi-edition support has not been implemented.
+
+[Download the detailed review and repair candidates](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_DETAILED_REVIEW_AND_REPAIR_CANDIDATES_2026-10-14_v1.zip). Extract it into a new folder and read `README_OWNER.txt`. It contains reports and separate `WEBSITE_PREVIEW` / `CMS_PREVIEW` launchers. Stop older previews before starting their replacements because the ports are reused. Each still uses its own temporary sample database.
+
+Review coverage: all 67 registered public paths in EN/AR (134 requests), 98 internal-link destinations, 144 public control-parameter clicks, all 27 CMS workspaces in EN/AR, 35 CMS dialog/action probes, and source/contract traceability. Bounded repairs include translation-section preservation, result-dialog lifecycle, pagination, Arabic dynamic links/focus, Root Check example behavior and CMS accessibility. Frontend r9 passed 87 fresh-source built-workerd browser checks; CMS candidate's final 54-view automated accessibility sweep had zero violations. Full UI states/roles, manual accessibility, integrated security/QA/release and production readiness remain open.
+
+The new frontend v1.1.2r9 and CMS v1.5.4-r1 are **review candidates**, not owner-approved replacements. Original approved authorities and migration lineages remain unchanged. No Cloudflare/provider deployment or mutation is included.

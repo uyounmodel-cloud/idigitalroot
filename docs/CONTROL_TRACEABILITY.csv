@@ -1,0 +1,157 @@
+system,file,line,attribute,value,evidence_scope
+website,scripts/client.ts,57,data-action,mega,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,57,data-section,personal,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,61,data-action,search,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,62,data-action,lang,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,63,data-action,theme,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,66,data-action,mobile,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,89,data-action,lang,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,89,data-action,theme,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,101,data-cms-section,footer,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,105,data-action,lang,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,105,data-action,theme,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,160,data-cms-section,human-stories,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,168,data-sig-action,chapter,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,237,data-cms-section,student-problem,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,237,data-action,scatter,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,240,data-cms-section,student-foundation,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,240,data-action,root-node,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,242,data-cms-section,student-benefits,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,242,data-action,service,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,243,data-cms-section,proof,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,244,data-cms-section,faq,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,244,data-action,faq,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,246,data-cms-section,hero,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,250,data-cms-section,story,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,258,data-cms-section,three-experiences,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,262,data-cms-section,roots,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,264,data-cms-section,toolbox,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,265,data-cms-section,student-workspace,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,265,data-personal-action,workspace,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,266,data-cms-section,my-dream,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,266,data-personal-action,dream,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,267,data-cms-section,major-personalization,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,267,data-personal-action,major,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,268,data-cms-section,project-to-career,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,269,data-cms-section,human-built,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,271,data-cms-section,knowledge,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,272,data-cms-section,not-student,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,275,data-cms-section,final-cta,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,280,data-personal-action,workspace,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,285,data-action,wizard-choice,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,289,data-action,wizard-step,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,289,data-action,wizard-next,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,301,data-action,bp-family,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,312,data-action,sample-check,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,322,data-action,root-node,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,350,data-action,theme,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,354,data-action,close-overlay,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,358,data-action,service,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,359,data-action,process,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,375,data-action,root-node,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,376,data-action,persona,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,376,data-action,goal,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,378,data-action,bp-family,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+website,scripts/client.ts,380,data-action,knowledge-filter,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,380,data-action,knowledge-filter,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,381,data-action,wizard-choice,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,400,data-action,mega,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,401,data-action,mega,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,412,data-action,knowledge-filter,BROWSER_PARAMETER_CLICK
+website,scripts/client.ts,437,data-personal-action,major,BROWSER_PARAMETER_CLICK
+cms,app.js,17,data-ui-lang,en,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,app.js,17,data-ui-lang,ar,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,app.js,17,data-global-action,preview,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,app.js,17,data-go,publishing,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,app.js,17,data-global-action,logout,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,app.js,33,data-global-action,retry,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,37,data-editor-action,rich-editor,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,37,data-editor-action,choose-media,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,37,data-editor-action,save-section,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,38,data-editor-action,save-section,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,40,data-editor-action,rich-editor,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,40,data-editor-action,choose-media,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,40,data-editor-action,save-section,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,46,data-editor-action,save-design,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,47,data-editor-action,save-data,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,48,data-editor-action,open-seo,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,49,data-editor-action,move-up,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,49,data-editor-action,move-down,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,49,data-editor-action,duplicate-section,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,49,data-editor-action,remove-section,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,49,data-editor-action,add-section,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/editor.js,56,data-editor-device,desktop,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,56,data-editor-device,tablet,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,56,data-editor-device,mobile,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,56,data-preview-lang,en,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,56,data-preview-lang,ar,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,57,data-go,pages,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/editor.js,58,data-editor-action,exact-preview,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/editor.js,58,data-editor-action,history,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/editor.js,58,data-editor-action,add-section,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/media.js,20,data-media-action,upload,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/media.js,20,data-go,providers,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/media.js,21,data-media-action,refresh-providers,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/media.js,21,data-media-action,drive-import,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/media.js,21,data-media-action,youtube,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/media.js,21,data-media-action,import-retry,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/media.js,21,data-media-action,import-cancel,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/media.js,28,data-media-action,validate,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/media.js,28,data-media-action,finalize,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/media.js,28,data-media-action,metadata,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/media.js,28,data-media-action,protected-preview,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/media.js,28,data-media-action,replace,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/media.js,28,data-media-action,archive,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/operations.js,38,data-ops-action,cancel-schedule,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/operations.js,40,data-ops-action,compare,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/operations.js,40,data-ops-action,publish,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/operations.js,44,data-ops-action,preview,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/operations.js,44,data-ops-action,schedule,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/operations.js,44,data-ops-action,rollback,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/operations.js,44,data-ops-action,unpublish,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/operations.js,54,data-ops-action,analytics-export,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/operations.js,54,data-ops-action,analytics-raw,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/operations.js,54,data-ops-action,analytics-config,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/operations.js,57,data-ops-action,invite,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/operations.js,57,data-ops-action,actor-toggle,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/operations.js,57,data-ops-action,role-assign,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/operations.js,57,data-ops-action,role-revoke,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/operations.js,58,data-ops-action,logout,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/operations.js,58,data-ops-action,session-revoke,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/operations.js,60,data-ops-action,refresh-health,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,65,data-go,editor,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,71,data-go,publishing,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,72,data-go,media,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,73,data-go,providers,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,74,data-go,legal,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,81,data-go,editor,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,81,data-action,edit-chapter,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,82,data-action,page-edit,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,82,data-action,page-duplicate,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,82,data-action,page-move,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,82,data-action,page-create,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,82,data-action,bulk-pages,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,82,data-action,pages-filter,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,85,data-action,product-edit,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,87,data-action,navigation-edit,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,87,data-action,footer-edit,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,88,data-action,design-save,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,89,data-action,locale-add,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,89,data-action,locale-edit,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,89,data-action,translation-edit,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,90,data-action,translation-edit,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,91,data-action,service-edit,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,91,data-action,service-archive,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,91,data-action,service-create,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,92,data-action,knowledge-edit,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,92,data-action,knowledge-create,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,92,data-action,taxonomy-create,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,92,data-action,taxonomy-edit,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,93,data-action,seo-edit,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,93,data-action,redirect-create,DIALOG_OR_ACTION_PROBE; CONFIRMATION_NOT_IMPLIED
+cms,modules/workspaces/content.js,93,data-action,redirect-edit,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,97,data-action,inquiry-draft,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,98,data-action,legal-edit,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,99,data-action,brand-save,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,99,data-action,runtime-set,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN
+cms,modules/workspaces/content.js,99,data-action,runtime-set,SOURCE_BINDING_REVIEW; CONDITIONAL_STATES_UNRUN

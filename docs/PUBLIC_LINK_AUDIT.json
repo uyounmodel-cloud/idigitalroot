@@ -1,0 +1,394 @@
+[
+  {
+    "path": "/why-idigitalroot",
+    "status": 200
+  },
+  {
+    "path": "/",
+    "status": 200
+  },
+  {
+    "path": "/how-we-build",
+    "status": 200
+  },
+  {
+    "path": "/knowledge",
+    "status": 200
+  },
+  {
+    "path": "/contact",
+    "status": 200
+  },
+  {
+    "path": "/client-login",
+    "status": 200
+  },
+  {
+    "path": "/inquiry",
+    "status": 200
+  },
+  {
+    "path": "/personal",
+    "status": 200
+  },
+  {
+    "path": "/students",
+    "status": 200
+  },
+  {
+    "path": "/student/toolbox",
+    "status": 200
+  },
+  {
+    "path": "/student/majors",
+    "status": 200
+  },
+  {
+    "path": "/student/workspace",
+    "status": 200
+  },
+  {
+    "path": "/not-a-student",
+    "status": 200
+  },
+  {
+    "path": "/company/trust",
+    "status": 200
+  },
+  {
+    "path": "/legal/privacy",
+    "status": 404
+  },
+  {
+    "path": "/company/about",
+    "status": 200
+  },
+  {
+    "path": "/legal/cookies",
+    "status": 404
+  },
+  {
+    "path": "/ar",
+    "status": 200
+  },
+  {
+    "path": "/legal/terms",
+    "status": 200
+  },
+  {
+    "path": "/ar/why-idigitalroot",
+    "status": 200
+  },
+  {
+    "path": "/ar/how-we-build",
+    "status": 200
+  },
+  {
+    "path": "/ar/knowledge",
+    "status": 200
+  },
+  {
+    "path": "/ar/contact",
+    "status": 200
+  },
+  {
+    "path": "/ar/client-login",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry",
+    "status": 200
+  },
+  {
+    "path": "/ar/personal",
+    "status": 200
+  },
+  {
+    "path": "/ar/students",
+    "status": 200
+  },
+  {
+    "path": "/ar/student/toolbox",
+    "status": 200
+  },
+  {
+    "path": "/ar/student/workspace",
+    "status": 200
+  },
+  {
+    "path": "/ar/student/majors",
+    "status": 200
+  },
+  {
+    "path": "/ar/not-a-student",
+    "status": 200
+  },
+  {
+    "path": "/ar/company/about",
+    "status": 200
+  },
+  {
+    "path": "/ar/legal/privacy",
+    "status": 404
+  },
+  {
+    "path": "/ar/company/trust",
+    "status": 200
+  },
+  {
+    "path": "/ar/legal/cookies",
+    "status": 404
+  },
+  {
+    "path": "/ar/legal/terms",
+    "status": 200
+  },
+  {
+    "path": "/knowledge/why-own-your-domain",
+    "status": 404
+  },
+  {
+    "path": "/services/website",
+    "status": 200
+  },
+  {
+    "path": "/what-you-get",
+    "status": 200
+  },
+  {
+    "path": "/knowledge/first-website-checklist",
+    "status": 404
+  },
+  {
+    "path": "/knowledge/search-conversation-discovery",
+    "status": 404
+  },
+  {
+    "path": "/ar/knowledge/why-own-your-domain",
+    "status": 404
+  },
+  {
+    "path": "/ar/knowledge/first-website-checklist",
+    "status": 404
+  },
+  {
+    "path": "/ar/services/website",
+    "status": 200
+  },
+  {
+    "path": "/ar/knowledge/search-conversation-discovery",
+    "status": 404
+  },
+  {
+    "path": "/ar/what-you-get",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry?path=career",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry?path=project",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry?path=unsure",
+    "status": 200
+  },
+  {
+    "path": "/inquiry?path=career",
+    "status": 200
+  },
+  {
+    "path": "/inquiry?path=project",
+    "status": 200
+  },
+  {
+    "path": "/inquiry?path=unsure",
+    "status": 200
+  },
+  {
+    "path": "/services/domain",
+    "status": 200
+  },
+  {
+    "path": "/services/email",
+    "status": 200
+  },
+  {
+    "path": "/services/search",
+    "status": 200
+  },
+  {
+    "path": "/services/health",
+    "status": 200
+  },
+  {
+    "path": "/services/social",
+    "status": 200
+  },
+  {
+    "path": "/services/growth",
+    "status": 200
+  },
+  {
+    "path": "/ar/services/domain",
+    "status": 200
+  },
+  {
+    "path": "/ar/services/email",
+    "status": 200
+  },
+  {
+    "path": "/ar/services/search",
+    "status": 200
+  },
+  {
+    "path": "/ar/services/health",
+    "status": 200
+  },
+  {
+    "path": "/ar/services/social",
+    "status": 200
+  },
+  {
+    "path": "/ar/services/growth",
+    "status": 200
+  },
+  {
+    "path": "/pricing",
+    "status": 200
+  },
+  {
+    "path": "/knowledge/fixture-article",
+    "status": 200
+  },
+  {
+    "path": "/ar/knowledge/fixture-article",
+    "status": 200
+  },
+  {
+    "path": "/root-check/methodology",
+    "status": 200
+  },
+  {
+    "path": "/ar/pricing",
+    "status": 200
+  },
+  {
+    "path": "/ar/root-check/methodology",
+    "status": 200
+  },
+  {
+    "path": "/inquiry/about-you",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry/about-you",
+    "status": 200
+  },
+  {
+    "path": "/inquiry?interest=website",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry?interest=domain",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry?interest=website",
+    "status": 200
+  },
+  {
+    "path": "/inquiry?interest=domain",
+    "status": 200
+  },
+  {
+    "path": "/inquiry?interest=email",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry?interest=email",
+    "status": 200
+  },
+  {
+    "path": "/inquiry?interest=search",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry?interest=search",
+    "status": 200
+  },
+  {
+    "path": "/inquiry?interest=social",
+    "status": 200
+  },
+  {
+    "path": "/inquiry?interest=health",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry?interest=health",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry?interest=social",
+    "status": 200
+  },
+  {
+    "path": "/inquiry?interest=growth",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry?interest=growth",
+    "status": 200
+  },
+  {
+    "path": "/inquiry/what-you-need",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry/what-you-need",
+    "status": 200
+  },
+  {
+    "path": "/inquiry/your-goals",
+    "status": 200
+  },
+  {
+    "path": "/inquiry/current-presence",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry/your-goals",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry/current-presence",
+    "status": 200
+  },
+  {
+    "path": "/inquiry/main-requirements",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry/main-requirements",
+    "status": 200
+  },
+  {
+    "path": "/inquiry/additional-information",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry/additional-information",
+    "status": 200
+  },
+  {
+    "path": "/inquiry/contact-details",
+    "status": 200
+  },
+  {
+    "path": "/ar/inquiry/contact-details",
+    "status": 200
+  }
+]

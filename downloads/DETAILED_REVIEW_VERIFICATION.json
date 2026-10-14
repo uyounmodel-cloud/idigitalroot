@@ -1,0 +1,26 @@
+{
+  "review_zip": "IDIGITALROOT_DETAILED_REVIEW_AND_REPAIR_CANDIDATES_2026-10-14_v1.zip",
+  "size_bytes": 895032,
+  "sha256": "cbe7bc1d545aa63b8475a74dfc25034f5b25e58863b0f9592b8a5428a83527c3",
+  "fresh_manifest_checksum_crc": "PASS",
+  "nested_zip_crc": "PASS",
+  "source_files": 66,
+  "launcher_checks": [
+    {
+      "preview": "website",
+      "status": "PASS",
+      "source_sha256": "470d3c93173b01aa9ce0facf4951d83ef3b0db902a502e310ccafc51b5aa77b5",
+      "deployment_performed": false,
+      "provider_mutation_performed": false
+    },
+    {
+      "preview": "cms",
+      "status": "PASS",
+      "source_sha256": "f257c85a1beef1b7ad58bb4c1f33a2830ae00d978b8fa6f66261cae9bdd67b41",
+      "source_modified": false,
+      "deployment_performed": false,
+      "provider_mutation_performed": false
+    }
+  ],
+  "deployment_performed": false
+}

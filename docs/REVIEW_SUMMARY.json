@@ -1,0 +1,34 @@
+{
+  "registered_public_paths": 67,
+  "localized_route_requests": 134,
+  "route_http_counts": {
+    "200": 106,
+    "404": 28
+  },
+  "unique_internal_links": 98,
+  "link_http_counts": {
+    "200": 88,
+    "404": 10
+  },
+  "public_control_parameter_cases": 144,
+  "public_controls_clicked": 144,
+  "baseline_runtime_errors": [
+    "sampleReport is not defined (EN)",
+    "sampleReport is not defined (AR)"
+  ],
+  "cms_workspace_locale_views": 54,
+  "cms_dialog_action_probes": 35,
+  "static_control_declarations": 156,
+  "unique_static_control_declarations": 130,
+  "cms_baseline_a11y_category_instances": 126,
+  "cms_candidate_a11y_category_instances": 0,
+  "fe_candidate_browser_checks": 87,
+  "statuses": {
+    "review": "COMPLETED_WITH_EXPLICIT_LIMITS",
+    "repair_candidate_checks": "PASS",
+    "full_FE02_acceptance": "BLOCKED",
+    "integrated_security_QA_release": "OPEN",
+    "multi_edition_implementation": "NOT_IMPLEMENTED",
+    "student_toolbox_workspace": "MANDATORY_LAUNCH_SCOPE; PRESENTATION_ONLY_NOW"
+  }
+}
