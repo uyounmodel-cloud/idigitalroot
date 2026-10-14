@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "timestampUTC": "2026-10-14T17:42:03.994050+00:00",
+  "command": "bash /workspace/idigitalroot/cloud-environment/install.sh",
+  "archive": {
+    "file": "IDIGITALROOT_CONNECTED_WEBSITE_CMS_REVIEW_2026-10-14_rc9.zip",
+    "sha256": "e5eedf8a1fa71787fce087c88373472903abca257da6283a2d5c5bcefb99cefa",
+    "sourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811"
+  },
+  "operatorScriptSha256": "8f98f6df98f858cec54393038e10848f55548fa47a2b407f282542207680b701",
+  "sameCandidateDraftRetainedAfterSetupRestart": true,
+  "syntheticProofEntity": "page_80891dd2-3db8-4899-8ede-e2113f796ad2",
+  "readOnlyDatabaseProof": true,
+  "portsFreeAfterStop": true,
+  "outerChecksumsAfterSetup": "PASS",
+  "nativeResult": {
+    "status": "PASS",
+    "sourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811",
+    "deployment": false,
+    "providerMutation": false,
+    "dataKept": true
+  },
+  "fullFreshSourceGateSteps": 31,
+  "fullFreshSourceStatus": "PASS",
+  "ownerWindowsRun": "UNVERIFIED",
+  "newCloudTaskRestoration": "UNVERIFIED",
+  "providerMutation": false,
+  "deployment": false,
+  "scope": "Exact archive installed outside checkout in native cloud workspace; not independent or production acceptance"
+}

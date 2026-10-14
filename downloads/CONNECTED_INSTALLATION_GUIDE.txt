@@ -1,0 +1,41 @@
+iDigitalRoot — Connected Website + CMS local review candidate
+
+1. Close your older website and CMS preview command windows by pressing Enter in each.
+2. Download IDIGITALROOT_CONNECTED_WEBSITE_CMS_REVIEW_2026-10-14_rc9.zip from the repository download link. Extract ALL of it into a NEW folder. Do not run it inside the ZIP.
+3. Double-click OPEN_CONNECTED_PREVIEW.cmd. It uses your existing Ubuntu/WSL installation. Keep that command window open. You do not need Docker, a new hosting platform, a Git workflow, a plugin, a raw API token or a new Cloudflare login.
+4. Watch the named progress steps. First use downloads the pinned Node runtimes if needed, installs exact dependencies, builds and starts local Workers/D1/R2. Progress appears every 15 seconds during long build/install steps. A failed or stuck step stops with diagnostic logs rather than waiting indefinitely.
+5. When READY appears, two browser tabs should open:
+   Website: http://127.0.0.1:4400
+   Connected CMS: http://127.0.0.1:4198
+   If tabs do not open automatically, enter these addresses in your Windows browser.
+6. In CMS, click “Sign in for local owner review”. This is clearly marked local fixture authentication, not a production login.
+
+HOW TO CHECK THE CONNECTION
+- Open the CMS visual editor, select Home and English. Change a small title/text and save a draft.
+- Refresh the website: the existing published content should remain visible.
+- Open protected exact preview to inspect the saved draft.
+- Click “Review complete — ready to publish”, open Publishing and publish the selected revision.
+- Refresh the website: the published text should now appear.
+- Saved navigation/footer/product/brand/appearance drafts automatically become the selected publication target. In Publishing, choose any saved content by its human name if needed, then use “Review complete — ready to publish” and Publish.
+- Repeat separately for Arabic using the independent “Content language” control. CMS interface language and website preview/content language are independent.
+- Browse the eight-step Inquiry form using synthetic data. A receipt is shown only after the real LOCAL backend accepts it.
+- Optional measurement is off. “Allow on this page” enables local cookieless measurement for that page; DNT/GPC keeps it off. Aggregate report windows close hourly; authorized detailed records show the newly received event. The launcher invokes the real local scheduled handlers every 30 seconds; outbox replay and completed-window rollups run there. Production cron behavior still requires staging verification. This does not send a lead to a production staff inbox or send email/SMS.
+
+YOUR EDITS AND DATA
+Review data persists for this same candidate in native Ubuntu storage:
+~/.local/share/idigitalroot-connected-review/<source-hash-prefix>/review-data
+Execution-sensitive tools run there, not directly from /mnt/c. This launcher keeps the original download and source ZIP unchanged. A different candidate uses an isolated folder. Do not enter real private customer data into a review build. Do not copy review fixtures into production.
+
+STOPPING AND REOPENING
+Return to the command window and press Enter to stop both applications. Your same-candidate local edits are kept. Launch the same CMD to reopen. If a port is occupied, close the older preview window; the launcher does not kill other applications.
+
+IF IT DOES NOT START
+Send PREVIEW_LOGS.zip from the extracted folder. If that ZIP was not created, send WINDOWS_PREVIEW_LAUNCH.log or WINDOWS_WSL_STATUS.log. No debugging or token sharing is needed from you. These diagnostics exclude the database and raw Cloudflare identity output.
+
+WHAT THIS IS / RELEASE STATUS
+This is a connected candidate for local owner review. Read docs/FEATURE_STATUS.md and VERIFICATION_REPORT.md. The original owner-approved UI/CMS authorities are preserved; this changed successor is not automatically approved. No Cloudflare deployment, resource change or spend has occurred.
+
+Real production Access/MFA, Drive authorization, PDF scanning, legal approval, retention/deletion/backup/alerting and independent security/QA/release gates remain required. Root Check live scanning is gated. All 12 Toolbox tools and 16 Workspace feature positions remain mandatory for the first COMMERCIAL student release and are presentation demos here. Admin/Client Account and multi-edition operations are not operational in this Phase 1 candidate.
+
+TECHNICAL VERIFICATION
+The source ZIP has its SHA-256 in OPERATOR_MANIFEST.json; root RELEASE_MANIFEST.json and SHA256SUMS.txt cover the owner package. Source/checksums and clean extraction reproduction are described in docs/REPRODUCTION.md. The final evidence distinguishes Linux/Cloudflare-compatible local tests from the new launcher's still-unverified owner Windows run.

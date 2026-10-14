@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "source": {
+    "source_file": "IDIGITALROOT_PHASE1_CONNECTED_SOURCE_2026-10-14_rc9.zip",
+    "source_sha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811",
+    "bytes": 866985,
+    "files": 302,
+    "status": "CANDIDATE_NOT_OWNER_APPROVED",
+    "deploymentPerformed": false,
+    "providerMutationPerformed": false,
+    "nodeArchives": {
+      "node-v22.19.0-linux-x64.tar.xz": "c0649af18e6a24f6fe5535a3e86b341dd49a8e71117c8b68bde973ef834f16f2",
+      "node-v22.16.0-linux-x64.tar.xz": "f4cb75bb036f0d0eddf6b79d9596df1aaab9ddccd6a20bf489be5abe9467e84e"
+    }
+  },
+  "checks": [
+    {
+      "name": "first clean start, authenticated draft proof, normal stop, ports free, native D1 retained",
+      "status": "PASS",
+      "operatorResult": {
+        "status": "PASS",
+        "sourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811",
+        "deployment": false,
+        "providerMutation": false,
+        "dataKept": true
+      },
+      "log": "operator-first.log"
+    },
+    {
+      "name": "reopen clean start, authenticated draft proof, normal stop, ports free, native D1 retained",
+      "status": "PASS",
+      "operatorResult": {
+        "status": "PASS",
+        "sourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811",
+        "deployment": false,
+        "providerMutation": false,
+        "dataKept": true
+      },
+      "log": "operator-reopen.log"
+    },
+    {
+      "name": "Real local CMS and Analytics scheduled handlers invoked successfully by owner launcher clock",
+      "status": "PASS",
+      "rows": [
+        {
+          "time": "2026-10-14T17:24:15Z",
+          "results": [
+            {
+              "handler": "/__local/cms-scheduled",
+              "status": 200
+            },
+            {
+              "handler": "/__local/analytics-scheduled",
+              "status": 200
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "firstDraft": {
+    "status": "PASS",
+    "createdEntityId": "page_80891dd2-3db8-4899-8ede-e2113f796ad2",
+    "stableKey": "zz-owner-review-persistence-proof",
+    "draftVisibilityStatus": 404,
+    "sourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811",
+    "scope": "Synthetic operator review data only; new private draft created through actual authenticated native CMS API"
+  },
+  "reopenDraft": {
+    "status": "PASS",
+    "entityId": "page_80891dd2-3db8-4899-8ede-e2113f796ad2",
+    "retainedRevisions": 1,
+    "draftVisibilityStatus": 404,
+    "sourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811",
+    "scope": "Authenticated native CMS history read after launcher stop/reopen; no reseed or write performed"
+  },
+  "environment": "Linux cloud native storage; no owner Windows/WSL browser forwarding acceptance inferred",
+  "providerMutation": false,
+  "deployment": false,
+  "ownerWindowsRun": "UNVERIFIED"
+}

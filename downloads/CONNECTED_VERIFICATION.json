@@ -1,0 +1,34 @@
+{
+  "candidate": "rc9",
+  "source": {
+    "source_file": "IDIGITALROOT_PHASE1_CONNECTED_SOURCE_2026-10-14_rc9.zip",
+    "source_sha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811",
+    "bytes": 866985,
+    "files": 302
+  },
+  "technicalStatus": "PASS_LOCAL_EXACT_SOURCE",
+  "releaseStatus": "BLOCKED",
+  "ownerApproved": false,
+  "deployment": false,
+  "providerMutation": false,
+  "checks": {
+    "native-worker-smoke": 6,
+    "native-workflows": 11,
+    "integrated-acceptance": 13,
+    "native-negative": 12,
+    "native-global-ui": 6,
+    "mobile-accessibility": 26,
+    "responsive-browser": 46
+  },
+  "localizedRouteRequests": 134,
+  "cmsWorkspaceLanguageViews": 54,
+  "publicControlParameterProbes": 90,
+  "cmsDialogProbes": 36,
+  "publicProbeClickErrors": 0,
+  "publicProbesWithoutObservedChange": 0,
+  "cmsDialogProbeErrors": 0,
+  "internalDestinations": 77,
+  "unapprovedLegalDestinations404": 6,
+  "securityAuthority": "ASVS5.0.0; owner151-title baseline; partial/external gates retained",
+  "ownerWindowsRun": "UNVERIFIED"
+}
