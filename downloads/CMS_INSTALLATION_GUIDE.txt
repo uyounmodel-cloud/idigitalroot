@@ -1,0 +1,75 @@
+iDigitalRoot Public Website CMS - local preview v1
+
+This opens the owner-approved connected CMS v1.5.3 on your existing
+Windows PC with Ubuntu under WSL. Its source has not been modified.
+Keep the public website preview open if you want; the CMS is separate.
+
+START
+1. Download IDIGITALROOT_PUBLIC_WEBSITE_CMS_LOCAL_PREVIEW_v1.zip.
+2. Right-click the downloaded ZIP and choose Extract All. Extract into
+   a new folder. Do not run the launcher from inside the ZIP.
+3. Open the extracted folder and double-click OPEN_CMS_PREVIEW.cmd.
+4. Keep that command window open. Preparation progress appears there.
+5. When the browser opens, click "Sign in for local owner review".
+   No password or Cloudflare account is needed for this local review.
+
+If the browser does not open automatically, wait for "CMS READY" and
+enter http://127.0.0.1:4197 in the browser on that same Windows PC.
+It uses a different port from the public website preview.
+
+WHAT TO CHECK
+- Dashboard and the website map.
+- Pages and the visual website editor.
+- Media library, languages and translation, and publishing controls.
+- Analytics charts/tables and activity history.
+- Switch the CMS interface between EN and Arabic. Arabic has the
+  sidebar on the right. In the visual editor, the page tree is on the
+  right and the inspector on the left.
+- The website preview language inside the editor can differ from the
+  CMS interface language.
+
+LOCAL REVIEW DATA
+This is the real approved CMS operating against its own local sample
+database and simulated provider/media services. Login is a local-only
+review fixture; it is not production authentication. No deployment or
+Cloudflare/provider resource change is performed.
+
+Edits in this CMS do NOT change the public website preview you already
+opened: those two launchers currently use separate sample databases.
+Shared publishing integration and full Phase 1 acceptance remain open.
+No production account, secrets, API token, or paid service is needed.
+
+The approved ZIP already contains its compiled server and UI modules.
+The launcher verifies its SHA-256, ZIP CRC, and source checksums, then
+uses pinned Node 22.16.0. No npm dependency installation is needed.
+If that runtime is missing it downloads it from nodejs.org and checks
+the official SHA-256. It can reuse the website preview's Node runtime.
+Execution and the sample database are staged in native Linux /tmp,
+even when the downloaded folder is on the Windows drive.
+
+STOP
+Return to the CMS command window and press Enter. This stops only the
+CMS preview and removes its temporary sample database. Changes are
+temporary and reset on the next launch. Do not start a second CMS
+launcher while the first one is running.
+
+IF STARTUP FAILS
+Send CMS_PREVIEW_LOGS.zip from the extracted folder. If no ZIP exists,
+send the last lines of WINDOWS_CMS_LAUNCH.log. If WSL cannot start,
+send WINDOWS_WSL_STATUS.log. The launcher preserves progress logs and
+bounds slow preparation steps. Do not enter credentials into logs.
+
+VERIFICATION AND LIMITS
+The Linux launcher and actual browser login/workspace/EN-AR checks
+were tested. The Windows launcher requires verification on your PC.
+This local preview does not establish production readiness, provider
+integration, security acceptance, or completion of Phase 1.
+The unchanged approved local server has no favicon.ico; the browser
+may log a 404 for that icon. Application/API checks are separate from
+that known diagnostic. Full integrated QA remains open.
+
+SOURCE AUTHORITY
+IDIGITALROOT_P1-CMS_FINAL_CONNECTED_SOURCE_v1.5.3.zip
+SHA-256: 62f9e7441372b825d4e8535febdf7679d09d9a39464a8f63843f1eadd5c6d257
+Status: OWNER-APPROVED CONNECTED CMS; source unchanged.
+Core D1 lineage: 0001-0016. Analytics D1 lineage: 0001-0002.

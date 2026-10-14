@@ -1,0 +1,328 @@
+{
+  "preview_zip": "IDIGITALROOT_PUBLIC_WEBSITE_CMS_LOCAL_PREVIEW_v1.zip",
+  "preview_sha256": "1281571eed6c8fec2c4889065dc09801777a8e03decd24ac0fc22f75f6dc9522",
+  "zip_crc": "PASS",
+  "checksums": "PASS",
+  "fresh_extraction_startup": "PASS",
+  "fresh_extraction_runtime": "Official Node 22.16.0 downloaded and SHA-256 verified",
+  "fresh_extraction_result": {
+    "status": "PASS",
+    "source_sha256": "62f9e7441372b825d4e8535febdf7679d09d9a39464a8f63843f1eadd5c6d257",
+    "source_modified": false,
+    "deployment_performed": false,
+    "provider_mutation_performed": false
+  },
+  "browser_result": {
+    "status": "PASS_WITH_KNOWN_LOCAL_PREVIEW_DIAGNOSTIC",
+    "checks": [
+      "Actual browser local login establishes the approved CMS session",
+      "Approved v1.5.3 marker",
+      "English LTR",
+      "Connected workspace dashboard",
+      "Connected workspace coverage",
+      "Connected workspace sitemap",
+      "Connected workspace editor",
+      "Connected workspace chapters",
+      "Connected workspace pages",
+      "Connected workspace components",
+      "Connected workspace registries",
+      "Connected workspace navigation",
+      "Connected workspace appearance",
+      "Connected workspace localization",
+      "Connected workspace services",
+      "Connected workspace knowledge",
+      "Connected workspace seo",
+      "Connected workspace search",
+      "Connected workspace rootcheck",
+      "Connected workspace inquiry",
+      "Connected workspace legal",
+      "Connected workspace media",
+      "Connected workspace providers",
+      "Connected workspace publishing",
+      "Connected workspace analytics",
+      "Connected workspace history",
+      "Connected workspace users",
+      "Connected workspace security",
+      "Connected workspace operations",
+      "Connected workspace settings",
+      "English UI and Arabic preview are independent",
+      "Arabic RTL with sidebar right",
+      "Arabic editor tree right, canvas center, inspector left",
+      "English switch restores LTR",
+      "Connected API responses successful",
+      "No uncaught application exceptions",
+      "Only expected missing favicon HTTP/console diagnostic"
+    ],
+    "check_count": 37,
+    "api_response_count": 61,
+    "api_responses": [
+      {
+        "path": "/api/cms/v1/local/login",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/content",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/tree",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/locales",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/publication/queue",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/media",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/analytics/reports",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/operations/publication-health",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/analytics/query",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/publication/queue",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/media",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/analytics/reports",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/operations/publication-health",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/analytics/query",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/content/page_about/history",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/preview/issue",
+        "status": 201
+      },
+      {
+        "path": "/api/preview/v1/content",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/preview/revoke",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/tree",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/products/ensure-profile",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/content",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/content/global_site_design_profile/history",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/locales",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/services",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/taxonomy",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/redirects",
+        "status": 200
+      },
+      {
+        "path": "/api/public/v1/inquiry-definition",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/media",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/providers",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/imports",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/publication/queue",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/operations/publication-health",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/publication/history/page_about",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/analytics/reports",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/analytics/config",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/analytics/query",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/audit",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/actors",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/actors",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/sessions",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/actors",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/publication/queue",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/operations/publication-health",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/content",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/content/global_site_brand_contact_social/history",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/content/page_about/history",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/preview/issue",
+        "status": 201
+      },
+      {
+        "path": "/api/preview/v1/content",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/preview/revoke",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/content/page_about/history",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/preview/issue",
+        "status": 201
+      },
+      {
+        "path": "/api/preview/v1/content",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/preview/revoke",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/content/page_about/history",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/preview/issue",
+        "status": 201
+      },
+      {
+        "path": "/api/preview/v1/content",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/preview/revoke",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/content/page_about/history",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/preview/issue",
+        "status": 201
+      },
+      {
+        "path": "/api/preview/v1/content",
+        "status": 200
+      },
+      {
+        "path": "/api/cms/v1/preview/revoke",
+        "status": 200
+      }
+    ],
+    "errors": [],
+    "console_errors": [
+      {
+        "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "location": {
+          "url": "http://127.0.0.1:4197/favicon.ico"
+        }
+      }
+    ],
+    "http_errors": [
+      {
+        "status": 404,
+        "url": "http://127.0.0.1:4197/favicon.ico"
+      }
+    ],
+    "known_limitation": "Unmodified approved local server returns 404 for favicon.ico, producing a browser console diagnostic.",
+    "browser": "Chrome/154.0.8037.57",
+    "source_sha256": "62f9e7441372b825d4e8535febdf7679d09d9a39464a8f63843f1eadd5c6d257",
+    "source_modified": false,
+    "actual_windows_launcher_verified": false,
+    "provider_mutation_performed": false
+  },
+  "production_deployment_performed": false,
+  "phase1_acceptance": "OPEN"
+}
