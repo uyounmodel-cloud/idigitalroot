@@ -15,7 +15,7 @@ You do not need to install Node, Docker or plugins manually.
 You do not need to log in to Cloudflare or enter an API token.
 
 1. DOWNLOAD AND EXTRACT
-Download IDIGITALROOT_PUBLIC_WEBSITE_LOCAL_PREVIEW_v1.zip.
+Download IDIGITALROOT_PUBLIC_WEBSITE_LOCAL_PREVIEW_v1.1.zip.
 Right-click it and choose "Extract All".
 Choose a NEW folder, for example Documents\iDigitalRoot-Preview.
 Open the extracted folder. Do not run the launcher inside the ZIP viewer.
@@ -25,10 +25,13 @@ whose Type is "Windows Command Script".
 2. START THE WEBSITE
 Double-click OPEN_WEBSITE_PREVIEW.cmd.
 A command window will open. Keep it open.
+This revised launcher displays each preparation step and elapsed time.
+During a long build/install it prints a progress update every 15 seconds.
 Preparation can take several minutes. It verifies the source, prepares the
 required tools, installs the pinned dependencies, and builds inside native
 Ubuntu storage. Each launch prepares a fresh temporary preview.
 Your default Windows browser should open when the website is ready.
+If it does not open, the preview keeps running and prints the local address.
 No administrator window or PowerShell execution-policy change is required.
 
 3. CHECK THE WEBSITE
@@ -57,6 +60,9 @@ Close the command window after it finishes.
 IF SOMETHING FAILS
 Send PREVIEW_LOGS.zip from the extracted folder.
 If that file was not created, send WINDOWS_PREVIEW_LAUNCH.log instead.
+If WSL itself cannot start, send WINDOWS_WSL_STATUS.log.
+Downloads and installs now have time limits. If a step times out, the launcher
+saves its logs and stops its own processes instead of waiting indefinitely.
 Do not reinstall Ubuntu, change Cloudflare login, enter tokens, or debug the
 build yourself. These logs let me diagnose the exact failure.
 
