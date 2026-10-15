@@ -1,0 +1,36 @@
+iDigitalRoot — Website Studio review
+15 October 2026
+
+WHAT CHANGED
+The public website returns to the approved v4.3 visual design. The CMS has a new, simpler interface with the same connected capabilities and security boundaries.
+
+INSTALL / OPEN
+1. Close your earlier preview window so its website and CMS stop.
+2. Download the complete new Website Studio preview ZIP from GitHub.
+3. Right-click the ZIP, choose Extract All, and use a NEW folder. Do not run inside the ZIP.
+4. Double-click OPEN_CONNECTED_PREVIEW.cmd.
+5. Keep that window open. Progress is shown. The public website and CMS open when ready.
+6. In the CMS, click Sign in for local owner review.
+
+Use your existing Windows + Ubuntu/WSL installation. No Cloudflare deployment, new login or raw API token is needed. Linux x64 dependencies are included and verified, avoiding the previous npm registry timeout. Official Node runtimes may still download if they were not prepared previously.
+
+YOUR PREVIOUS EDITS
+The launcher checks for the previous rc9 review data in native WSL storage. If it exists and every schema hash matches, it COPIES that data into this new candidate's separate review folder. Your previous review remains available unchanged. Later changes in this new preview are independent of the older preview. Existing current-candidate data is reused on restart and never overwritten. A schema mismatch stops the copy; it does not reset data.
+
+HOW TO EDIT
+Home -> Edit the homepage, or Pages -> find a page -> Edit page.
+Choose Editing language. Choose a section in the list or click it in the website preview. Change text or images in the editing panel.
+Save draft -> Preview -> Publish...
+The publish window shows the content name, language and LOCAL destination. Check the review box and confirm. English and Arabic publish separately.
+
+Menus, services, products and site settings keep their own ordinary forms. After saving supported settings, a nearby Preview / Publish... bar follows the exact saved content and language.
+
+To find other tools: use Find anything, More website tools, or Settings & team. Photos & files, Menus & footer, Services, Articles and Visitors & reports are directly in the menu.
+
+WHEN FINISHED
+Return to the launcher window and press Enter to stop. Review edits are kept in native WSL storage. Reopening the same package resumes them.
+
+STATUS
+This is a local review candidate, not owner-approved, not a production release, and not deployed. The owner Windows run remains to be verified. Real provider/legal/independent security/manual QA/release gates remain open. All Toolbox and Student Workspace capabilities remain mandatory commercial scope and are presentation demos here; Admin/Client dashboards are not operational.
+
+Read docs/CMS_STUDIO_OWNER_GUIDE.md for editing details and VERIFICATION_REPORT.md for exact evidence and limitations.

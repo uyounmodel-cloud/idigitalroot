@@ -1,3 +1,5 @@
+> Current owner-directed Website Studio candidate: see VERIFICATION_REPORT.md and CMS_STUDIO_CHANGE_REPORT.md. The preserved baseline closure restrictions below remain in force.
+
 # Phase 1 closure register
 
 This register accompanies the exact rc9 source and its verification report. A local technical PASS is not an owner decision, independent acceptance or production release.

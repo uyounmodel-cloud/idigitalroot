@@ -1,0 +1,83 @@
+{
+  "status": "PASS_LOCAL_EXACT_SEALED_SOURCE",
+  "source": {
+    "source_file": "IDIGITALROOT_WEBSITE_STUDIO_SOURCE_2026-10-15_rc4.zip",
+    "source_sha256": "f3d374b3e2922ffa355d21b0bbb3432302221d0481415be82cf4a2d0a4b46bdf",
+    "bytes": 896782,
+    "files": 311
+  },
+  "cmsVersion": "2.0.0-rc.1",
+  "checks": {
+    "native-worker-smoke": 6,
+    "native-workflows": 11,
+    "integrated-acceptance": 13,
+    "native-negative": 12,
+    "native-global-ui": 6,
+    "mobile-accessibility": 26,
+    "studio-workflows": 19,
+    "studio-accessibility": 12,
+    "responsive-browser": 46
+  },
+  "publicLocalizedRouteRequests": 134,
+  "public200": 116,
+  "intentionalPrivate404": 18,
+  "cmsScreenLanguageViews": 54,
+  "cmsDialogProbes": 34,
+  "publicControlProbes": 90,
+  "internalDestinations": 77,
+  "reportedBrowserExceptions": 0,
+  "reportedAutomatedAccessibilityViolationsInTestedViews": 0,
+  "fullManualAccessibilityOrUsabilityAccepted": false,
+  "domainServiceImplementationUnchanged": true,
+  "schemasUnchanged": true,
+  "operator": {
+    "status": "PASS",
+    "sourceSha256": "f3d374b3e2922ffa355d21b0bbb3432302221d0481415be82cf4a2d0a4b46bdf",
+    "checks": [
+      {
+        "name": "first actual operator startup/stop, original retained and both private drafts accessible",
+        "status": "PASS"
+      },
+      {
+        "name": "reopen actual operator startup/stop, original retained and both private drafts accessible",
+        "status": "PASS"
+      }
+    ],
+    "reviewDataCopy": {
+      "status": "COPIED_COMPATIBLE_REVIEW_DATA",
+      "previousSourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811",
+      "originalKept": true,
+      "schemaHashesMatched": true,
+      "sqliteBackupReadOnly": true,
+      "sqliteBackupSource": "staged copy only; original SQLite databases never opened"
+    },
+    "oldPrivateDraft": {
+      "status": "PASS",
+      "entityId": "page_3e98d68e-63c2-4af1-9d29-c6c840750233",
+      "mode": "read",
+      "publicStatus": 404,
+      "retainedRevisions": 1
+    },
+    "newPrivateDraft": {
+      "status": "PASS",
+      "entityId": "page_df0348a1-0476-4a39-84f7-8d06b432c985",
+      "mode": "read",
+      "publicStatus": 404,
+      "retainedRevisions": 1
+    },
+    "registryDuringTest": "https://127.0.0.1:9",
+    "offlineDependencies": true,
+    "warmStartReusedDependencies": true,
+    "originalReviewDataByteInventoryUnchanged": true,
+    "sourceChecksumsAfterTests": "PASS",
+    "ownerWindowsRun": "UNVERIFIED",
+    "providerMutation": false,
+    "deployment": false
+  },
+  "ownerApproved": false,
+  "ownerWindowsRun": "UNVERIFIED",
+  "phase1": "OPEN",
+  "productionRelease": "BLOCKED",
+  "deployment": false,
+  "providerMutation": false
+}

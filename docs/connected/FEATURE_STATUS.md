@@ -1,3 +1,5 @@
+> Current owner-directed UI successor: see CMS_REBUILD_AUTHORITY.md, CMS_STUDIO_CHANGE_REPORT.md and CMS_STUDIO_OWNER_GUIDE.md. New CMS2.0.0-rc.1 is a candidate, not owner-approved. Original hashes/approvals below are preserved.
+
 # Connected Phase 1 candidate — feature status
 
 This is a bounded successor for owner review. The original approvals remain authoritative. Opening this build does not approve it or close Phase 1. Final exact-source evidence is delivered alongside the source ZIP.

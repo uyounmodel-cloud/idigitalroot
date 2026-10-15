@@ -1,3 +1,5 @@
+> Current owner-directed UI successor: see CMS_REBUILD_AUTHORITY.md, CMS_STUDIO_CHANGE_REPORT.md and CMS_STUDIO_OWNER_GUIDE.md. New CMS2.0.0-rc.1 is a candidate, not owner-approved. Original hashes/approvals below are preserved.
+
 # Preserved authority checkpoint
 
 Current phase: Phase 1. Next authorized work is Public Website FE closure and FE-03 inquiry/analytics, followed by integrated security, QA and release preparation. Later Admin/Client phases have not started. The master reconstructed ZIP was verified as f1ea6c341baf3c81afa5b797ed09beb9b1a400325338e8a42ed671c2a5f23b20; ZIP CRC, RELEASE_MANIFEST.json and SHA256SUMS.txt passed. Mandatory read order/security/environment files and relevant current source archives were read/inspected before source modification.

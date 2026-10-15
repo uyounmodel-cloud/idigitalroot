@@ -1,0 +1,66 @@
+{
+  "added": [
+    "cms/ui/modules/simple-ui.js",
+    "cms/ui/modules/studio.js",
+    "docs/CMS_REBUILD_AUTHORITY.md",
+    "docs/CMS_STUDIO_CHANGE_REPORT.md",
+    "docs/CMS_STUDIO_OWNER_GUIDE.md",
+    "docs/CMS_STUDIO_SECURITY_REVIEW.md",
+    "scripts/click-control.mjs",
+    "scripts/studio-accessibility.mjs",
+    "scripts/studio-review.mjs"
+  ],
+  "removed": [],
+  "changed": [
+    "README.md",
+    "cms/RELEASE_MANIFEST.json",
+    "cms/SHA256SUMS.txt",
+    "cms/package-lock.json",
+    "cms/package.json",
+    "cms/ui/accessibility.css",
+    "cms/ui/app.js",
+    "cms/ui/modules/api.js",
+    "cms/ui/modules/editor-ux.js",
+    "cms/ui/modules/errors.js",
+    "cms/ui/modules/registry.js",
+    "cms/ui/modules/state.js",
+    "cms/ui/modules/ui.js",
+    "cms/ui/modules/workspaces/content.js",
+    "cms/ui/modules/workspaces/editor.js",
+    "cms/ui/styles.css",
+    "docs/AUTHORITY_REGISTER.md",
+    "docs/FEATURE_STATUS.md",
+    "scripts/browser-inventory.mjs",
+    "scripts/integrated-acceptance.mjs",
+    "scripts/native-global-ui.mjs",
+    "scripts/run-native.py",
+    "tests/integration-security.test.mjs",
+    "website/RELEASE_MANIFEST.json",
+    "website/SHA256SUMS.txt",
+    "website/src/published-markup.ts",
+    "website/src/runtime-public.ts",
+    "website/src/styles/future.css",
+    "website/src/styles/global.css",
+    "website/tests/runtime-contract.test.mjs",
+    "workers/private-preview.mjs"
+  ],
+  "serverImplementationUnchanged": true,
+  "schemaFilesUnchanged": true,
+  "frontendDependenciesAndLocksUnchanged": true,
+  "source": {
+    "source_file": "IDIGITALROOT_WEBSITE_STUDIO_SOURCE_2026-10-15_rc4.zip",
+    "source_sha256": "f3d374b3e2922ffa355d21b0bbb3432302221d0481415be82cf4a2d0a4b46bdf",
+    "bytes": 896782,
+    "files": 311
+  },
+  "unchangedServerImplementationComparisonPrefixes": [
+    "backend/src/",
+    "analytics/src/",
+    "cms/src/"
+  ],
+  "changedServerRenderedPresentation": [
+    "workers/private-preview.mjs (framing headers)",
+    "website/src/published-markup.ts (bounded hero CTA)",
+    "website/src/runtime-public.ts (URL policy binding)"
+  ]
+}

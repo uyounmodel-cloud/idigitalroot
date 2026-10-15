@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "No previous data is created or reset",
+      "status": "PASS"
+    },
+    {
+      "name": "Compatible SQLite/media copied; original byte inventory stays unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "Restart preserves current candidate edits",
+      "status": "PASS"
+    },
+    {
+      "name": "Schema mismatch fails without touching destination",
+      "status": "PASS"
+    },
+    {
+      "name": "Symbolic links rejected without copying",
+      "status": "PASS"
+    },
+    {
+      "name": "Nonempty new data is never overwritten",
+      "status": "PASS"
+    },
+    {
+      "name": "Committed WAL copied without opening or changing any original sidecar bytes",
+      "status": "PASS"
+    }
+  ],
+  "providerMutation": false,
+  "deployment": false
+}

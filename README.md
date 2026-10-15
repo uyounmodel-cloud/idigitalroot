@@ -1,29 +1,29 @@
-# iDigitalRoot — connected website and CMS review
+# iDigitalRoot — Website Studio review
 
-**15 October installer recovery:** the latest ZIP includes the verified Linux x64 dependencies (about83 MB download), so Ubuntu/WSL startup does not depend on npm registry downloads. This repairs the reported EIDLETIMEOUT. The rc9 application source and same-candidate review-data folder are unchanged.
+The CMS has a new, simpler interface. The public website returns to the approved v4.3 visual baseline, with content, inquiry and analytics connections retained.
 
-The current package connects the public website and its dedicated CMS through local Cloudflare Workers, D1 and R2. It includes the frontend refinements, published-content binding, inquiry submission and optional analytics. **This is a review candidate; Phase 1 release is still blocked by the gates below. No Cloudflare deployment has occurred.**
+[**Download the connected Website Studio preview — about 87 MB**](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_WEBSITE_STUDIO_REVIEW_2026-10-15_R1.zip) · [Installation guide](downloads/WEBSITE_STUDIO_INSTALLATION_GUIDE.txt)
 
-[Download the connected website + CMS ZIP](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_CONNECTED_PREVIEW_RECOVERY_2026-10-15_R1.zip) · [Installation guide](downloads/CONNECTED_PREVIEW_RECOVERY_INSTALLATION_GUIDE.txt) · [Application verification](docs/connected/VERIFICATION_REPORT.md) · [Installer recovery verification](docs/connected/RECOVERY_VERIFICATION.md) · [Feature status](docs/connected/FEATURE_STATUS.md) · [Phase 1 closure register](docs/connected/PHASE1_CLOSURE_STATUS.md)
+Close your older preview, extract the new ZIP into a new folder, then double-click **OPEN_CONNECTED_PREVIEW.cmd**. Use your existing Windows + Ubuntu/WSL setup. Compatible older review edits are copied into a separate new review folder; the original stays available. Verified Linux x64 dependencies are included to avoid the previous npm registry timeout.
 
-1. Stop your older preview command windows by pressing Enter in each.
-2. Download and extract the whole new ZIP into a **new folder** on your existing Windows + Ubuntu/WSL PC.
-3. Double-click **OPEN_CONNECTED_PREVIEW.cmd** and keep its window open. Named steps show progress during installation/build.
-4. When READY appears, open the website at **http://127.0.0.1:4400** and the connected CMS at **http://127.0.0.1:4198**. Click **Sign in for local owner review** in CMS.
-5. Save a small Home-page text draft. Confirm the website stays unchanged; inspect exact preview; choose **Review complete — ready to publish**, publish and refresh the website. Test Arabic separately with **Content language**.
+## A simpler way to edit
 
-The same candidate preserves local review edits after stopping/reopening. A different candidate uses isolated data. Use synthetic data for review. The launcher rechecks an existing Cloudflare connection read-only and continues locally; no login, token sharing, deployment or paid resource is needed. If startup fails, send `PREVIEW_LOGS.zip`; you do not need to debug it.
+**Pages → Edit page → choose a section → Save draft → Preview → Publish…**
 
-The ZIP includes immutable source, hashes, manifests, exact locks, change/feature reports, threat model, security matrices, reproduction instructions and local browser evidence. The original owner-approved public UI v4.3 and connected CMS v1.5.3 remain recorded authorities. This changed successor requires owner review.
+The real saved website appears inside the editor. Ordinary text is shown directly in filled-in fields; rich-content sections have formatting controls. The same screen handles saving, preview and explicit publication. English/Arabic and RTL are supported. Menus, media, services, articles, translations, analytics, publishing schedules and access controls remain available through simpler navigation.
 
-## Release boundaries
+![Website Studio home](docs/connected/screenshots/studio-home-en.png)
 
-Local technical results are documented against the exact sealed source in the verification report. They do not establish owner Windows acceptance, independent security/QA acceptance or production readiness. Actual Access/MFA/provider integration, legal/privacy/retention decisions, operational recovery/monitoring and integrated release gates remain open. Drive/PDF services fail closed until configured and verified; unapproved legal pages remain unpublished. No production credentials are in this package.
+![Page editing with the real website preview](docs/connected/screenshots/studio-editor-en.png)
 
-All **12 Toolbox tools and 16 Student Workspace feature positions remain required for the first commercial student release** and are presentation demos in this Phase 1 build. Admin and the Client Account are not operational here. Future employee/entrepreneur/business editions and scoped CMS administration are documented in [the edition architecture](docs/AUDIENCE_EDITION_ARCHITECTURE.md), not presented as a working edition chooser. Read [the student launch scope](docs/STUDENT_LAUNCH_SCOPE.md). The frozen Phase 1 → Admin → Client Account → reusable client CMS → website factory order remains in force.
+[Arabic editor](docs/connected/screenshots/studio-editor-ar.png) · [Arabic section fields](docs/connected/screenshots/studio-section-ar.png) · [Phone view](docs/connected/screenshots/studio-home-phone-ar.png)
 
-## Earlier downloads
+## Verification and status
 
-Earlier separate website/CMS previews and the detailed review are preserved unchanged in `downloads/`. Their launchers use separate temporary sample data and do not update this connected build. See the [historical preview notes](docs/HISTORICAL_PREVIEW_README.md). Use the new connected package for this review.
+[Verification report](docs/connected/VERIFICATION_REPORT.md) · [Editing guide](docs/connected/CMS_STUDIO_OWNER_GUIDE.md) · [Changes](docs/connected/CMS_STUDIO_CHANGE_REPORT.md) · [Security delta](docs/connected/CMS_STUDIO_SECURITY_REVIEW.md) · [Checksums](downloads/SHA256SUMS.txt) · [Immutable source ZIP](downloads/IDIGITALROOT_WEBSITE_STUDIO_SOURCE_2026-10-15_rc4.zip)
 
-Cloud setup helpers are in `cloud-environment/`; they reproduce this same local package without imposing a Git workflow on the owner or changing provider resources.
+Local technical gates passed on the exact sealed source: clean pinned install, official Workers build, actual workerd/D1/R2, publication/inquiry/analytics flows,19 Studio checks, EN/AR, responsive and automated accessibility/route/control sweeps. Installer cold/warm startup and copy-only review-data continuity were checked. See the report for exact counts and limitations.
+
+**This is a local review candidate. It is not owner-approved or deployed.** Phase1 remains open; provider/legal/independent security/manual QA/release gates and the new owner Windows run remain outstanding. All12 Toolbox tools and16 Workspace feature positions remain mandatory for the first commercial student release and are presentation demos here. Admin/Client dashboards and future multi-edition operations are not operational.
+
+Original approved transfer files and previous download archives remain untouched. [Current artifact metadata](downloads/CONNECTED_CURRENT.json) · [Authority register](docs/connected/AUTHORITY_REGISTER.md) · [Previous connected review](docs/HISTORICAL_CONNECTED_RC9_README.md)

@@ -1,29 +1,34 @@
 {
   "reviewPackage": {
-    "file": "IDIGITALROOT_CONNECTED_PREVIEW_RECOVERY_2026-10-15_R1.zip",
-    "sha256": "45c1bab4cdfbb76a2a16299d82d1fff74e0d0bc47ff7c89285d4b92610e13069",
-    "bytes": 82648032,
-    "sourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811",
+    "file": "IDIGITALROOT_WEBSITE_STUDIO_REVIEW_2026-10-15_R1.zip",
+    "sha256": "39af9dfc219c59b56f8f18bca8c76582bcb3fbc114065e02e44f6fa8059d48a0",
+    "bytes": 86858656,
+    "uncompressedBytes": 92968729,
+    "files": 135,
+    "sourceSha256": "f3d374b3e2922ffa355d21b0bbb3432302221d0481415be82cf4a2d0a4b46bdf",
     "crc": "PASS",
     "freshExtractionChecksums": "PASS",
-    "applicationSourceChanged": false,
-    "installerStatus": "PASS_LOCAL",
-    "ownerWindowsStatus": "UNVERIFIED",
+    "technicalStatus": "PASS_LOCAL_EXACT_SOURCE",
+    "ownerApproved": false,
+    "ownerWindowsRun": "UNVERIFIED",
+    "phase1": "OPEN",
     "releaseStatus": "BLOCKED",
-    "deployment": false,
-    "providerMutation": false
+    "providerMutation": false,
+    "deployment": false
   },
   "source": {
-    "source_file": "IDIGITALROOT_PHASE1_CONNECTED_SOURCE_2026-10-14_rc9.zip",
-    "source_sha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811",
-    "bytes": 866985,
-    "files": 302
+    "source_file": "IDIGITALROOT_WEBSITE_STUDIO_SOURCE_2026-10-15_rc4.zip",
+    "source_sha256": "f3d374b3e2922ffa355d21b0bbb3432302221d0481415be82cf4a2d0a4b46bdf",
+    "bytes": 896782,
+    "files": 311
   },
+  "cmsVersion": "2.0.0-rc.1",
   "ownerApproved": false,
   "phase1Status": "OPEN",
   "releaseStatus": "BLOCKED",
   "deployment": false,
   "providerMutation": false,
-  "installerVersion": "2026-10-15-R1",
-  "applicationSourceChanged": false
+  "installerVersion": "2026-10-15-STUDIO-R1",
+  "applicationSourceChanged": true,
+  "previousReviewSourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811"
 }
