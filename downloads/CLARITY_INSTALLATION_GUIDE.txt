@@ -1,0 +1,28 @@
+iDigitalRoot — enterprise website and simpler CMS
+15 October 2026 (Asia/Beirut)
+
+INSTALL / OPEN
+1. Close the previous preview by pressing Enter in its launcher window.
+2. Download the complete new preview ZIP from GitHub.
+3. Right-click it, choose Extract All and use a NEW folder.
+4. Double-click OPEN_CONNECTED_PREVIEW.cmd. Keep its window open.
+5. When the website and CMS open, choose Sign in for local owner review in the CMS.
+
+Use the existing Windows + Ubuntu/WSL installation. The launcher uses native WSL storage and includes verified Linux x64 dependencies. It can reuse prepared Node runtimes; otherwise it downloads and verifies the official pinned versions. No Cloudflare deployment or new login is needed.
+
+YOUR EDITS
+Compatible earlier Studio rc4 review data is copied into the new candidate's separate folder. If that review does not exist, the known earlier rc9 review can be copied instead. Versions are not merged. Original data stays unchanged. Reopening this same candidate keeps its edits. A schema mismatch stops safely; it never resets data.
+
+EDIT CONTENT -> SAVE & PREVIEW -> PUBLISH
+Choose a page, language and section. Change its filled-in text. Save & preview saves privately and opens the saved design. Return to Edit content for more changes. Publish... shows the exact page, language and LOCAL destination; tick the review box and confirm.
+
+The ordinary editor and preview now have separate screens. Search the section list; phones have a simple section dropdown. Additional controls are under More section options. For supporting-page copy, open All page text and search for the words you want to change. English and Arabic are published separately; CMS interface language is independent.
+
+Use Photos & files to upload, review and approve a photo. Approved PNG/JPEG photos have protected thumbnails. Choose a photo inside the section you want to illustrate; removing it from a section does not delete the file. Existing menus, services, articles, translations, reports, schedules, history and team controls remain available. Some advanced features retain external/manual release gates.
+
+The website has a new enterprise futuristic visual design, keeping its content and chapter distribution. Repairs include mobile navigation utilities, persistent header, overlapping opening artwork, empty notifications, keyboard focus and section-photo binding.
+
+FINISH
+Return to the launcher and press Enter to stop. Do not delete the local data folder. Read docs/CLARITY_OWNER_GUIDE.md and VERIFICATION_REPORT.md.
+
+This is a LOCAL REVIEW CANDIDATE. It is not owner-approved, deployed or a production release. The owner Windows run, legal/provider/independent security/manual QA/release gates remain open. Toolbox/Workspace tools are demos here; Admin/Client dashboards are not operational. No remote Cloudflare resources are changed.

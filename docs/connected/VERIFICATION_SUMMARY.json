@@ -1,12 +1,11 @@
 {
   "status": "PASS_LOCAL_EXACT_SEALED_SOURCE",
   "source": {
-    "source_file": "IDIGITALROOT_WEBSITE_STUDIO_SOURCE_2026-10-15_rc4.zip",
-    "source_sha256": "f3d374b3e2922ffa355d21b0bbb3432302221d0481415be82cf4a2d0a4b46bdf",
-    "bytes": 896782,
-    "files": 311
+    "source_file": "IDIGITALROOT_CLARITY_SOURCE_2026-10-15_rc3.zip",
+    "source_sha256": "3d6f8d50510dbe0502c677995f87cf074412a3524528bba07cc81036d3aeb463",
+    "bytes": 1748751,
+    "files": 325
   },
-  "cmsVersion": "2.0.0-rc.1",
   "checks": {
     "native-worker-smoke": 6,
     "native-workflows": 11,
@@ -15,9 +14,11 @@
     "native-global-ui": 6,
     "mobile-accessibility": 26,
     "studio-workflows": 19,
-    "studio-accessibility": 12,
+    "clarity-workflows": 23,
+    "studio-accessibility": 16,
     "responsive-browser": 46
   },
+  "freshRunnerSteps": 34,
   "publicLocalizedRouteRequests": 134,
   "public200": 116,
   "intentionalPrivate404": 18,
@@ -25,14 +26,15 @@
   "cmsDialogProbes": 34,
   "publicControlProbes": 90,
   "internalDestinations": 77,
+  "exactStaticRouteMarkupParity": 134,
   "reportedBrowserExceptions": 0,
   "reportedAutomatedAccessibilityViolationsInTestedViews": 0,
   "fullManualAccessibilityOrUsabilityAccepted": false,
   "domainServiceImplementationUnchanged": true,
-  "schemasUnchanged": true,
+  "schemasAndDependencyLocksUnchanged": true,
   "operator": {
     "status": "PASS",
-    "sourceSha256": "f3d374b3e2922ffa355d21b0bbb3432302221d0481415be82cf4a2d0a4b46bdf",
+    "sourceSha256": "3d6f8d50510dbe0502c677995f87cf074412a3524528bba07cc81036d3aeb463",
     "checks": [
       {
         "name": "first actual operator startup/stop, original retained and both private drafts accessible",
@@ -45,7 +47,7 @@
     ],
     "reviewDataCopy": {
       "status": "COPIED_COMPATIBLE_REVIEW_DATA",
-      "previousSourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811",
+      "previousSourceSha256": "f3d374b3e2922ffa355d21b0bbb3432302221d0481415be82cf4a2d0a4b46bdf",
       "originalKept": true,
       "schemaHashesMatched": true,
       "sqliteBackupReadOnly": true,
@@ -53,14 +55,14 @@
     },
     "oldPrivateDraft": {
       "status": "PASS",
-      "entityId": "page_3e98d68e-63c2-4af1-9d29-c6c840750233",
+      "entityId": "page_df0348a1-0476-4a39-84f7-8d06b432c985",
       "mode": "read",
       "publicStatus": 404,
       "retainedRevisions": 1
     },
     "newPrivateDraft": {
       "status": "PASS",
-      "entityId": "page_df0348a1-0476-4a39-84f7-8d06b432c985",
+      "entityId": "page_e065590e-012e-4843-a478-e22e13e6cb80",
       "mode": "read",
       "publicStatus": 404,
       "retainedRevisions": 1

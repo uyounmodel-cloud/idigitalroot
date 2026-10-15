@@ -1,3 +1,7 @@
+> Latest owner clarification: the public frontend must use an enterprise futuristic design. This expands presentation beyond defect repair; content and distribution remain protected. The CMS remains clean and task-focused. Read the current review report and CLARITY_OWNER_GUIDE.md. This new design is a candidate, not owner-approved.
+
+> Current owner direction, 15 October 2026 (Asia/Beirut): simplify the CMS further; frontend visual improvements are authorized while content and its distribution must be preserved. Read CLARITY_CHANGE_REPORT.md and CLARITY_OWNER_GUIDE.md. Earlier restoration-only wording below is historical. This successor is a candidate; Phase 1 remains OPEN and production release BLOCKED.
+
 > Current owner-directed UI successor: see CMS_REBUILD_AUTHORITY.md, CMS_STUDIO_CHANGE_REPORT.md and CMS_STUDIO_OWNER_GUIDE.md. New CMS2.0.0-rc.1 is a candidate, not owner-approved. Original hashes/approvals below are preserved.
 
 # Connected Phase 1 candidate — feature status

@@ -28,6 +28,14 @@
     {
       "name": "Committed WAL copied without opening or changing any original sidecar bytes",
       "status": "PASS"
+    },
+    {
+      "name": "Latest release data takes priority; separate older edits are not merged",
+      "status": "PASS"
+    },
+    {
+      "name": "Known older release fallback works when latest review data is absent",
+      "status": "PASS"
     }
   ],
   "providerMutation": false,

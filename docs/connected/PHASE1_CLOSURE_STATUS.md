@@ -1,3 +1,5 @@
+> Current enterprise/focused-CMS candidate: see VERIFICATION_REPORT.md and CLARITY_CHANGE_REPORT.md. The preserved Phase 1 release restrictions below remain in force.
+
 > Current owner-directed Website Studio candidate: see VERIFICATION_REPORT.md and CMS_STUDIO_CHANGE_REPORT.md. The preserved baseline closure restrictions below remain in force.
 
 # Phase 1 closure register

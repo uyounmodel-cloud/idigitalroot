@@ -1,33 +1,20 @@
 {
-  "status": "PASS",
-  "timestampUTC": "2026-10-15T08:13:15.090221+00:00",
-  "command": "bash /workspace/idigitalroot/cloud-environment/install.sh",
-  "archive": {
-    "file": "IDIGITALROOT_WEBSITE_STUDIO_REVIEW_2026-10-15_R1.zip",
-    "sha256": "39af9dfc219c59b56f8f18bca8c76582bcb3fbc114065e02e44f6fa8059d48a0",
-    "sourceSha256": "f3d374b3e2922ffa355d21b0bbb3432302221d0481415be82cf4a2d0a4b46bdf"
-  },
-  "operatorScriptSha256": "c47224972781ef125d4f09dab0a215ff48decaeafa06852e97ed229e09513c7b",
-  "installerHelperSha256": "c7db974f3b14d0f7bb58d1a6e0ecffbfe31b80e99414edc6448bdf605795b3aa",
-  "reviewDataHelperSha256": "5ab9149df8eaaf6c020edac0ff19be6ae0a6ed85fbdc31a2c7889bf88e5c50c8",
-  "olderCompatibleReviewCopiedIntoSeparateCandidate": true,
-  "syntheticProofEntity": "page_80891dd2-3db8-4899-8ede-e2113f796ad2",
-  "retainedRevisionsReadOnlyInNewCopy": 1,
-  "originalReviewBytePreservationEvidence": "docs/connected/OPERATOR_VERIFICATION.json (separate actual native runtime test)",
-  "portsFreeAfterStop": true,
-  "outerChecksumsAfterSetup": "PASS",
-  "nativeResult": {
-    "status": "PASS",
-    "sourceSha256": "f3d374b3e2922ffa355d21b0bbb3432302221d0481415be82cf4a2d0a4b46bdf",
-    "deployment": false,
-    "providerMutation": false,
-    "dataKept": true
-  },
-  "fullFreshSourceGateSteps": 33,
-  "fullFreshSourceStatus": "PASS",
+  "status": "PASS_CURRENT_MACHINE",
+  "reviewPackage": "IDIGITALROOT_CLARITY_REVIEW_2026-10-15_R1.zip",
+  "archiveSha256": "3e9c1daa3b9aec130d38ca887cbf3dd9958cf7c37a5de5ae34ead54daf039670",
+  "sourceSha256": "3d6f8d50510dbe0502c677995f87cf074412a3524528bba07cc81036d3aeb463",
+  "operator": "/workspace/idigitalroot-cloud-operator-3e9c1daa3b9aec130d38",
+  "installScriptExecuted": true,
+  "actualWorkersD1R2AndBuiltFrontendStarted": true,
+  "enAndArReadinessRequests": "PASS",
+  "normalStopAndPortsFree": "PASS",
+  "bundledDependenciesVerified": true,
+  "cloudflareReadOnlyIdentity": "UNAUTHENTICATED",
+  "loginPerformed": false,
+  "reviewContinuity": "Compatible rc4 data copied into a separate new-source folder; original-byte preservation and old/new draft restart proof verified separately on isolated synthetic operator data",
   "ownerWindowsRun": "UNVERIFIED",
   "newCloudTaskRestoration": "UNVERIFIED",
   "providerMutation": false,
   "deployment": false,
-  "scope": "Current-machine setup verified on the new sealed Studio package; original older review data is copied into a separate current candidate, with a prior private draft read through that copy. No independent/owner/provider release acceptance."
+  "scope": "Current-machine setup on exact enterprise candidate; saved draft publication and fresh-task restoration are not inferred."
 }
