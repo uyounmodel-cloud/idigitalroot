@@ -1,5 +1,7 @@
 # iDigitalRoot audience editions and customer experience
 
+> ROOT 02 superseding owner decision (2026-10-15): the current public product is one corporate site with four audience story pages and one shared CMS. See UNIVERSAL_ARCHITECTURE.md. Earlier future isolated-edition recommendations below remain historical planning, not a claim about this implementation.
+
 Status: owner requirements recorded; implementation design proposed. This is not a claim of multi-edition support in the current CMS.
 
 The owner's latest instructions establish a student-first platform with later employee, entrepreneur and business experiences; one CMS entry point selects the desired public edition; the client account retains a common structure with audience-specific presentation and services; authorized central Admin manages every edition. The owner explicitly requires the complete 12-tool Toolbox and 16-feature Student Workspace for the first commercial student release.

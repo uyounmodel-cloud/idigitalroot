@@ -1,0 +1,68 @@
+{
+  "status": "PASS_LOCAL_EXACT_SEALED_SOURCE",
+  "reviewBuild": "ROOT-02",
+  "source": {
+    "source_file": "IDIGITALROOT_ROOT02_SOURCE_2026-10-15_rc4.zip",
+    "source_sha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
+    "bytes": 1814683,
+    "files": 344
+  },
+  "freshRunnerSteps": 31,
+  "checks": {
+    "native-workflows": 11,
+    "native-negative": 12,
+    "native-global-ui": 6,
+    "cms-studio": 19,
+    "universal-browser": 13,
+    "menu-isolation": 10,
+    "cms-accessibility": 16,
+    "public-accessibility": 68
+  },
+  "newCorporateRoutes": 30,
+  "publishedArticleViews": 4,
+  "cmsWorkspaceLanguageViews": 54,
+  "cmsDialogProbes": 36,
+  "browserConsoleCheck": {
+    "status": "PASS",
+    "errors": [],
+    "scope": "Normal CSP; exact operator, eight public views plus CMS home/page gallery/audience editor/saved preview."
+  },
+  "sourceChecksumsAfterTests": "PASS",
+  "backendCmsAnalyticsDomainMigrationsDependenciesUnchanged": true,
+  "operator": {
+    "status": "PASS",
+    "sourceSha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
+    "checks": [
+      {
+        "name": "first exact operator start/stop; original retained; ROOT02 private draft persisted",
+        "status": "PASS"
+      },
+      {
+        "name": "reopen exact operator start/stop; original retained; ROOT02 private draft persisted",
+        "status": "PASS"
+      }
+    ],
+    "reviewDataPolicy": "Separate fresh ROOT02 dataset; earlier Horizon/Clarity data is preserved, not adopted or merged",
+    "previousDataByteInventoryUnchanged": true,
+    "privateDraft": {
+      "status": "PASS",
+      "entityId": "page_fcbe3290-1531-4f21-9120-cd934833214c",
+      "mode": "read",
+      "publicStatus": 404,
+      "retainedRevisions": 1
+    },
+    "registryDuringTest": "https://127.0.0.1:9",
+    "offlineDependencies": true,
+    "warmStartReusedDependencies": true,
+    "sourceChecksumsAfterTests": "PASS",
+    "ownerWindowsRun": "UNVERIFIED",
+    "providerMutation": false,
+    "deployment": false
+  },
+  "ownerApproved": false,
+  "ownerWindowsRun": "UNVERIFIED",
+  "phase1": "OPEN",
+  "productionRelease": "BLOCKED",
+  "providerMutation": false,
+  "deployment": false
+}

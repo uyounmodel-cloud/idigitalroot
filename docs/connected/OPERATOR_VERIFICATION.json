@@ -1,34 +1,21 @@
 {
   "status": "PASS",
-  "sourceSha256": "b380a611a1f7af5d2784c213503d01c23806f658960e174b675d7f826e6b40bd",
+  "sourceSha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
   "checks": [
     {
-      "name": "first actual operator startup/stop, original retained and both private drafts accessible",
+      "name": "first exact operator start/stop; original retained; ROOT02 private draft persisted",
       "status": "PASS"
     },
     {
-      "name": "reopen actual operator startup/stop, original retained and both private drafts accessible",
+      "name": "reopen exact operator start/stop; original retained; ROOT02 private draft persisted",
       "status": "PASS"
     }
   ],
-  "reviewDataCopy": {
-    "status": "COPIED_COMPATIBLE_REVIEW_DATA",
-    "previousSourceSha256": "3d6f8d50510dbe0502c677995f87cf074412a3524528bba07cc81036d3aeb463",
-    "originalKept": true,
-    "schemaHashesMatched": true,
-    "sqliteBackupReadOnly": true,
-    "sqliteBackupSource": "staged copy only; original SQLite databases never opened"
-  },
-  "oldPrivateDraft": {
+  "reviewDataPolicy": "Separate fresh ROOT02 dataset; earlier Horizon/Clarity data is preserved, not adopted or merged",
+  "previousDataByteInventoryUnchanged": true,
+  "privateDraft": {
     "status": "PASS",
-    "entityId": "page_e065590e-012e-4843-a478-e22e13e6cb80",
-    "mode": "read",
-    "publicStatus": 404,
-    "retainedRevisions": 1
-  },
-  "newPrivateDraft": {
-    "status": "PASS",
-    "entityId": "page_ba1a82f1-37e7-47a5-bd24-5c5e123117c3",
+    "entityId": "page_fcbe3290-1531-4f21-9120-cd934833214c",
     "mode": "read",
     "publicStatus": 404,
     "retainedRevisions": 1
@@ -36,7 +23,6 @@
   "registryDuringTest": "https://127.0.0.1:9",
   "offlineDependencies": true,
   "warmStartReusedDependencies": true,
-  "originalReviewDataByteInventoryUnchanged": true,
   "sourceChecksumsAfterTests": "PASS",
   "ownerWindowsRun": "UNVERIFIED",
   "providerMutation": false,

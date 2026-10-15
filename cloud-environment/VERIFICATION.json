@@ -1,10 +1,10 @@
 {
   "status": "PASS_CURRENT_MACHINE",
-  "reviewBuild": "HORIZON-01",
-  "reviewPackage": "IDIGITALROOT_HORIZON_REVIEW_2026-10-15_R1.zip",
-  "archiveSha256": "9751cf6a3e98359a616028cd09660d7ec22ba34999501edca38c5f977b76d3af",
-  "sourceSha256": "b380a611a1f7af5d2784c213503d01c23806f658960e174b675d7f826e6b40bd",
-  "operator": "/workspace/idigitalroot-cloud-operator-9751cf6a3e98359a6160",
+  "reviewBuild": "ROOT-02",
+  "reviewPackage": "IDIGITALROOT_ROOT02_REVIEW_2026-10-15_R2.zip",
+  "archiveSha256": "18c31102ad0c836c476a2f0fbedc6c5ea23b8585e6bbfcb2a8bb17647d244798",
+  "sourceSha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
+  "operator": "/workspace/idigitalroot-cloud-operator-18c31102ad0c836c476a",
   "installScriptExecuted": true,
   "actualWorkersD1R2AndBuiltFrontendStarted": true,
   "enAndArReadinessRequests": "PASS",
@@ -12,11 +12,12 @@
   "bundledDependenciesVerified": true,
   "cloudflareReadOnlyIdentity": "UNAUTHENTICATED",
   "loginPerformed": false,
-  "reviewContinuity": "Clarity review copied into separate new source folder; original byte inventory unchanged. Cold/warm old/new private draft proof and both older fallbacks verified separately with synthetic data.",
+  "reviewContinuity": "Separate ROOT02 review dataset; five earlier candidate data folders preserved without opening their SQLite files. Cold/warm exact operator and private-draft persistence verified separately.",
   "previousCloudReviewByteInventoryUnchanged": true,
+  "earlierReviewFolders": 5,
   "ownerWindowsRun": "UNVERIFIED",
   "newCloudTaskRestoration": "UNVERIFIED",
   "providerMutation": false,
   "deployment": false,
-  "scope": "Current machine on exact Horizon candidate; draft publication/fresh-task restoration not inferred."
+  "scope": "Current machine on exact source; saving draft configuration does not publish or prove a new task restoration."
 }

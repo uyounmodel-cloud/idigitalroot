@@ -1,37 +1,39 @@
-# iDigitalRoot / Horizon 01
+# iDigitalRoot / ROOT 02
 
-**A new public website composition and a new Website Console.** This is the owner-requested replacement for the unaccepted Clarity presentation. Your content and section distribution are preserved.
+**A new company website for everyone, with one complete story page for each audience.** The student-only public structure has been replaced. The CMS design you liked is retained.
 
-[**Download Horizon 01 — 89 MB**](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_HORIZON_REVIEW_2026-10-15_R1.zip) · [Simple installation guide](downloads/HORIZON_INSTALLATION_GUIDE.txt)
+[**Download ROOT 02 — 90 MB**](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_ROOT02_REVIEW_2026-10-15_R2.zip) · [Installation guide](downloads/ROOT02_INSTALLATION_GUIDE.txt)
 
-Close the older preview, extract this ZIP into a **new folder**, then double-click **OPEN_CONNECTED_PREVIEW.cmd**. Use your existing Windows + Ubuntu/WSL setup. Both applications and the launcher identify **HORIZON 01**. Compatible Clarity edits are copied into a separate local review; originals are retained. Verified Linux x64 dependencies are included.
+Close an older preview, extract this ZIP into a **new folder**, then double-click **OPEN_CONNECTED_PREVIEW.cmd**. Use your existing Windows + Ubuntu/WSL environment. Both applications identify **ROOT 02**. This starts separate review data; your older folders and drafts remain intact. Reopening this candidate keeps its own saved changes. Verified Linux x64 dependencies are included.
 
-## The public website
+## Four audiences, one company
 
-Central typography above a wide connected-system graphic replaces the former split opening. The dark navigation, supporting-page covers, cards and product sections share the new design. Every word, heading hierarchy, ordered destination and CMS section order is protected across all134 localized templates.
+Students · Employees & Professionals · Entrepreneurs & Startups · Businesses & Organizations. Each gets its own complete story page, appropriate design and a quote wizard that starts with its audience already selected and editable. The team reviews needs and prepares the quote. No signup, automatic payment or instant price.
 
-![Horizon public website](docs/connected/screenshots/horizon-public-home.png)
+![New iDigitalRoot company website](docs/connected/screenshots/root02-public-home.png)
 
-[Arabic desktop](docs/connected/screenshots/horizon-public-home-ar.png) · [Arabic phone](docs/connected/screenshots/horizon-public-phone-ar.png) · [Personal page](docs/connected/screenshots/horizon-public-personal.png)
+[Students](docs/connected/screenshots/root02-students.png) · [Professionals](docs/connected/screenshots/root02-professionals.png) · [Entrepreneurs](docs/connected/screenshots/root02-entrepreneurs.png) · [Businesses](docs/connected/screenshots/root02-businesses.png) · [Arabic desktop](docs/connected/screenshots/root02-public-home-ar.png) · [Arabic phone](docs/connected/screenshots/root02-business-ar-phone.png)
 
-## The Website Console
+The shared company site explains website/domain/email/managed foundations, How We Work and the planned Client Account. A real published Knowledge library supports CMS-managed articles. The previous student subpages redirect to the single student story.
 
-Pages come first. Open a page card, click a section in its **actual saved website preview**, and edit the filled-in content beside it. **Save draft → Save & preview → Publish…** retains explicit page/language confirmation. On phones the editing card appears above the canvas. Gallery covers are labelled layout illustrations; actual saved content appears after Open & edit.
+## The CMS you liked, connected locally
 
-![Horizon Website Console](docs/connected/screenshots/horizon-cms-home.png)
+Choose a clearly named audience or shared page. Edit its words, photos, sections and main button in the saved-page canvas. Save & preview stays private. Publish names the exact page/language and requires explicit review. Articles, services, menus/footer, media, translations and analytics retain their dedicated workspaces.
 
-![Actual saved-page editing canvas](docs/connected/screenshots/horizon-cms-editor.png)
+![Retained Website Console](docs/connected/screenshots/root02-cms-home.png)
 
-[Full saved preview](docs/connected/screenshots/horizon-cms-preview.png) · [Arabic editor](docs/connected/screenshots/horizon-cms-section-ar.png) · [Phone editor](docs/connected/screenshots/horizon-cms-editor-phone-ar.png)
+![Audience pages in one CMS](docs/connected/screenshots/root02-cms-pages.png)
 
-Photos/files, menus/footer, articles, services and visitor reports use horizontal navigation. More website tools, Settings & team and Find anything retain all27 CMS areas. Rich text, media approval, translation, schedules, history and permissions retain their existing contracts and external/manual gates. CMS language, content language and preview language remain independent.
+[Actual audience editor](docs/connected/screenshots/root02-cms-audience-editor.png) · [Protected saved preview](docs/connected/screenshots/root02-cms-preview.png)
 
-## Verification and limits
+Menu drafts now immediately expose Preview and Publish controls. Private menu previews match system/light/dark appearance, and the narrow menu opens without scripts. Saving/cancelling review leaves public content untouched; publication changes only the reviewed entity and language. CMS UI language, editing language and preview language remain independent.
 
-[Exact-source verification report](docs/connected/VERIFICATION_REPORT.md) · [What changed](docs/connected/HORIZON_CHANGE_REPORT.md) · [Editing guide](docs/connected/HORIZON_OWNER_GUIDE.md) · [Security review](docs/connected/HORIZON_SECURITY_REVIEW.md) · [Checksums](downloads/SHA256SUMS.txt) · [Immutable source](downloads/IDIGITALROOT_HORIZON_SOURCE_2026-10-15_rc3.zip)
+## Verification and release status
 
-Fresh-extraction install/build, actual local Workers/D1/R2, inquiry/analytics/publishing, draft/privacy/CAS, EN/AR/RTL, responsive/keyboard/control and automated accessibility gates passed on the sealed source. The actual launcher passed cold/warm start/stop and copy-only data-continuity checks. These are local agent verification results, not owner or independent acceptance.
+[Exact-source verification](docs/connected/VERIFICATION_REPORT.md) · [Architecture](docs/connected/UNIVERSAL_ARCHITECTURE.md) · [Editing guide](docs/connected/UNIVERSAL_OWNER_GUIDE.md) · [Threat model](docs/connected/UNIVERSAL_THREAT_MODEL.md) · [151-title security matrix](docs/connected/ROOT02_SECURITY_MATRIX.csv) · [345-requirement ASVS matrix](docs/connected/ROOT02_ASVS_5_0_0_MATRIX.csv) · [Checksums](downloads/SHA256SUMS.txt) · [Immutable source](downloads/IDIGITALROOT_ROOT02_SOURCE_2026-10-15_rc4.zip)
 
-**Unaccepted local review candidate. Phase1 OPEN. Nothing deployed.** Owner Windows/manual/independent and legal/provider/security/QA/release gates remain open. Twelve Toolbox tools and sixteen Workspace positions remain presentation demos and mandatory commercial scope. Admin/Client dashboards and future multi-edition operations are not operational. No public signup added.
+Clean fresh-extraction install/build, actual local Workers/D1/R2, four audience inquiries, real analytics/reporting, article publishing, CMS editing, menu/draft isolation, adversarial and automated accessibility checks passed on the exact sealed source. The actual operator passed cold/warm startup and edit persistence without altering earlier review data. These are local agent verification results, not owner or independent acceptance.
 
-Original approvals and earlier immutable archives remain preserved. [Current metadata](downloads/CONNECTED_CURRENT.json) · [Authority register](docs/connected/AUTHORITY_REGISTER.md)
+**Review candidate. Phase1 OPEN. Nothing deployed.** Owner Windows/manual/independent and legal/provider/integrated security/QA/release gates remain open. Client Account/Admin dashboards, full12 Toolbox tools and16 Workspace positions are still planned, not operational. All student tools remain mandatory commercial scope. This public rebuild does not claim the commercial platform is finished.
+
+Historical approved authorities and earlier immutable archives remain preserved. [Current metadata](downloads/CONNECTED_CURRENT.json) · [Authority register](docs/connected/AUTHORITY_REGISTER.md)

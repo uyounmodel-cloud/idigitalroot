@@ -1,16 +1,16 @@
 {
-  "reviewBuild": "HORIZON-01",
+  "reviewBuild": "ROOT-02",
   "reviewPackage": {
-    "file": "IDIGITALROOT_HORIZON_REVIEW_2026-10-15_R1.zip",
-    "sha256": "9751cf6a3e98359a616028cd09660d7ec22ba34999501edca38c5f977b76d3af",
-    "bytes": 89323630,
-    "uncompressedBytes": 95736346,
-    "files": 158,
-    "sourceSha256": "b380a611a1f7af5d2784c213503d01c23806f658960e174b675d7f826e6b40bd",
+    "file": "IDIGITALROOT_ROOT02_REVIEW_2026-10-15_R2.zip",
+    "sha256": "18c31102ad0c836c476a2f0fbedc6c5ea23b8585e6bbfcb2a8bb17647d244798",
+    "bytes": 89981365,
+    "uncompressedBytes": 94890191,
+    "files": 122,
+    "sourceSha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
     "crc": "PASS",
     "freshExtractionChecksums": "PASS",
     "technicalStatus": "PASS_LOCAL_EXACT_SOURCE",
-    "reviewBuild": "HORIZON-01",
+    "reviewBuild": "ROOT-02",
     "ownerApproved": false,
     "ownerWindowsRun": "UNVERIFIED",
     "phase1": "OPEN",
@@ -19,18 +19,19 @@
     "deployment": false
   },
   "source": {
-    "source_file": "IDIGITALROOT_HORIZON_SOURCE_2026-10-15_rc3.zip",
-    "source_sha256": "b380a611a1f7af5d2784c213503d01c23806f658960e174b675d7f826e6b40bd",
-    "bytes": 1818990,
-    "files": 333
+    "source_file": "IDIGITALROOT_ROOT02_SOURCE_2026-10-15_rc4.zip",
+    "source_sha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
+    "bytes": 1814683,
+    "files": 344
   },
   "ownerApproved": false,
   "phase1Status": "OPEN",
   "releaseStatus": "BLOCKED",
   "deployment": false,
   "providerMutation": false,
-  "installerVersion": "2026-10-15-HORIZON-R1",
-  "applicationSourceChanged": true,
-  "presentationDirection": "Owner-directed structural public redesign and visual Website Console; previous Clarity presentation rejected",
-  "previousReviewSourceSha256": "3d6f8d50510dbe0502c677995f87cf074412a3524528bba07cc81036d3aeb463"
+  "installerVersion": "2026-10-15-ROOT02-R2",
+  "publicArchitecture": "One company site; four audience story pages; team-reviewed audience-aware quote wizard",
+  "cmsDesignRetained": "Horizon visual console; all-audience context; draft/preview fixes",
+  "previousReviewSourceSha256": "b380a611a1f7af5d2784c213503d01c23806f658960e174b675d7f826e6b40bd",
+  "dataPolicy": "Separate new review dataset; existing folders and drafts retained, not overwritten or automatically imported"
 }
