@@ -1,0 +1,10 @@
+{
+  "method": "Clean npm ci --offline --engine-strict using the unchanged original package lock and npm10.9.2 under Node22.19.0; cache tarballs verified by npm against lock integrity. libc selection requested but npm10.9.2 retained the same full318-package Linux x64 set; nothing was manually omitted.",
+  "lockSha256": "a1dcbf76d04df025d249bce7c8274a246afba412abd72a96c53801b78efe6745",
+  "packageSha256": "97a33136ebd809bec98aa5edb2f9be5f1adb19693bf86d99e4f9b92473260cab",
+  "fileOrLinkCount": 16641,
+  "comparedWithPriorValidatedRc9Install": true,
+  "differentFilesOrLinks": [],
+  "applicationSourceChanged": false,
+  "sourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811"
+}

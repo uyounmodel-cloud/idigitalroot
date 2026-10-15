@@ -1,13 +1,14 @@
 {
   "reviewPackage": {
-    "file": "IDIGITALROOT_CONNECTED_WEBSITE_CMS_REVIEW_2026-10-14_rc9.zip",
-    "sha256": "e5eedf8a1fa71787fce087c88373472903abca257da6283a2d5c5bcefb99cefa",
-    "bytes": 3758276,
-    "files": 107,
+    "file": "IDIGITALROOT_CONNECTED_PREVIEW_RECOVERY_2026-10-15_R1.zip",
+    "sha256": "45c1bab4cdfbb76a2a16299d82d1fff74e0d0bc47ff7c89285d4b92610e13069",
+    "bytes": 82648032,
+    "sourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811",
     "crc": "PASS",
     "freshExtractionChecksums": "PASS",
-    "nestedSourceHashAndCrc": "PASS",
-    "technicalStatus": "PASS_LOCAL",
+    "applicationSourceChanged": false,
+    "installerStatus": "PASS_LOCAL",
+    "ownerWindowsStatus": "UNVERIFIED",
     "releaseStatus": "BLOCKED",
     "deployment": false,
     "providerMutation": false
@@ -22,5 +23,7 @@
   "phase1Status": "OPEN",
   "releaseStatus": "BLOCKED",
   "deployment": false,
-  "providerMutation": false
+  "providerMutation": false,
+  "installerVersion": "2026-10-15-R1",
+  "applicationSourceChanged": false
 }

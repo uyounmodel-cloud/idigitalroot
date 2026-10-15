@@ -1,13 +1,13 @@
 {
   "status": "PASS",
-  "timestampUTC": "2026-10-14T17:42:03.994050+00:00",
+  "timestampUTC": "2026-10-15T05:27:20.867539+00:00",
   "command": "bash /workspace/idigitalroot/cloud-environment/install.sh",
   "archive": {
-    "file": "IDIGITALROOT_CONNECTED_WEBSITE_CMS_REVIEW_2026-10-14_rc9.zip",
-    "sha256": "e5eedf8a1fa71787fce087c88373472903abca257da6283a2d5c5bcefb99cefa",
+    "file": "IDIGITALROOT_CONNECTED_PREVIEW_RECOVERY_2026-10-15_R1.zip",
+    "sha256": "45c1bab4cdfbb76a2a16299d82d1fff74e0d0bc47ff7c89285d4b92610e13069",
     "sourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811"
   },
-  "operatorScriptSha256": "8f98f6df98f858cec54393038e10848f55548fa47a2b407f282542207680b701",
+  "operatorScriptSha256": "f1ccfab257de437a9b00c9d3ee56a5793d9b8ae07f292ebb7ad589432ddbf350",
   "sameCandidateDraftRetainedAfterSetupRestart": true,
   "syntheticProofEntity": "page_80891dd2-3db8-4899-8ede-e2113f796ad2",
   "readOnlyDatabaseProof": true,
@@ -26,5 +26,7 @@
   "newCloudTaskRestoration": "UNVERIFIED",
   "providerMutation": false,
   "deployment": false,
-  "scope": "Exact archive installed outside checkout in native cloud workspace; not independent or production acceptance"
+  "scope": "Recovery archive installation/start/normal stop verified; original pre-repair synthetic native D1 draft retained. Cold registry-unavailable repair tested separately. No new owner Windows or independent/production acceptance.",
+  "installerHelperSha256": "c7db974f3b14d0f7bb58d1a6e0ecffbfe31b80e99414edc6448bdf605795b3aa",
+  "recoveryVerification": "docs/connected/RECOVERY_VERIFICATION.md"
 }

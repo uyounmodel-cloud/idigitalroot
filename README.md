@@ -1,8 +1,10 @@
 # iDigitalRoot — connected website and CMS review
 
+**15 October installer recovery:** the latest ZIP includes the verified Linux x64 dependencies (about83 MB download), so Ubuntu/WSL startup does not depend on npm registry downloads. This repairs the reported EIDLETIMEOUT. The rc9 application source and same-candidate review-data folder are unchanged.
+
 The current package connects the public website and its dedicated CMS through local Cloudflare Workers, D1 and R2. It includes the frontend refinements, published-content binding, inquiry submission and optional analytics. **This is a review candidate; Phase 1 release is still blocked by the gates below. No Cloudflare deployment has occurred.**
 
-[Download the connected website + CMS ZIP](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_CONNECTED_WEBSITE_CMS_REVIEW_2026-10-14_rc9.zip) · [Installation guide](downloads/CONNECTED_INSTALLATION_GUIDE.txt) · [Verification report](docs/connected/VERIFICATION_REPORT.md) · [Feature status](docs/connected/FEATURE_STATUS.md) · [Phase 1 closure register](docs/connected/PHASE1_CLOSURE_STATUS.md)
+[Download the connected website + CMS ZIP](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_CONNECTED_PREVIEW_RECOVERY_2026-10-15_R1.zip) · [Installation guide](downloads/CONNECTED_PREVIEW_RECOVERY_INSTALLATION_GUIDE.txt) · [Application verification](docs/connected/VERIFICATION_REPORT.md) · [Installer recovery verification](docs/connected/RECOVERY_VERIFICATION.md) · [Feature status](docs/connected/FEATURE_STATUS.md) · [Phase 1 closure register](docs/connected/PHASE1_CLOSURE_STATUS.md)
 
 1. Stop your older preview command windows by pressing Enter in each.
 2. Download and extract the whole new ZIP into a **new folder** on your existing Windows + Ubuntu/WSL PC.

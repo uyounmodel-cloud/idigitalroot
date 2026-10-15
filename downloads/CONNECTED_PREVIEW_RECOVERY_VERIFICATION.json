@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "sourceSha256": "6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811",
+  "applicationSourceChanged": false,
+  "installerScriptSha256": "f1ccfab257de437a9b00c9d3ee56a5793d9b8ae07f292ebb7ad589432ddbf350",
+  "helperSha256": "c7db974f3b14d0f7bb58d1a6e0ecffbfe31b80e99414edc6448bdf605795b3aa",
+  "offlineDependencyArchiveSha256": "35a7758c929bd563d3aafdf6ec3d3e0fe759d2140e448078079e10eefbe55cc2",
+  "registryOverrideDuringVerification": "https://127.0.0.1:9",
+  "registryDownloadRequired": false,
+  "npmCiInstallTrap": "Rejects any ci/install command; delegates version/check/build to real pinned npm10.9.2. No trapped command was invoked.",
+  "warmStartReusedVerifiedInstall": true,
+  "checks": [
+    {
+      "name": "first launcher start/stop, ports free, existing data marker retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Actual installation succeeded with unreachable registry; incomplete installation preserved",
+      "status": "PASS",
+      "details": {
+        "strategy": "SEALED_LINUX_X64_DEPENDENCIES",
+        "registryDownloadRequired": false,
+        "archiveSha256": "35a7758c929bd563d3aafdf6ec3d3e0fe759d2140e448078079e10eefbe55cc2",
+        "manifestSha256": "2becda82d43347b0ab498ff0ff441eca4478107576bd9c43682fd1f90de01b95",
+        "verifiedFiles": 16641,
+        "previousInstallPreserved": true,
+        "lockSha256": "a1dcbf76d04df025d249bce7c8274a246afba412abd72a96c53801b78efe6745",
+        "npm": "10.9.2"
+      }
+    },
+    {
+      "name": "reopen launcher start/stop, ports free, existing data marker retained",
+      "status": "PASS"
+    },
+    {
+      "name": "native-worker-smoke",
+      "status": "PASS",
+      "count": 6
+    },
+    {
+      "name": "integrated-acceptance",
+      "status": "PASS",
+      "count": 13
+    }
+  ],
+  "persistence": {
+    "status": "PASS",
+    "entityId": "page_3e98d68e-63c2-4af1-9d29-c6c840750233",
+    "mode": "read",
+    "publicStatus": 404,
+    "retainedRevisions": 1
+  },
+  "sourceChecksumsAfterTests": "PASS",
+  "platform": "Linux x64 cloud native storage",
+  "ownerWindowsRun": "UNVERIFIED",
+  "providerMutation": false,
+  "deployment": false
+}

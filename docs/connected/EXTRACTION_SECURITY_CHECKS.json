@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "name": "archive-checksum",
+      "status": "PASS",
+      "rejection": "Bundled dependency archive checksum failed; extract the complete recovery ZIP"
+    },
+    {
+      "name": "manifest-checksum",
+      "status": "PASS",
+      "rejection": "Bundled dependency manifest checksum failed"
+    },
+    {
+      "name": "parent-traversal",
+      "status": "PASS",
+      "rejection": "Unsafe dependency archive path"
+    },
+    {
+      "name": "absolute-path",
+      "status": "PASS",
+      "rejection": "Unsafe dependency archive path"
+    },
+    {
+      "name": "external-symbolic-link",
+      "status": "PASS",
+      "rejection": "Unsafe dependency archive link"
+    },
+    {
+      "name": "external-hard-link",
+      "status": "PASS",
+      "rejection": "Unsafe dependency archive path"
+    },
+    {
+      "name": "file-content-mismatch",
+      "status": "PASS",
+      "rejection": "Dependency file verification failed: node_modules/file"
+    },
+    {
+      "name": "Malformed dependency stamp triggers repair instead of blocking startup",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

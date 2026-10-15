@@ -1,0 +1,20 @@
+iDigitalRoot — installer recovery 2026-10-15 R1
+
+The uploaded log showed an npm registry idle timeout during dependency download. Source verification passed; the application had not built or started.
+
+1. Close the failed preview window. Keep your old extracted folder and local review data.
+2. Download IDIGITALROOT_CONNECTED_PREVIEW_RECOVERY_2026-10-15_R1.zip from GitHub and extract ALL of it into a new folder. The ZIP is larger because it includes the verified Linux x64 dependencies.
+3. Double-click OPEN_CONNECTED_PREVIEW.cmd and keep the window open. Use your existing Windows + Ubuntu/WSL installation.
+4. On Linux x64/Ubuntu WSL, the launcher verifies the bundled dependency archive and every dependency file, then installs into native WSL storage. It does not need npm registry downloads. Node runtimes are reused if already prepared; otherwise their official verified downloads are still required.
+5. When READY appears, the Windows browser should open both applications. Website: http://127.0.0.1:4400 ; connected CMS: http://127.0.0.1:4198 . Click Sign in for local owner review in CMS.
+6. Press Enter in the command window when finished. Launch the same CMD to reopen.
+
+Your application source SHA-256 is unchanged: 6e409c00e4e4122343276b44dae9b838967cf1050a054b74caccf5f3960b3811 . This uses the same native WSL review-data folder as rc9. Existing edits are kept. An incomplete dependency directory is moved aside only after its replacement has passed all checks. Do not delete the review-data folder or clear the npm cache.
+
+To check the connection: save a Home text draft in CMS, confirm the public site stays unchanged, inspect exact preview, choose Review complete — ready to publish, publish and refresh the site. English and Arabic are independent. Use synthetic data.
+
+Other architectures use pinned npm with bounded retries, fewer connections and existing cache reuse. TLS/integrity checks stay enabled. This included dependency bundle is for Linux x64, the tested Ubuntu/WSL target.
+
+If the launcher stops, send the new PREVIEW_LOGS.zip. No owner debugging or token sharing is needed. The launcher only verifies existing Cloudflare identity read-only and runs local Workers/D1/R2. It does not log in, deploy, change provider resources or spend money.
+
+This repairs installation only. See RECOVERY_VERIFICATION.md for the new checks and VERIFICATION_REPORT.md for the unchanged rc9 application baseline. Owner Windows acceptance, legal/provider/security/QA/release gates remain open. Toolbox/Workspace are still demos required for the first commercial student release; Admin/Client phases are not operational here.
