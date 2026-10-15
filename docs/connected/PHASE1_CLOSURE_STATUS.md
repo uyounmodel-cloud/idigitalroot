@@ -1,4 +1,4 @@
-> Current enterprise/focused-CMS candidate: see VERIFICATION_REPORT.md and CLARITY_CHANGE_REPORT.md. The preserved Phase 1 release restrictions below remain in force.
+> Current candidate: **HORIZON 01**. See VERIFICATION_REPORT.md and HORIZON_CHANGE_REPORT.md. Clarity was not accepted; the frozen Phase 1 restrictions below remain in force.
 
 > Current owner-directed Website Studio candidate: see VERIFICATION_REPORT.md and CMS_STUDIO_CHANGE_REPORT.md. The preserved baseline closure restrictions below remain in force.
 

@@ -1,14 +1,16 @@
 {
+  "reviewBuild": "HORIZON-01",
   "reviewPackage": {
-    "file": "IDIGITALROOT_CLARITY_REVIEW_2026-10-15_R1.zip",
-    "sha256": "3e9c1daa3b9aec130d38ca887cbf3dd9958cf7c37a5de5ae34ead54daf039670",
-    "bytes": 89652343,
-    "uncompressedBytes": 95887385,
-    "files": 151,
-    "sourceSha256": "3d6f8d50510dbe0502c677995f87cf074412a3524528bba07cc81036d3aeb463",
+    "file": "IDIGITALROOT_HORIZON_REVIEW_2026-10-15_R1.zip",
+    "sha256": "9751cf6a3e98359a616028cd09660d7ec22ba34999501edca38c5f977b76d3af",
+    "bytes": 89323630,
+    "uncompressedBytes": 95736346,
+    "files": 158,
+    "sourceSha256": "b380a611a1f7af5d2784c213503d01c23806f658960e174b675d7f826e6b40bd",
     "crc": "PASS",
     "freshExtractionChecksums": "PASS",
     "technicalStatus": "PASS_LOCAL_EXACT_SOURCE",
+    "reviewBuild": "HORIZON-01",
     "ownerApproved": false,
     "ownerWindowsRun": "UNVERIFIED",
     "phase1": "OPEN",
@@ -17,18 +19,18 @@
     "deployment": false
   },
   "source": {
-    "source_file": "IDIGITALROOT_CLARITY_SOURCE_2026-10-15_rc3.zip",
-    "source_sha256": "3d6f8d50510dbe0502c677995f87cf074412a3524528bba07cc81036d3aeb463",
-    "bytes": 1748751,
-    "files": 325
+    "source_file": "IDIGITALROOT_HORIZON_SOURCE_2026-10-15_rc3.zip",
+    "source_sha256": "b380a611a1f7af5d2784c213503d01c23806f658960e174b675d7f826e6b40bd",
+    "bytes": 1818990,
+    "files": 333
   },
   "ownerApproved": false,
   "phase1Status": "OPEN",
   "releaseStatus": "BLOCKED",
   "deployment": false,
   "providerMutation": false,
-  "installerVersion": "2026-10-15-CLARITY-R1",
+  "installerVersion": "2026-10-15-HORIZON-R1",
   "applicationSourceChanged": true,
-  "presentationDirection": "Owner-requested enterprise futuristic public frontend; clean focused CMS",
-  "previousReviewSourceSha256": "f3d374b3e2922ffa355d21b0bbb3432302221d0481415be82cf4a2d0a4b46bdf"
+  "presentationDirection": "Owner-directed structural public redesign and visual Website Console; previous Clarity presentation rejected",
+  "previousReviewSourceSha256": "3d6f8d50510dbe0502c677995f87cf074412a3524528bba07cc81036d3aeb463"
 }

@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "sourceSha256": "3d6f8d50510dbe0502c677995f87cf074412a3524528bba07cc81036d3aeb463",
+  "sourceSha256": "b380a611a1f7af5d2784c213503d01c23806f658960e174b675d7f826e6b40bd",
   "checks": [
     {
       "name": "first actual operator startup/stop, original retained and both private drafts accessible",
@@ -13,7 +13,7 @@
   ],
   "reviewDataCopy": {
     "status": "COPIED_COMPATIBLE_REVIEW_DATA",
-    "previousSourceSha256": "f3d374b3e2922ffa355d21b0bbb3432302221d0481415be82cf4a2d0a4b46bdf",
+    "previousSourceSha256": "3d6f8d50510dbe0502c677995f87cf074412a3524528bba07cc81036d3aeb463",
     "originalKept": true,
     "schemaHashesMatched": true,
     "sqliteBackupReadOnly": true,
@@ -21,14 +21,14 @@
   },
   "oldPrivateDraft": {
     "status": "PASS",
-    "entityId": "page_df0348a1-0476-4a39-84f7-8d06b432c985",
+    "entityId": "page_e065590e-012e-4843-a478-e22e13e6cb80",
     "mode": "read",
     "publicStatus": 404,
     "retainedRevisions": 1
   },
   "newPrivateDraft": {
     "status": "PASS",
-    "entityId": "page_e065590e-012e-4843-a478-e22e13e6cb80",
+    "entityId": "page_ba1a82f1-37e7-47a5-bd24-5c5e123117c3",
     "mode": "read",
     "publicStatus": 404,
     "retainedRevisions": 1

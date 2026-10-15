@@ -1,0 +1,85 @@
+{
+  "status": "PASS_LOCAL_EXACT_SEALED_SOURCE",
+  "reviewBuild": "HORIZON-01",
+  "source": {
+    "source_file": "IDIGITALROOT_HORIZON_SOURCE_2026-10-15_rc3.zip",
+    "source_sha256": "b380a611a1f7af5d2784c213503d01c23806f658960e174b675d7f826e6b40bd",
+    "bytes": 1818990,
+    "files": 333
+  },
+  "freshRunnerSteps": 34,
+  "checks": {
+    "native-worker-smoke": 6,
+    "native-workflows": 11,
+    "integrated-acceptance": 13,
+    "native-negative": 12,
+    "native-global-ui": 6,
+    "mobile-accessibility": 26,
+    "studio-workflows": 19,
+    "horizon-workflows": 24,
+    "studio-accessibility": 16,
+    "responsive-browser": 46
+  },
+  "semanticContentAndDistributionRoutes": 134,
+  "publicLocalizedRoutes": 134,
+  "public200": 116,
+  "intentionalPrivate404": 18,
+  "cmsWorkspaceLanguageViews": 54,
+  "cmsDialogProbes": 36,
+  "publicControlProbes": 90,
+  "internalDestinations": 77,
+  "recordedRuntimeExceptions": 0,
+  "reportedAutomatedAccessibilityViolationsInTestedViews": 0,
+  "fullManualAccessibilityOrUsabilityAccepted": false,
+  "domainServicesSchemasAndDependencyLocksUnchanged": true,
+  "operator": {
+    "status": "PASS",
+    "sourceSha256": "b380a611a1f7af5d2784c213503d01c23806f658960e174b675d7f826e6b40bd",
+    "checks": [
+      {
+        "name": "first actual operator startup/stop, original retained and both private drafts accessible",
+        "status": "PASS"
+      },
+      {
+        "name": "reopen actual operator startup/stop, original retained and both private drafts accessible",
+        "status": "PASS"
+      }
+    ],
+    "reviewDataCopy": {
+      "status": "COPIED_COMPATIBLE_REVIEW_DATA",
+      "previousSourceSha256": "3d6f8d50510dbe0502c677995f87cf074412a3524528bba07cc81036d3aeb463",
+      "originalKept": true,
+      "schemaHashesMatched": true,
+      "sqliteBackupReadOnly": true,
+      "sqliteBackupSource": "staged copy only; original SQLite databases never opened"
+    },
+    "oldPrivateDraft": {
+      "status": "PASS",
+      "entityId": "page_e065590e-012e-4843-a478-e22e13e6cb80",
+      "mode": "read",
+      "publicStatus": 404,
+      "retainedRevisions": 1
+    },
+    "newPrivateDraft": {
+      "status": "PASS",
+      "entityId": "page_ba1a82f1-37e7-47a5-bd24-5c5e123117c3",
+      "mode": "read",
+      "publicStatus": 404,
+      "retainedRevisions": 1
+    },
+    "registryDuringTest": "https://127.0.0.1:9",
+    "offlineDependencies": true,
+    "warmStartReusedDependencies": true,
+    "originalReviewDataByteInventoryUnchanged": true,
+    "sourceChecksumsAfterTests": "PASS",
+    "ownerWindowsRun": "UNVERIFIED",
+    "providerMutation": false,
+    "deployment": false
+  },
+  "ownerApproved": false,
+  "ownerWindowsRun": "UNVERIFIED",
+  "phase1": "OPEN",
+  "productionRelease": "BLOCKED",
+  "deployment": false,
+  "providerMutation": false
+}

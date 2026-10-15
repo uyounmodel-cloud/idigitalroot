@@ -1,0 +1,24 @@
+iDigitalRoot / HORIZON 01 — NEW WEBSITE + WEBSITE CONSOLE
+15 October 2026 (Asia/Beirut)
+
+1. Close your earlier preview using Enter in its launcher window.
+2. Download IDIGITALROOT_HORIZON_REVIEW_2026-10-15_R1.zip.
+3. Extract All into a NEW folder.
+4. Double-click OPEN_CONNECTED_PREVIEW.cmd. Keep the window open.
+5. Both applications open. In the CMS choose Sign in for local owner review.
+
+HOW TO RECOGNIZE THIS VERSION
+The launcher says HORIZON 01. The website has a central headline above a wide connected-system diagram and a dark navigation bar. The CMS says CONSOLE / HORIZON 01 and has horizontal navigation and page cards. These are structural changes from Clarity. Actual screenshots are in screenshots/ and on GitHub before downloading.
+
+Use your existing Windows + Ubuntu/WSL setup. Native WSL storage and verified Linux x64 dependencies are used. Existing pinned Node runtimes are reused; missing versions are downloaded with official pinned checksums. No Cloudflare login/deployment is needed.
+
+YOUR EXISTING EDITS
+Compatible Clarity review edits are copied first into a separate new review folder. If Clarity data is absent, Studio rc4 then rc9 can be used. Data is never merged; original data stays untouched. Reopening Horizon keeps its edits. A schema mismatch stops without resetting anything.
+
+EDIT / INSPECT / PUBLISH
+Choose a page card, then Open & edit. The actual saved page appears beside the editing card. Click a section in that preview, or use What would you like to edit? Update filled-in words/photos. Save draft keeps the changes private. Save & preview opens the saved page full width. Publish... names the exact page, language and LOCAL destination; review it, tick the box and confirm. Each language publishes separately. UI and preview languages are independent.
+
+On phones the editing card is above the saved canvas. Find anything locates all tools; More website tools and Settings & team retain the full feature inventory. Gallery covers are labelled layout illustrations, not screenshots of your current drafts. Use Open & edit for actual saved content. Photo approval, history, scheduling and existing authorization/review safeguards remain.
+
+FINISH
+Press Enter in the launcher to stop. Local review data is retained. Read docs/HORIZON_OWNER_GUIDE.md and VERIFICATION_REPORT.md. No owner Windows/independent acceptance or production release is claimed. Phase 1 remains OPEN; legal/provider/security/manual QA/release gates remain. Toolbox/Workspace remain presentation demos; Admin/Client dashboards are not operational. No remote Cloudflare resources are changed.

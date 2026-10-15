@@ -36,6 +36,10 @@
     {
       "name": "Known older release fallback works when latest review data is absent",
       "status": "PASS"
+    },
+    {
+      "name": "Actual Clarity then Studio then rc9 lineage priority and both fallbacks preserve the correct edits",
+      "status": "PASS"
     }
   ],
   "providerMutation": false,

@@ -1,0 +1,9 @@
+# Horizon 01 — owner-directed structural redesign
+
+The owner rejected the prior Clarity interface as the same website/CMS. This replaces the split public homepage with a central typographic opening and a wide connected-system graphic, plus a dark header, architectural cards, supporting-page cover treatment and revised product sections. Content and chapter distribution remain protected by semantic comparisons across all 134 localized templates: every word, heading hierarchy, ordered link destinations and ordered CMS sections against the exact preceding sealed source. The archived byte-for-byte HTML comparison cannot constrain an explicitly authorized markup redesign.
+
+The CMS now uses horizontal desktop navigation, page gallery and task shortcuts, a compact section selector, optional section search, and the real saved-revision website canvas beside one editing card. Arabic mirrors canvas/inspector. Phones prioritize the editing card, with canvas below. Save & preview expands the saved canvas. Canvas clicks select the exact section; unsaved guards apply. Ordinary fields, image selection, rich text, move/copy/remove and all 27 tool areas remain. Page-card illustrations are labelled illustrations; actual content appears in the protected preview.
+
+HORIZON 01 appears in the public review header, CMS identity, metadata and launcher. CMS assets retain no-store. No caching defect was established. New archives use new immutable filenames. Clarity edits must be copied first, with Studio/rc9 fallbacks; originals never opened/changed.
+
+No server-domain, permissions, session, publication, migration, dependency/lock, inquiry or analytics contract changes. Private preview now shares the public header wrapper so styling matches. External gates unchanged. Unaccepted candidate; no owner/independent acceptance or production readiness inferred.
