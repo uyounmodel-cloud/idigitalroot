@@ -1,0 +1,34 @@
+{
+  "package": {
+    "file": "IDIGITALROOT_CLIENT_PANEL_BLUEPRINT_AND_AI_HANDOFF_2026-10-16_v1.1.zip",
+    "sha256": "eaf9c8015387da6063f97368bdc8451488e0d8458b84891f94f5f80183395b1d",
+    "bytes": 2276739,
+    "files": 75,
+    "expandedBytes": 3201223,
+    "status": "PASS_HANDOFF_INTEGRITY_ONLY",
+    "manifestChecksums": "PASS",
+    "zipCrc": "PASS",
+    "freshExtraction": "PASS",
+    "nestedPublicSource": "PASS_SHA_CRC_ALL_SOURCE_CHECKSUMS",
+    "masterCompanion": "PASS_SHA_CRC_MANIFEST_CHECKSUMS",
+    "tamperedSecurityAuthority": "REJECTED_AS_EXPECTED",
+    "clientImplementation": "NOT_BUILT",
+    "clientSecurityAssessment": "NOT_ASSESSED_CLIENT_PANEL",
+    "providerMutation": false,
+    "deployment": false
+  },
+  "blueprint": "docs/client-panel/CLIENT_PANEL_BLUEPRINT.md",
+  "prompt": "docs/client-panel/START_NEW_CONVERSATION_PROMPT.txt",
+  "ownerGuide": "docs/client-panel/README.md",
+  "masterCompanion": {
+    "file": "IDIGITALROOT_CODEX_MASTER_HANDOFF_2026-10-14_v1.1.zip",
+    "sha256": "f1ea6c341baf3c81afa5b797ed09beb9b1a400325338e8a42ed671c2a5f23b20",
+    "githubPath": "downloads/IDIGITALROOT_CODEX_MASTER_HANDOFF_2026-10-14_v1.1.zip",
+    "downloadUrl": "https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_CODEX_MASTER_HANDOFF_2026-10-14_v1.1.zip",
+    "bundledInSmallZip": false,
+    "use": "Companion for full mandatory pre-implementation reading; small handoff already supports complete Client/security discovery"
+  },
+  "scopeApproved": false,
+  "clientBuilt": false,
+  "securityAssessed": false
+}

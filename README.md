@@ -1,5 +1,15 @@
 # iDigitalRoot / MOTION 01
 
+## Client Account blueprint and AI handoff
+
+[**Read the complete blueprint**](docs/client-panel/CLIENT_PANEL_BLUEPRINT.md) · [**Copy the question-first prompt**](docs/client-panel/START_NEW_CONVERSATION_PROMPT.txt) · [**Download the handoff ZIP — 2.3 MB**](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_CLIENT_PANEL_BLUEPRINT_AND_AI_HANDOFF_2026-10-16_v1.1.zip)
+
+Attach the small ZIP in a new conversation and paste its prompt. The AI must read the authority, ask unresolved questions in small rounds, and wait for explicit scope approval before creating the application. The package includes the complete Client blueprint, audience/feature/decision registers, original security authority and fresh151-risk/345-ASVS registers. **Planning proposal; Client/Admin/tools are not implemented or security-accepted.**
+
+The [original master transfer](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_CODEX_MASTER_HANDOFF_2026-10-14_v1.1.zip) is now preserved separately with its original hash for full pre-implementation reading. [Handoff guide and boundaries](docs/client-panel/README.md) · [Handoff integrity evidence](docs/client-panel/HANDOFF_VERIFICATION.json). Live databases/drafts/uploads and machine credentials still need separate private backups.
+
+
+
 **The new motion-design review. Same company story, four audiences and connected CMS.**
 
 [**Download MOTION01 — 94 MB**](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_MOTION01_REVIEW_2026-10-16_R1.zip) · [Installation guide](downloads/MOTION01_INSTALLATION_GUIDE.txt) · [Watch the actual site move](docs/connected/screenshots/motion01-motion-preview.webm)

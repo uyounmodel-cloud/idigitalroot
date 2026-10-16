@@ -1,0 +1,18 @@
+{
+  "status": "PASS_DOCUMENT_AND_PROVENANCE_CHECKS_ONLY",
+  "checks": [
+    "All54 original/current authority copies + mechanical DOCX export match provenance hashes",
+    "All6 original security files preserved byte-for-byte",
+    "All151 exact title/ID/group rows retained with new unassessed Client status",
+    "All345 ASVS requirement IDs/text/levels retained; no inherited assessment",
+    "Student12 Toolbox +16 Workspace positions =27 distinct capabilities; all58 feature records not built",
+    "42 unanswered questions +54 unrun adversarial cases; no default represented as approval",
+    "All19 original per-feature security obligations present",
+    "All local Markdown links resolve"
+  ],
+  "applicationTests": "NOT_APPLICABLE_NO_APPLICATION_CHANGED",
+  "clientSecurityAssessment": "NOT_ASSESSED_CLIENT_PANEL",
+  "clientImplementation": "NOT_BUILT",
+  "providerMutation": false,
+  "deployment": false
+}

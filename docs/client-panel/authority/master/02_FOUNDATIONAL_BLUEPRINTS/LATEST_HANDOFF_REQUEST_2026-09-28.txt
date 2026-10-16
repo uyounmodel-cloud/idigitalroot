@@ -1,0 +1,199 @@
+# CREATE THE COMPLETE HANDOFF RELEASE AND ITS CUSTOMIZED CONTINUATION PROMPT
+
+Prepare a complete, detailed, evidence-based handoff of this conversation and the work it belongs to, so I can upload the resulting files into a new ChatGPT conversation and continue from our exact stopping point.
+
+**Produce both deliverables now:**
+
+1. The actual downloadable **FULL_HANDOFF_RELEASE** ZIP file, or multiple ZIP files if necessary.
+2. A **customized, ready-to-paste continuation prompt** written specifically for this project, these release files, and our exact current state. Provide this prompt as a standalone downloadable `.txt` file, include it inside the release, and display its full text in your final response.
+
+Do not give me a generic continuation template, an outline of what you might package, or instructions for me to assemble the handoff myself. Perform the available retrieval, consolidation, file creation, and verification.
+
+## 1. Establish what you can actually access
+
+Review the accessible conversation from its earliest available content through my latest message, including all corrections, attachments, results, and changes of direction.
+
+Use available tools to locate and read relevant earlier conversations, previous handoffs, uploaded files, generated files, project files, and retained evidence. Follow references to earlier material where access permits.
+
+Distinguish clearly between:
+
+- Source material you directly inspected.
+- Statements reported in this conversation.
+- Information available only through a memory or summary.
+- Your inferences.
+- Material that is mentioned but inaccessible or missing.
+
+Do not treat a remembered summary, filename, link, or file listing as proof that you inspected the underlying content. Do not invent unavailable transcripts, files, results, dates, decisions, or approvals.
+
+If some history is unavailable, preserve everything accessible and record the precise gap. Do not silently label the release complete across sources you could not inspect.
+
+## 2. Preserve the original material and the detailed working knowledge
+
+The release must contain both:
+
+**A. Source archive:** Accessible original artifacts and conversation records, preserved faithfully.
+
+**B. Consolidated working documentation:** A detailed, organized account that makes the sources, decisions, current state, and next steps understandable.
+
+A summary must not replace an accessible original artifact. An archive of files must not replace an explanation of what they mean and which versions govern the work.
+
+Capture all available substantive details, including:
+
+### Purpose and scope
+
+- The original request, motivation, intended outcome, and success criteria.
+- How the scope developed.
+- Every relevant project, workstream, stage, and dependency.
+- Ideas deferred, rejected, abandoned, or explicitly excluded.
+
+### Requirements and decisions
+
+- All user requirements, preferences, operating rules, quality expectations, and constraints.
+- Exact names, values, units, formulas, definitions, specifications, examples, and acceptance criteria.
+- Decisions and their reasons, alternatives considered, and unresolved choices.
+- User corrections and changes that supersede earlier statements.
+- Approvals, their scope, limits, conditions, and whether they have already been used.
+- Any actions that still require approval.
+
+### Work performed and evidence
+
+- Deliverables created, versions, revisions, and their relationships.
+- Completed, partially completed, blocked, failed, and unstarted work.
+- Tests and checks actually performed, their results, and the underlying evidence.
+- Distinctions between proposed, implemented, locally tested, independently verified, deployed, and accepted.
+- Failed attempts, incidents, root causes where established, repairs, and lessons that should prevent repetition.
+- Claims that remain unverified.
+
+### Technical and operational detail, where applicable
+
+- Architecture, interfaces, workflows, schemas, dependencies, environments, configuration, commands, and execution order.
+- Data sources, citations, research findings, assumptions, and limitations.
+- Budgets, costs, spending already incurred, remaining authorization, and restrictions.
+- Installation, deployment, recovery, rollback, and verification procedures already established.
+- Relevant code, datasets, images, documents, reports, logs, and supporting assets.
+
+### Exact continuation state
+
+- The latest substantive user request and the response or work completed against it.
+- The precise point where work stopped.
+- What is complete and what remains.
+- The immediate next authorized action.
+- Prerequisites, blockers, missing evidence, and questions awaiting my decision.
+- The remaining plan in the agreed order.
+
+Preserve the original language where exact wording matters. Do not silently translate away nuances, round values, simplify formulas, or replace specific instructions with broad paraphrases.
+
+## 3. Reconcile history and versions
+
+Read previous handoffs as sources and reconcile them with subsequent work.
+
+- Preserve the lineage of important files and decisions.
+- Identify the current governing version of each specification or artifact and explain the evidence for that designation.
+- Mark earlier versions as superseded where that is established.
+- Retain relevant historical failures and rejected approaches so they are not repeated.
+- Do not assume that the newest filename automatically proves approval or correctness.
+- If sources conflict and the record does not resolve the conflict, document it explicitly.
+- Keep unrelated projects distinguishable; do not transfer one project's approvals or constraints to another.
+
+For conversation history, include exact accessible transcripts or exports when available. Otherwise label the record as partial or reconstructed from accessible evidence. Never describe a narrative reconstruction as a verbatim transcript.
+
+## 4. Create a usable release structure
+
+Use clear filenames containing the project or conversation name, release date, and version.
+
+Prefer one self-contained ZIP when practical. If multiple ZIPs are necessary, use independently extractable archives grouped by purpose or numbered volume. State exactly which ZIPs are required for continuation, and provide one master manifest covering them all.
+
+Organize the release with the following files or clearly equivalent sections:
+
+### Start here
+
+- `README_FIRST.md` — release identity, scope, evidence boundary, required ZIPs, reading order, and stopping point.
+- `MASTER_HANDOFF.md` — comprehensive project history and working knowledge.
+- `CURRENT_STATE.md` — precise present state and next action.
+- `CUSTOMIZED_CONTINUATION_PROMPT.txt` — the project-specific prompt described below.
+
+### Requirements and history
+
+- `REQUIREMENTS_AND_USER_RULES.md`
+- `DECISION_AND_APPROVAL_LEDGER.md`
+- `CHRONOLOGY.md`
+- `FAILURES_CORRECTIONS_AND_LESSONS.md`
+
+### Evidence and artifacts
+
+- `SOURCE_AND_COVERAGE_REGISTER.md`
+- `ARTIFACT_REGISTER.csv`
+- `CONFLICTS_AND_MISSING_MATERIAL.md`
+- `SOURCE_FILES/`
+- `CONVERSATION_RECORDS/`, where accessible records exist.
+
+### Execution and verification
+
+- `OPEN_ITEMS_AND_NEXT_STEPS.md`
+- `RELEASE_MANIFEST.json`
+- `SHA256SUMS.txt`
+- `VERIFICATION_REPORT.md`
+
+Add detailed topic files where necessary to preserve depth and keep documents navigable. Mark genuinely inapplicable sections briefly rather than filling them with generic content.
+
+For every relevant artifact, record its exact filename, origin, purpose, version or date if known, status, inclusion path, and whether you inspected its contents. If unavailable, record that explicitly.
+
+Preserve accessible original files without modification where appropriate. If an original contains credentials or authentication secrets, avoid reproducing those secrets in the handoff; document any redaction and how authorized access should be restored.
+
+## 5. Write the customized continuation prompt after consolidating the release
+
+Derive this prompt from the actual finalized handoff. It must be specific enough that the new conversation understands what it is receiving, what must be read, where we stopped, and what to do next.
+
+The customized continuation prompt must:
+
+1. Name this project or conversation and state its concrete objective.
+2. List the exact ZIP filenames and release version being supplied.
+3. Identify the precise starting documents and their required reading order.
+4. Instruct the new chat to inventory attachments, extract the archives when supported, and verify the manifest and checksums where tooling permits.
+5. Require examination of all substantive handoff documentation, including requirements, decisions, corrections, failures, open items, and current state.
+6. Require a coverage record for the original source artifacts, distinguishing fully inspected, partially inspected, indexed only, inaccessible, and not yet inspected material.
+7. Require the original sources governing the next action to be read before that action is taken.
+8. State the actual latest completed milestone, active task, stopping point, blockers, and immediate next action.
+9. Carry forward the specific user rules, acceptance standards, terminology, operating constraints, and approval boundaries that matter to this work.
+10. Explain which sources govern when versions disagree and identify any unresolved conflicts.
+11. Require missing material and access limits to be disclosed rather than filled with assumptions.
+12. Tell the new chat to use the files as its durable reference and maintain a source-linked working state; do not claim that uploading them creates permanent memory or unlimited context.
+13. If the release is too large to inspect in one pass, require systematic batches with an explicit reading checkpoint and remaining-material list. Partial ingestion must never be reported as complete.
+14. Require a concise initial continuation checkpoint identifying what was read, what is established, what remains unverified, and the next step.
+15. Direct the new chat to resume work already authorized without asking me to repeat information contained in the release. Where an actual approval or missing decision is required, ask only for that specific item.
+
+Write the continuation prompt in a clear professional form, ready for me to paste unchanged after uploading the files. Fill in all facts and filenames that are available. Do not leave generic placeholders where the release provides the answer.
+
+## 6. Verify the actual deliverables
+
+Before delivering:
+
+- Open or programmatically inspect every generated ZIP.
+- Check the contents against the manifest.
+- Compute checksums from the actual packaged files when tooling permits.
+- Confirm that the starting documents and customized continuation prompt refer to existing files and correct paths.
+- Reconcile the artifact register with what was included and what is missing.
+- Check that the latest user instructions, corrections, and stopping point are represented consistently.
+- Confirm that proposed or untested work has not been promoted to completed or verified status.
+- Confirm that the standalone continuation prompt matches the version inside the release.
+- State exactly which verification checks were performed and which could not be performed.
+
+Separate **archive integrity** from **historical coverage**: a ZIP opening successfully does not prove that every earlier conversation or file was available.
+
+If tools cannot create or inspect the requested files, clearly state that limitation and provide the fullest usable alternative. Never fabricate download links or claim verification you did not perform.
+
+## 7. Final delivery
+
+Provide:
+
+1. Download links to every ZIP required for this handoff.
+2. A download link to `CUSTOMIZED_CONTINUATION_PROMPT.txt`.
+3. The full customized continuation prompt in a clearly separated, copyable block.
+4. A short release report stating:
+   - The exact stopping point preserved.
+   - What sources and artifacts were covered.
+   - Any missing or inaccessible material.
+   - The actual verification results.
+   - Which files I must upload to the new chat.
+
+Complete the packaging and customized prompt now, using the accessible evidence. Maximize fidelity and detail while being precise about the limits of what you could recover.

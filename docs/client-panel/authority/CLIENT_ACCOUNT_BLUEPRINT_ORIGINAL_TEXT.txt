@@ -1,0 +1,827 @@
+iDigitalRoot
+CLIENT ACCOUNT DASHBOARD
+FINAL PRODUCT & TECHNICAL BLUEPRINT
+Version 1.0  |  Approved Product Definition
+September 2026
+
+Authoritative Scope
+This blueprint defines the iDigitalRoot Client Account Dashboard. It is intentionally separate from each client website’s own Admin/CMS and from the internal iDigitalRoot Admin & Operations Dashboard.
+
+0. Document Control & Authoritative Decisions
+Status: FINAL v1.0. This document consolidates the approved client-account product decisions and technical boundaries established after the Public Website Blueprint.
+Item
+Decision
+Product
+iDigitalRoot Client Account Dashboard
+Primary role
+Manage the client’s relationship with iDigitalRoot and multiple Digital Roots/websites.
+Website content management
+Excluded. Each website has its own separate Admin/CMS.
+Website analytics
+Primarily belong to that website’s Admin/CMS.
+AI
+No AI chatbot, no AI customer-facing feature, and no AI API dependency in v1.
+External APIs
+Core v1 must not depend on paid/external APIs. Future integrations may be added as explicit subscriptions.
+Social
+Manual social-profile links in v1; no social analytics API in v1.
+Multi-website
+One client account may own multiple independent websites/Digital Roots.
+Mobile
+All core workflows must be fully responsive and tested on mobile.
+Security
+Zero-trust input handling, strong tenant isolation, MFA-capable auth, audited sensitive actions.
+
+0.1 Core product boundary
+Permanent Separation Rule
+The iDigitalRoot Client Account, the Client Website Admin/CMS, and the iDigitalRoot Internal Admin/Operations Dashboard are three distinct applications. The client account must never drift into a general website CMS or hosting control panel.
+0.2 Core philosophy
+The client manages the relationship with iDigitalRoot, services, websites, renewals, project approvals, social links, and support from one account.
+The client manages day-to-day website content inside each website’s own CMS.
+iDigitalRoot staff manage internal operations, project execution, infrastructure, deployment, billing control, security, and audits in the future Admin Dashboard.
+The core client account remains useful even if every optional future external integration disappears.
+1. Product Definition
+The Client Account is the customer-facing operating center for all iDigitalRoot relationships and Digital Roots. It is not a website builder, hosting panel, analytics clone, or AI assistant.
+Client Experience Promise
+One account. All websites. Clear status. Clear actions. Clear renewals. Direct access to each website’s CMS when needed.
+1.1 Primary questions the dashboard must answer
+What websites and services do I currently have?
+Does anything require my attention?
+What is happening with a website that is being built?
+How do I open a live website’s Admin/CMS?
+When does each subscription, domain, or service renew?
+How do I request a major change or support?
+What services are available from iDigitalRoot?
+1.2 Non-goals
+Editing normal website content.
+Managing website users, products, posts, categories, or media.
+Duplicating website-specific analytics.
+Exposing cPanel/Plesk/server administration.
+Providing raw DNS editing in the normal client experience.
+Providing Git, deployments, databases, logs, API secrets, or infrastructure controls.
+Providing an AI chatbot.
+Providing a generic cloud file vault.
+2. Application Boundaries & Data Separation
+PUBLIC iDIGITALROOT WEBSITE        |        viDIGITALROOT CLIENT ACCOUNT   |          |          |   |          |          +--> Website C Admin/CMS   |          +-------------> Website B Admin/CMS   +------------------------> Website A Admin/CMSINTERNAL iDIGITALROOT ADMIN / OPERATIONS        (separate staff application)
+
+2.1 Data separation rule
+Website CMS data stays in the website/CMS environment. iDigitalRoot account data stays in the iDigitalRoot platform. Communication is limited to explicitly approved contracts such as secure SSO, service-status checks, or later narrowly defined integrations.
+2.2 No general data synchronization
+No automatic transfer of articles, products, website users, media libraries, or CMS content into iDigitalRoot.
+No dependence on a website CMS database for the Client Account to function.
+No shared credential database between the Client Account and client CMS.
+Future APIs must be individually justified, costed, permissioned, and versioned.
+3. Account & Multi-Website Model
+One iDigitalRoot client may own any number of separate websites. Each website is its own Digital Root with independent identity, project history, domain, CMS, subscription, lifecycle, and commercial relationship.
+User  |  vClientAccount  |  +-- ClientProfile  +-- Website A / Digital Root A  +-- Website B / Digital Root B  +-- Website C / Digital Root C  +-- Account Services  +-- Billing  +-- Social Profiles  +-- Requests  +-- Security
+
+3.1 Client Profile vs Website Profile
+Level
+Purpose
+Examples
+Client Profile
+The person/company holding the iDigitalRoot account.
+Name, contact email, phone, country, billing identity, preferred language.
+Website Profile
+Identity and requirements of one specific website/Digital Root.
+Brand/name, website type, goals, blueprint, domain, languages, design direction, functions.
+
+3.2 Stable identifiers
+Every client, website, project, subscription, request, invoice, and domain must have a stable internal identifier. Display names and domains are never authorization keys.
+4. Lifecycle & State Model
+4.1 Client account lifecycle
+ACCOUNT CREATED -> VERIFIED -> ACTIVE -> SUSPENDED (if necessary) -> CLOSED/ARCHIVED
+
+4.2 Website lifecycle
+REQUEST DRAFT   -> SUBMITTED   -> UNDER REVIEW   -> ACCEPTED / QUOTED   -> ONBOARDING   -> DISCOVERY   -> CONTENT / INFORMATION READY   -> ARCHITECTURE   -> DESIGN   -> DEVELOPMENT   -> QA   -> CLIENT APPROVAL   -> LAUNCH READY   -> LIVE   -> MAINTENANCE / RENEWAL   -> SUSPENDED / EXPIRED / ARCHIVED (when applicable)
+
+Exact stage names may be configured later, but the client-facing lifecycle must remain simple and understandable. Internal staff stages may be more detailed without exposing unnecessary complexity to the client.
+4.3 Dashboard behavior by lifecycle
+Website State
+What the client sees
+Request / Onboarding
+Continue setup, missing information, package/functions, design preferences.
+Building
+Progress, current stage, next milestone, review/approval tasks, preview links.
+Launch Ready
+Launch checklist, final approvals, domain/email readiness.
+Live
+Visit website, open Website Admin, domain/email/subscription, major change request, service status.
+Renewal / Expiry
+Clear renewal banner, dates, amounts, affected services, action required.
+
+5. Final Information Architecture & Navigation
+HOMEMY WEBSITES  - All Websites  - New WebsiteMY iDIGITALROOT  - My Profile  - Domains  - Professional EmailSERVICES & SUBSCRIPTIONSSOCIAL PROFILESREQUESTS & SUPPORTBILLING & RENEWALSROOT NETWORK  [future / hidden initially]ACCOUNT & SECURITY
+
+Project-specific navigation appears inside a selected website rather than becoming global navigation.
+5.1 Selected website navigation
+Website Name  OVERVIEW  PROJECT        [only while building]  WEBSITE  DOMAIN  EMAIL  SUBSCRIPTION  REQUESTS  HISTORY
+
+6. Home Dashboard
+Home is an account-level command center. It must prioritize clarity over density and must work equally well for a client with one website or many.
+6.1 Recommended layout
+[ HERO / PRIORITY BANNER ]Hello, <Client>Your iDigitalRoot  3 Websites | 2 Live | 1 BuildingNEEDS YOUR ATTENTION  1 itemMY WEBSITES  [Live Website Card]   [Building Website Card]   [...]REQUESTSNEXT RENEWALSERVICESRECENT ACTIVITY
+
+6.2 Website cards
+State
+Card content
+Primary actions
+Live
+Name, domain, Live status, plan, renewal.
+Visit Website; Open Website Admin; View Details.
+Building
+Name, project stage, progress, action required.
+View Project; Review/Approve when needed.
+Onboarding
+Name/request label, completion state.
+Continue Setup.
+Renewal risk
+Normal card plus prominent renewal status.
+Review Renewal.
+
+7. Hero / Priority Banner & Campaign Engine
+The Home dashboard includes one controlled Hero area for the most important current message. It may represent operational information, required action, renewal, or a targeted service campaign.
+Priority
+Type
+Example
+1
+Critical / Security
+Account/security action required.
+2
+Required
+Website approval, missing onboarding data.
+3
+Renewal / Payment
+Plan/domain/service renewal approaching.
+4
+Project update
+Preview ready, launch milestone.
+5
+Relevant service
+A service suited to that client/site.
+6
+General campaign
+Company announcement or broad promotion.
+
+7.1 Targeting dimensions
+The future Admin Dashboard must be able to target a campaign by client, website, plan, client type, website type, country, language, active service, missing service, project status, renewal window, or global audience.
+7.2 Banner rules
+Normally only one main Hero banner is displayed at a time.
+Operational and required-action messages always outrank marketing.
+Campaigns have start/end times, audience rules, CTA, dismissibility, and priority.
+Banner content is managed by Admin; it is not hard-coded in the client application.
+8. My Websites
+My Websites is the client’s primary portfolio of Digital Roots. It must scale from one website to many without changing the product model.
+8.1 List fields
+Website display name
+Primary domain
+Status
+Current project stage where applicable
+Plan/subscription
+Next renewal
+Outstanding action
+CMS availability
+8.2 Available actions
+View Details
+Visit Website
+Open Website Admin
+View Project
+Continue Setup
+Request Major Change
+Review Renewal
+8.3 Filters
+Filters may be introduced when useful: All, Live, Building, Onboarding, Expiring, Archived. They should remain hidden or minimal for customers with few websites.
+9. New Website Workflow
+Website onboarding begins only when the client explicitly selects + New Website. It is not part of ordinary account creation. Each website request creates an independent Website Project.
+NEW WEBSITE  -> What are you creating?  -> Website category/type  -> Goals  -> Website Blueprint  -> Website-specific information  -> Domain  -> Languages  -> Design preferences  -> Color palette / brand direction  -> Website functions  -> Professional email  -> Additional services  -> Review  -> Submit to iDigitalRoot  -> Website Project created
+
+9.1 Draft behavior
+The form auto-saves progress.
+The client may leave and resume later.
+Completion percentage reflects actual required information, not fake gamification.
+Validation occurs both client-side for usability and server-side for security.
+10. Website Blueprint & Onboarding Template Engine
+Every Website Blueprint has a configurable onboarding template. The software uses one questionnaire engine; the content and required fields vary by blueprint.
+10.1 Example: Doctor
+Professional identitySpecialtyBiographyEducationCredentialsExperienceServicesClinic informationContact detailsWorking hoursAppointment methodSocial linksPublicationsLanguagesDesired pagesDesign preferencesBrand/palette preferences
+
+10.2 Example: Student
+EducationMajor / UniversitySkillsProjectsCertificationsInternship / career goalsCV detailsLinkedIn / GitHub URLsPortfolio itemsLanguagesDesign preferencesPaletteReference websites
+
+10.3 Example: Restaurant
+BrandCuisineAboutMenu structureBranches / locationOpening hoursDeliveryReservationsPhotographySocial linksMapsLanguagesPaletteBrand assetsReference websites
+
+10.4 Template administration requirement
+The future Admin Dashboard must manage blueprint categories, field groups, required/optional status, help text, validation rules, conditional logic, order, applicable services, and versioning. This prevents profession-specific forms from being hard-coded into frontend releases.
+11. Design Preference & Brand Intake
+11.1 Brand state
+Question
+Possible choices
+Existing brand?
+Yes / No
+Existing logo?
+Yes / No / To be provided separately
+Existing colors?
+Yes / No / Custom references
+Brand guide?
+Yes / No
+
+11.2 Visual direction
+Selectable directions can include Professional, Minimal, Modern, Elegant, Luxury, Creative, Technical, Friendly, Bold, Natural, or Custom. These are preferences for the design team, not automatic design generators.
+11.3 Palette
+The client may provide existing brand colors or choose a curated palette direction such as Corporate, Modern Dark, Technology, Warm Professional, Luxury, Natural, Creative, Healthcare, Education, or Minimal Neutral.
+11.4 Reference websites
+The client can paste reference URLs and state what they like: layout, colors, typography, animation, simplicity, imagery, structure, or other. A separate field captures what they explicitly do not want.
+12. Domain, Languages, Functions & Professional Email Intake
+12.1 Domain
+Choice
+Meaning
+I already have a domain
+Client provides it; staff verify ownership/transfer/setup needs.
+I want iDigitalRoot to register one
+Client provides desired names; staff checks feasibility and pricing.
+I need help choosing
+Project requires naming/domain assistance.
+
+12.2 Languages
+Each website declares required language(s) independently. Arabic/English are first-class in the platform; additional languages remain extensible.
+12.3 Functions
+The onboarding engine can ask whether the website needs contact forms, WhatsApp, maps, blog/news, portfolio, services, booking, ecommerce, members area, multilingual support, newsletter, resources/documents, careers/jobs, or custom functionality. Items outside the chosen package must be identified before submission.
+12.4 Professional email
+The client can request professional mailboxes for the website’s domain. Quantities, price, and features follow the selected package/service configuration.
+13. Website Project Experience
+After submission and acceptance, the website appears in My Websites as a Website Project. The client receives a simplified project view, not internal project-management complexity.
+13.1 Client-facing project timeline
+Discovery -> Information/Content -> Architecture -> Design -> Development -> QA -> Client Approval -> Launch
+
+13.2 Project overview fields
+Current status
+Current stage
+Progress indicator
+Next milestone
+Action required from client
+Responsible iDigitalRoot status (without exposing internal staffing unnecessarily)
+Important dates
+Recent project activity
+13.3 Project sections
+OVERVIEWINFORMATIONREVIEWS & APPROVALSVERSIONSMESSAGES / PROJECT COMMUNICATIONSERVICE DETAILS
+
+14. Preview, Revision & Approval
+14.1 Preview
+When staff releases a preview, the client can open a protected staging environment. Desktop and mobile are viewed through the actual responsive website; no separate “fake” design proof is required unless the project process calls for one.
+14.2 Approval actions
+Each approval unit offers Approve or Request Changes. The record includes website/project, stage, version, client identity, timestamp, decision, and comments.
+14.3 Version history
+Homepage v1  - Changes RequestedHomepage v2  - Changes RequestedHomepage v3  - Approved
+
+14.4 Approval integrity
+Approved records are immutable from the client UI.
+If an approved item must be superseded, a new version is created rather than rewriting history.
+The Admin system keeps deeper audit evidence than the simplified client history.
+15. Launch & Transition to Live
+15.1 Launch readiness
+Before launch, the client may see a checklist such as design approved, required information approved, domain ready, email ready, QA passed, and final approval completed. The staff performs deployment; the client does not deploy.
+15.2 Post-launch transformation
+Once live, the project-oriented experience becomes a Live Website experience while project history remains available.
+LIVE WEBSITE  Visit Website  Open Website Admin  Request Major Change  Website Status  Domain  Professional Email  Subscription  Renewal  Project History
+
+16. Separate Website Admin/CMS
+Permanent CMS Rule
+Normal website content is edited only in that website’s own Admin/CMS. The iDigitalRoot Client Account does not reproduce those content-management functions.
+16.1 CMS responsibilities
+Existing page content
+Articles/news
+Portfolio entries
+Products and categories where supported
+Website media
+Website-specific users/team members
+CMS-specific website analytics
+Other blueprint-specific day-to-day content management
+16.2 iDigitalRoot responsibilities
+Website project lifecycle
+Major structural/functionality requests
+Domain and email services
+Subscription and renewal
+Support relationship
+Account security
+CMS access shortcut/SSO
+Managed technical service state
+17. One-Click Website Admin SSO
+A logged-in iDigitalRoot client can click Open Website Admin and enter the selected website’s separate CMS without retyping CMS credentials. Direct access to the CMS URL remains possible and uses the CMS’s normal authentication.
+17.1 Required SSO flow
+Authenticated iDigitalRoot user  -> selects Website A  -> clicks Open Website Admin  -> server authorizes ownership and entitlement  -> creates signed, short-lived, single-use SSO ticket  -> browser redirects to Website A CMS SSO endpoint  -> CMS validates issuer, signature, audience, expiry, nonce, website/user scope  -> CMS creates local session  -> ticket marked used / becomes invalid
+
+17.2 Ticket properties
+Signed and tamper-evident
+Single-use
+Very short expiration
+Audience restricted to one CMS/site
+Bound to specific client user and website
+Contains unique nonce/ticket identifier
+Contains minimal permission scope
+Never contains a reusable password
+Never appears in long-lived logs or analytics
+Every issuance and consumption is audit logged
+17.3 Explicit prohibitions
+Never put username/password in URL parameters.
+Never store reusable CMS credentials in browser storage for SSO convenience.
+A ticket for Website A can never authenticate Website B.
+SSO must fail closed on validation error, expiration, replay, or mismatched audience.
+18. My iDigitalRoot Profile
+This profile represents the client’s relationship with iDigitalRoot, not their website content.
+18.1 Editable client fields
+Name / account contact
+Primary contact email
+Telephone
+Country
+Preferred language
+Company/account name where applicable
+Communication preferences
+Billing/contact details where applicable
+18.2 Sensitive changes
+Changes such as primary account email, ownership identity, billing identity, or other high-impact fields may require re-authentication, verification, or staff review.
+19. Domains
+Domains are listed at account level and associated with the relevant website(s).
+Field
+Example
+Domain
+sarahclinic.com
+Associated website
+Sarah Clinic
+Status
+Active
+Renewal date
+18 Jan 2027
+Auto-renew
+Enabled / Disabled / Not applicable
+Management state
+Managed by iDigitalRoot / External
+
+19.1 Client actions
+View details, review renewal, request domain assistance/change, and access transfer information where contractually appropriate. Raw DNS editing is excluded from normal v1 experience.
+20. Professional Email
+Professional email services are grouped by domain. The client sees a clear service view rather than mail-server administration.
+20.1 Client-visible capabilities
+Mailbox list
+Active/inactive state
+Setup instructions
+Webmail link where applicable
+Password reset path where supported
+Request additional mailbox
+Request email support
+20.2 Exclusions
+No raw mail-server panel, DNS editing, queue management, server logs, or infrastructure controls are exposed to ordinary customers.
+21. Services & Subscriptions
+Services may be website-specific or account-level. Each must have a clear commercial classification and association.
+21.1 Client view
+Active plan for each website
+Included services
+Optional services available
+Requested/pending services
+Renewal date
+Price/renewal amount where applicable
+Service status
+21.2 Service classification
+Class
+Meaning
+Included
+Part of the subscribed package.
+Free Integration
+No additional customer charge where operationally safe and permitted.
+Paid Add-on
+Separate fee due to external cost, infrastructure, or value.
+Custom Service
+Requires professional scoping/human work.
+Future
+Designed for later; not currently available.
+
+21.3 Cost discipline
+A service cannot be promoted as permanently included until the Admin-side cost/dependency model has verified software, API, infrastructure, storage, bandwidth, email, human-work, support, and scale implications.
+22. Social Profiles — v1
+Version 1 does not depend on social-platform APIs. The client maintains simple public profile links inside the iDigitalRoot account.
+22.1 Supported link types
+Instagram, Facebook, LinkedIn, YouTube, TikTok, X, GitHub, and an extensible Other profile type.
+22.2 v1 actions
+Add profile, edit URL, remove profile, and optionally assign a label. URLs are validated and safely rendered.
+22.3 Future integration rule
+Official API integrations or social analytics may later be offered only after explicit technical, legal, and cost review. Paid API functionality becomes a defined subscription/add-on rather than a hidden platform dependency.
+23. Root Health — v1
+Root Health belongs in iDigitalRoot because it represents managed service state, not website content analytics.
+23.1 Candidate v1 health checks
+Website service online/managed state
+Domain active/renewal state
+Professional email service state
+SSL/certificate state
+Basic website availability
+Backup service state if controlled by iDigitalRoot
+23.2 Customer presentation
+Use plain language such as Website Online, Domain Active, Email Active, SSL Healthy, Backup Current. Technical details may be available under an advanced/details view but are not the default experience.
+23.3 Incident handling
+There is no separate customer incident-management module. Important issues surface through the Hero Banner, Notifications, or Needs Your Attention. Deep incident tracking belongs to internal Admin/Operations.
+24. Requests & Support
+The portal centralizes material client-to-iDigitalRoot work to reduce fragmented email/WhatsApp support.
+24.1 Request types
+Major Website Change
+New Website
+New Service
+Domain
+Professional Email
+Billing
+Technical Problem
+General Support
+24.2 Request record
+Reference number
+Client account
+Website if applicable
+Type
+Subject
+Description
+Status
+Conversation/updates
+Created time
+Last update time
+Attachments only through approved secure mechanism when required
+24.3 Suggested statuses
+Submitted -> Received -> Under Review -> Waiting for Client -> In Progress -> Completed -> ClosedOptional: Rejected / Cancelled
+
+24.4 Major change boundary
+Requests cover structural or functional website changes such as new pages, new sections, redesign, new language, booking, ecommerce, special integration, or custom development. Ordinary content updates within existing CMS-managed structures remain inside the website CMS.
+25. Billing & Renewals
+Billing must be transparent, website-aware, and understandable without contacting support.
+25.1 Client view
+Invoices
+Payments/receipts
+Subscriptions
+Upcoming renewals
+Outstanding amounts
+Service association
+Website association
+Domain/email/add-on charges where applicable
+25.2 Renewal UX
+Renewal reminders may begin at configured intervals such as 60, 30, 14, and 7 days. Exact commercial rules remain Admin-configurable.
+25.3 Example
+INV-2031Sarah ClinicBusiness Digital Root RenewalUSD 275PAID
+
+25.4 No hidden renewal behavior
+Renewal date, amount, covered services, and action required must be visible. Any auto-renew behavior must be explicit and consistent with the contract and payment method.
+26. Deterministic Recommendations & Service Campaigns
+The client portal can be smart without AI. Version 1 uses transparent rule-based logic and Admin-configured campaigns.
+26.1 System recommendations
+IF renewal_date <= configured_windowTHEN show Review RenewalIF profile_required_fields_missingTHEN show Complete ProfileIF project_approval_pendingTHEN show Review WebsiteIF domain_expiry_riskTHEN show Domain Renewal Required
+
+26.2 Admin campaigns
+Admin may promote a relevant service based on explicit audience rules, for example offering online booking only to eligible clinic/business websites that do not already have booking.
+26.3 Trust rule
+System-required actions and operational warnings must be visually distinguishable from commercial promotions.
+27. Notifications & Recent Activity
+27.1 Notification classes
+Class
+Examples
+Action Required
+Approval, missing data, security verification.
+Important
+Renewal, payment, project milestone.
+Update
+Project progress, request status.
+Service
+Relevant new service or campaign.
+Account
+Login/security/account change.
+
+27.2 Channels
+Portal notifications are required. Email notifications are appropriate for important or actionable events. Push/mobile may be considered later. Notification fatigue must be avoided.
+27.3 Recent activity
+A simplified client activity feed may show meaningful actions such as website approval, domain renewal, request update, SSO access, subscription change, or security event. The Admin system maintains deeper audit records.
+28. Authentication & Account Security
+28.1 Baseline capabilities
+Secure password hashing
+Email verification
+MFA capability
+Password recovery
+Session management
+Secure logout
+Brute-force/rate-limit protection
+Secure cookies
+CSRF protection
+Sensitive-action re-authentication
+Security notifications
+Audit events
+28.2 Session policy
+Sessions must use secure, HttpOnly cookies with appropriate SameSite policy. Session identifiers rotate after authentication and sensitive privilege changes. Idle and absolute session lifetimes are configurable.
+28.3 MFA
+MFA should be supported from the first production architecture even if optional initially. Recovery paths must be secure and must not undermine MFA.
+28.4 Sensitive actions
+Examples requiring re-authentication or stronger verification may include changing primary email, changing account ownership, accessing transfer-sensitive domain actions, modifying billing identity, disabling MFA, or opening an especially sensitive CMS SSO session depending on risk policy.
+29. Input, Application & Tenant Security
+Security Principle
+Every client-controlled field, identifier, URL, request, and browser action is untrusted until validated and authorized on the server.
+29.1 Input handling requirements
+Server-side schema validation
+Type validation
+Maximum lengths and payload sizes
+Unicode normalization where relevant
+Output encoding
+HTML sanitization only where rich text is intentionally supported
+Allowed-protocol validation for URLs
+Parameterized database queries / safe ORM patterns
+Rate limits on abuse-sensitive endpoints
+No executable content in ordinary text fields
+29.2 Authorization requirements
+Every object-level operation must verify authenticated user -> client account -> ownership/entitlement -> action permission. Hiding a button in the UI is never authorization.
+29.3 IDOR/BOLA prevention
+Client-supplied website_id, project_id, invoice_id, request_id, domain_id, or subscription_id must never be trusted without a server-side ownership check.
+29.4 Browser security
+Content Security Policy
+HSTS/secure transport
+X-Content-Type-Options
+Referrer policy
+Frame-ancestor/clickjacking protection
+Controlled CORS policy
+No secrets in frontend bundles
+No sensitive data in client-side logs
+30. File Handling & External Intake
+The Client Account is not a file-storage product. Arbitrary persistent uploads are excluded from v1.
+30.1 When project files are required
+Use a dedicated controlled upload/intake mechanism or trusted external workflow. Files are isolated from execution and staff access until validation.
+30.2 Security controls
+Strict size limits
+Allowed extension policy
+MIME/type verification
+Randomized internal filenames
+No executable permissions
+Malware scanning/quarantine before staff access
+Storage isolation
+Retention rules
+Explicit project association
+Audit trail
+Never serve untrusted uploads inline from the main application origin
+31. Responsive & Accessibility Requirements
+31.1 Mobile-first requirement
+All critical client actions must be fully usable on phone: browse websites, continue onboarding, review a project, approve design, open CMS, renew, pay, submit a request, edit profile, and read notifications.
+31.2 Responsive validation
+Test at minimum on small phone, large phone, tablet portrait/landscape, standard desktop, and large desktop. No horizontal overflow, clipped controls, or hover-only actions.
+31.3 Accessibility
+The portal should target WCAG 2.2 AA principles: semantic structure, keyboard usability, visible focus, labels, validation messages, contrast, readable error states, reduced-motion support, and accessible modal/dialog behavior.
+32. Localization
+Arabic and English are first-class. RTL/LTR must be supported structurally rather than patched afterward.
+32.1 Requirements
+Language-aware layout direction
+Localized labels and help text
+Localized dates/numbers/currencies
+Country/telephone formatting
+Localized notification/campaign content
+No hard-coded UI text inside application logic
+Language preference stored at account level and overridable where needed
+33. Technical Architecture — Candidate
+Exact frameworks may be frozen later, but the technical boundaries should follow a modern web application model with explicit service separation.
+Browser / Mobile Browser        |        vCDN / WAF / TLS Edge        |        vClient Account Web App        |        +--> Auth / Session Service        +--> Client Account API        +--> Website Project API        +--> Billing / Subscription API        +--> Request / Support API        +--> Notification API        +--> CMS SSO Broker        |        vRelational Database        |        +--> Background Job Queue        +--> Email Notification Worker        +--> Audit/Event Store        +--> Controlled Object Storage (only where explicitly required)
+
+33.1 Core principle
+The core application remains self-contained around iDigitalRoot-owned data and services. Optional external integrations are adapters, not foundational dependencies.
+34. Core Data Model
+The following is a conceptual domain model; physical schema design may normalize or split entities further.
+Entity
+Purpose
+User
+Authentication identity for the client account.
+ClientAccount
+Commercial/account container.
+ClientProfile
+Account-holder/contact information.
+Website
+One Digital Root owned by the client.
+WebsiteProfile
+Website-specific identity and configuration.
+WebsiteBlueprint
+Reusable website architecture definition.
+OnboardingTemplate
+Questionnaire schema attached to blueprint/version.
+WebsiteProject
+Build lifecycle for one website request.
+ProjectStage
+Client-visible/current project stage.
+ProjectApproval
+Versioned approval or change-request record.
+Domain
+Domain service associated with website/account.
+EmailService
+Professional email service for a domain.
+Mailbox
+Mailbox metadata where managed.
+Service
+Catalog capability.
+Subscription
+Commercial entitlement for website/account.
+Invoice
+Billing document.
+Payment
+Payment record/status.
+Request
+Support/major-change/service request.
+RequestMessage
+Threaded updates inside a request.
+SocialProfile
+Manual profile URL in v1.
+Notification
+Portal/email notification.
+Campaign
+Admin-targeted Hero/service message.
+ActivityEvent
+Client-friendly activity history.
+AuditEvent
+Security/operational audit record.
+CmsSsoTicket
+Ephemeral one-time SSO authorization record.
+
+35. API Surface — Candidate Contracts
+The implementation may be REST, RPC, or another disciplined API style. The important requirement is clear authorization boundaries and versioned contracts.
+35.1 Client account APIs
+/api/account/profile/api/account/websites/api/account/websites/{websiteId}/api/account/websites/{websiteId}/project/api/account/websites/{websiteId}/approvals/api/account/websites/{websiteId}/cms-sso/api/account/domains/api/account/email-services/api/account/services/api/account/subscriptions/api/account/social-profiles/api/account/requests/api/account/billing/api/account/notifications/api/account/security
+
+35.2 New website APIs
+/api/account/websites/new/blueprints/api/account/websites/new/drafts/api/account/websites/new/drafts/{draftId}/api/account/websites/new/drafts/{draftId}/submit
+
+35.3 API rules
+Authentication required except explicit public/auth endpoints
+Object ownership verified on every call
+Idempotency for financially sensitive or duplicate-prone operations
+Server-side validation
+Consistent error model
+Audit logging for sensitive mutations
+Rate limits and abuse controls
+No direct database identifiers exposed unnecessarily
+36. Audit & Event Model
+36.1 Client-visible activity
+Readable events such as Website approved, Domain renewed, Request updated, CMS opened, Invoice paid, Subscription activated, or Account security changed.
+36.2 Internal audit
+The Admin/Operations system must capture deeper evidence for authentication, authorization, SSO tickets, approval changes, billing changes, staff actions, subscription mutations, domain/email operations, and security-relevant events.
+36.3 Audit properties
+Timestamp
+Actor
+Client account
+Website when relevant
+Action
+Object type/id
+Before/after or change reference where appropriate
+Request/session correlation ID
+IP/device metadata where legally and operationally appropriate
+Result/success/failure
+37. Notifications, Email & Background Jobs
+The application requires asynchronous processing for email delivery, scheduled renewal reminders, campaign activation, notification fan-out, and similar tasks.
+37.1 Required job types
+Renewal reminder generation
+Project action reminders
+Email notification delivery
+Campaign scheduling
+Expired draft cleanup
+SSO ticket cleanup
+Security notification dispatch
+Billing status synchronization with internal billing provider/process
+37.2 Reliability
+Jobs should be idempotent where possible, retried with bounded backoff, observable, and moved to a dead-letter/failure queue when repeated execution fails.
+38. Admin Dashboard Contract
+The Client Account is intentionally designed so the later Admin Dashboard can manage it without custom code for routine operations.
+38.1 Admin must eventually control
+Clients and Client Profiles
+Website associations
+Website Blueprints
+Onboarding Templates
+Website Projects and stages
+Preview links
+Versions and approvals
+CMS SSO site configuration
+Hero banners/campaigns
+Services and subscriptions
+Cost/dependency classification
+Domains and email services
+Requests/support
+Invoices/payments/renewals
+Social profile configuration options
+Root Health service states
+Notifications
+Localization content
+Security/audit events
+Feature flags
+Operational status
+38.2 Admin-only areas
+Infrastructure, deployment, server credentials, secrets, provider keys, cost details, logs, staff permissions, security investigations, and internal operational evidence never appear in the ordinary client UI.
+39. Version 1 Explicit Exclusions
+The following are intentionally outside the v1 Client Account unless separately approved later:
+AI chatbot or assistant
+AI-generated customer recommendations
+LLM API dependency
+Social analytics APIs
+Paid external analytics APIs
+Website content editor
+Website product/category/media management
+Website team-user management
+General file vault
+cPanel/Plesk or raw server control
+Raw DNS editor
+Git/deployment controls
+Database access
+API-secret management
+Root Network full marketplace/social-network system
+Cross-CMS general data synchronization
+40. Future Extension Hooks
+The architecture should leave space for later additions without making them v1 dependencies.
+Official social analytics as paid/free integrations after cost review
+Root Network directory/opportunities/member benefits
+Enterprise multi-user iDigitalRoot accounts
+Additional payment providers
+More account languages/countries
+Advanced Root Health telemetry
+Optional website-status/summary analytics from approved sources
+Additional CMS types through the SSO contract
+Mobile app/push notifications if justified
+41. Quality Assurance & Security Testing
+41.1 Functional QA
+Account registration/login/recovery
+Multi-website isolation
+New website draft/resume/submit
+Blueprint conditional questionnaires
+Approvals/version history
+CMS SSO success/failure/replay tests
+Domain/email/service views
+Request lifecycle
+Billing/renewal flows
+Hero priority/targeting
+Localization/RTL
+Responsive/mobile
+41.2 Security QA
+Authentication bypass testing
+Authorization/IDOR/BOLA testing
+CSRF
+Stored/reflected XSS
+SQL/ORM injection
+URL validation/open redirect
+Rate-limit abuse
+Session fixation/hijacking controls
+MFA/recovery
+SSO ticket replay/misrouting
+File intake security where used
+CSP and browser headers
+Secrets exposure
+Tenant isolation regression tests
+41.3 Release gate
+Production releases must pass automated tests, security checks, staging validation, responsive/browser QA, Arabic/English QA, and a rollback-capable deployment process.
+42. Operational Non-Functional Requirements
+42.1 Performance
+Dashboard pages should load quickly on ordinary mobile connections, avoid unnecessary JavaScript, paginate large account histories, and lazy-load non-critical sections.
+42.2 Availability
+The client account should degrade gracefully. Failure of a non-core optional module must not prevent access to websites, billing, support, or security controls.
+42.3 Observability
+Application error monitoring
+Authentication/security event monitoring
+API latency/error rates
+Background job failures
+Email delivery failures
+CMS SSO failures
+Billing/renewal job state
+Database health
+Deployment status
+42.4 Backups and recovery
+Client Account database, configuration, billing records, project records, approvals, and audit data require tested backup and recovery procedures. Backups are not considered reliable until restore procedures are periodically validated.
+43. Definition of Done — Client Account
+The Client Account is production-ready only when all of the following are true:
+Gate
+Required outcome
+Product separation
+Client Account, website CMS, and internal Admin remain distinct.
+Multi-website
+One account can safely manage multiple independent websites.
+New Website
+Blueprint-driven onboarding works, saves drafts, validates, and creates a project.
+Project lifecycle
+Progress, previews, versions, approvals, and launch transition are reliable.
+CMS SSO
+One-click SSO is short-lived, single-use, site-scoped, auditable, and replay-safe.
+Direct CMS login
+Remains available independently with CMS credentials.
+No content duplication
+Normal website CMS functions are not duplicated in iDigitalRoot.
+Services
+Domains, email, subscriptions, requests, billing, renewals work clearly.
+Security
+Input validation, authorization, tenant isolation, session security, MFA capability, and audit pass defined tests.
+Responsive
+All core workflows work on mobile/tablet/desktop.
+Arabic/English
+RTL/LTR and localization pass QA.
+No hidden dependencies
+Core v1 does not depend on AI or external analytics/social APIs.
+Admin contract
+All routine client-account content/configuration can later be administered without code changes.
+Observability
+Errors, jobs, auth events, SSO, and critical services are monitorable.
+Recovery
+Backups and restore procedure have been tested.
+
+44. Final Approved Architecture Summary
+PUBLIC WEBSITE  Acquisition / education / Root Check / conversion        |        vCLIENT ACCOUNT  Account profile  Multiple websites / Digital Roots  New Website requests & onboarding  Project progress / approvals  Domain / Email  Services / Subscriptions  Social profile links  Root Health  Requests / Support  Billing / Renewals  Account Security        |        +--> Secure one-click SSO --> Website A CMS        +--> Secure one-click SSO --> Website B CMS        +--> Secure one-click SSO --> Website C CMSWEBSITE CMS (per site)  Website content  Website users  Website-specific analytics  Blueprint-specific content operationsINTERNAL iDIGITALROOT ADMIN / OPERATIONS  Clients / projects / campaigns / services / billing  infrastructure / deployment / security / audit / staff operations
+
+Final Product Principle
+The iDigitalRoot Client Account organizes the client’s relationship with iDigitalRoot and all of their Digital Roots. Each website remains independently manageable through its own CMS, while iDigitalRoot provides the professional service, project lifecycle, commercial control, support, security, and operational continuity around it.
+45. Next Authoritative Design Stage
+With the Public Website Blueprint and this Client Account Blueprint defined, the next blueprint is the iDigitalRoot Internal Admin & Operations Dashboard. It must be derived from the exact control requirements of both customer-facing systems and will define staff roles, client/project operations, Website Blueprint management, onboarding-template management, campaigns, billing, service costing, domains/email, support, infrastructure, deployments, secrets, audit, security, and operational controls.
+END OF FINAL BLUEPRINT

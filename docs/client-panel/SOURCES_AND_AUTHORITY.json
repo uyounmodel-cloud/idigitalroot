@@ -1,0 +1,436 @@
+{
+  "handoff": "CLIENT_PANEL_BLUEPRINT_AND_AI_HANDOFF_v1.1",
+  "date": "2026-10-16",
+  "status": "PROPOSED_QUESTION_FIRST_NO_IMPLEMENTATION_AUTHORITY",
+  "repository": "https://github.com/uyounmodel-cloud/idigitalroot",
+  "contextCommit": "b4c8bcfdca040b2ac138d2e8acca41034d9b5a50",
+  "originalMaster": {
+    "file": "IDIGITALROOT_CODEX_MASTER_HANDOFF_2026-10-14_v1.1.zip",
+    "sha256": "f1ea6c341baf3c81afa5b797ed09beb9b1a400325338e8a42ed671c2a5f23b20",
+    "githubPath": "downloads/IDIGITALROOT_CODEX_MASTER_HANDOFF_2026-10-14_v1.1.zip",
+    "downloadUrl": "https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_CODEX_MASTER_HANDOFF_2026-10-14_v1.1.zip",
+    "bundledInSmallZip": false,
+    "use": "Companion for full mandatory pre-implementation reading; small handoff already supports complete Client/security discovery"
+  },
+  "currentPublicCmsSource": {
+    "file": "IDIGITALROOT_MOTION01_SOURCE_2026-10-16_rc2.zip",
+    "sha256": "a3a11293559b72dac65973184412b38fbbf76b61cf89e4acec845db812dfbd2b",
+    "bundledInSmallZipAt": "sources/IDIGITALROOT_MOTION01_SOURCE_2026-10-16_rc2.zip",
+    "githubPath": "downloads/IDIGITALROOT_MOTION01_SOURCE_2026-10-16_rc2.zip",
+    "status": "CURRENT_PUBLIC_CMS_REVIEW_CANDIDATE_NOT_CLIENT_PANEL_SOURCE",
+    "localTechnicalStatus": "PASS32_LOCAL_AGENT_STEPS; external/independent/manual/provider/production gates open"
+  },
+  "currentReviewZip": {
+    "file": "IDIGITALROOT_MOTION01_REVIEW_2026-10-16_R1.zip",
+    "sha256": "295078128300f4d73080e7442d615de3bfac7cc4b5a6445637e828968db61a25",
+    "githubPath": "downloads/IDIGITALROOT_MOTION01_REVIEW_2026-10-16_R1.zip",
+    "bundled": false
+  },
+  "authorityPrecedence": [
+    "Current explicit owner instructions and recorded decisions within their scope",
+    "Original approved product/security/environment constraints not explicitly superseded",
+    "Current source/release evidence within its actual product/version scope",
+    "New Client blueprint recommendations are proposals, not approvals"
+  ],
+  "originalApprovedHashes": {
+    "publicV43Html": "d10b1cff47d5912fecb49d88579971f3e21bb19a33b179e29356ea0eac5646fd",
+    "cmsUxV41Html": "7f7e099e3c525b27dd8ee285410ad0a9ce71c5055d845219c40a8501f8ee60cf",
+    "connectedCmsV153Zip": "62f9e7441372b825d4e8535febdf7679d09d9a39464a8f63843f1eadd5c6d257",
+    "originalPublicBackendV112Zip": "c32aefa179bca74cd6d4f11c42fe02cb5421db6117a9f5f4d711ef674829d1a0"
+  },
+  "phase1": "OPEN",
+  "clientImplementation": "NOT_BUILT",
+  "adminImplementation": "NOT_BUILT",
+  "providerMutation": false,
+  "deployment": false,
+  "securityAssessment": "NOT_ASSESSED_CLIENT_PANEL",
+  "backupLimit": "No live DB/draft/media, credentials, complete machine state or full chat-history backup",
+  "copiedAuthorityFiles": [
+    {
+      "path": "authority/master/00_START_HERE/CODEX_MASTER_START_PROMPT.txt",
+      "origin": "Original verified master/00_START_HERE/CODEX_MASTER_START_PROMPT.txt",
+      "sha256": "bf2bb60c65f02d93ab3135277b2f7227da2ef22543b46c276440719952ac7d54",
+      "bytes": 13694,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/00_START_HERE/CURRENT_STATUS_LEDGER.md",
+      "origin": "Original verified master/00_START_HERE/CURRENT_STATUS_LEDGER.md",
+      "sha256": "efdadf0e66348f96d43e45c0dd300fcd9a16d370fc34586204ca4b13e0d5f8f6",
+      "bytes": 5438,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/00_START_HERE/LOCAL_DEVELOPMENT_AND_CLOUDFLARE_ENVIRONMENT.md",
+      "origin": "Original verified master/00_START_HERE/LOCAL_DEVELOPMENT_AND_CLOUDFLARE_ENVIRONMENT.md",
+      "sha256": "185d8210953a96974ad900f1e4cdd165407df72ed8169cb8e0bcee6571dfd993",
+      "bytes": 6981,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/00_START_HERE/OWNER_DECISIONS_2026-10-14.md",
+      "origin": "Original verified master/00_START_HERE/OWNER_DECISIONS_2026-10-14.md",
+      "sha256": "b142790e8429f9d7a33b93900ea2523ebf4dded6aa9f77dcdf283cc2e34ec4b3",
+      "bytes": 3821,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/00_START_HERE/READ_ORDER.md",
+      "origin": "Original verified master/00_START_HERE/READ_ORDER.md",
+      "sha256": "dedfc41fc85a4c5a887c8ac56a36517deb0fe8ebeaf859f462cf1f53fd3fdaeb",
+      "bytes": 4043,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/00_START_HERE/START_HERE.md",
+      "origin": "Original verified master/00_START_HERE/START_HERE.md",
+      "sha256": "848dedc37fd833b8550ff7eaa7b396c26047082120d06a7169c6dd183f5bd7ef",
+      "bytes": 5985,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/00_START_HERE/UNRESOLVED_FUTURE_DECISIONS.md",
+      "origin": "Original verified master/00_START_HERE/UNRESOLVED_FUTURE_DECISIONS.md",
+      "sha256": "cd050217bc7bc805c87d270ec8e4b383426f26ef0f174e0e68d34c9a34525e68",
+      "bytes": 1468,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/02_FOUNDATIONAL_BLUEPRINTS/IDIGITALROOT_MASTER_HANDOFF_2026-09-23_v1.0.md",
+      "origin": "Original verified master/02_FOUNDATIONAL_BLUEPRINTS/IDIGITALROOT_MASTER_HANDOFF_2026-09-23_v1.0.md",
+      "sha256": "8ea68243b8ade273abe631c66fdd4f08b89e48801341a6ea8db5ea2fec04e305",
+      "bytes": 17252,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/02_FOUNDATIONAL_BLUEPRINTS/LATEST_HANDOFF_REQUEST_2026-09-28.txt",
+      "origin": "Original verified master/02_FOUNDATIONAL_BLUEPRINTS/LATEST_HANDOFF_REQUEST_2026-09-28.txt",
+      "sha256": "55f0a26f408f393d0e6de6bf568c4b3ab12cd3a27c058a299a2dc5899c5e0d1e",
+      "bytes": 12504,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/02_FOUNDATIONAL_BLUEPRINTS/POST_STAGE9C_TO_PHASE1_RECONSTRUCTED_RECORD.md",
+      "origin": "Original verified master/02_FOUNDATIONAL_BLUEPRINTS/POST_STAGE9C_TO_PHASE1_RECONSTRUCTED_RECORD.md",
+      "sha256": "b26fb4b9ae1f3596f35cef4d3aaa4b2f04cedfa21bcab389f36b7a354baccb15",
+      "bytes": 2848,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_01_START_HERE_Plain_Text_v2.txt",
+      "origin": "Original verified master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_01_START_HERE_Plain_Text_v2.txt",
+      "sha256": "4e83811f14346b8adcb6bd6277c32f8719441c0dacb1294048e50aaf30632efc",
+      "bytes": 38365,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_Admin_Operations_Dashboard_Final_Technical_Blueprint_v1.0.md",
+      "origin": "Original verified master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_Admin_Operations_Dashboard_Final_Technical_Blueprint_v1.0.md",
+      "sha256": "8e2a00873a4638fd9ddb65ccf6411289e70d6beb80347a71904d2f2420b07cd6",
+      "bytes": 64930,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_Client_Account_Dashboard_Final_Technical_Blueprint_v1.0.docx",
+      "origin": "Original verified master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_Client_Account_Dashboard_Final_Technical_Blueprint_v1.0.docx",
+      "sha256": "29791ffa525b91c2ce075b619b4706317fb6729948113ba773b713a98794a64d",
+      "bytes": 62375,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_Cross_Platform_Admin_Control_Localization_and_Rich_Media_Extension_v1.0.md",
+      "origin": "Original verified master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_Cross_Platform_Admin_Control_Localization_and_Rich_Media_Extension_v1.0.md",
+      "sha256": "d4f83db110b582aa4104f3f00c0cad59879c37d527b2cf6f5136681e94553ab6",
+      "bytes": 7631,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_Full_Solution_Developer_Blueprint_Requirements_v0.1.md",
+      "origin": "Original verified master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_Full_Solution_Developer_Blueprint_Requirements_v0.1.md",
+      "sha256": "f519d98825140c1d4a610146359de3518edf2d9a2c3298b5d966a89a1a1643bb",
+      "bytes": 30817,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_Public_Website_Lead_Inquiry_Extension_v1.1.md",
+      "origin": "Original verified master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_Public_Website_Lead_Inquiry_Extension_v1.1.md",
+      "sha256": "df43dc094d57d5a63311a013bc1b00a4ccda9e65310d73475c66562964906e47",
+      "bytes": 36197,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_Public_Website_Product_Technical_Blueprint_v1.0_Candidate.docx",
+      "origin": "Original verified master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_Public_Website_Product_Technical_Blueprint_v1.0_Candidate.docx",
+      "sha256": "7ea0e4f178d37bde5269850c21823f5de56abcc4a87b7da5900f8eccfa5d5b2f",
+      "bytes": 60122,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/03_SYSTEM_DEFINITIONS/CLIENT_PUBLIC_WEBSITE_FACTORY_TECHNICAL_BLUEPRINT_v1.0.md",
+      "origin": "Original verified master/03_SYSTEM_DEFINITIONS/CLIENT_PUBLIC_WEBSITE_FACTORY_TECHNICAL_BLUEPRINT_v1.0.md",
+      "sha256": "28369f2da418f406d18c43c7b3ecbe40ecaf866a1cc9a3efc3c11ecb375e5180",
+      "bytes": 2992,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/03_SYSTEM_DEFINITIONS/CLIENT_WEBSITE_CMS_TECHNICAL_BLUEPRINT_v1.0.md",
+      "origin": "Original verified master/03_SYSTEM_DEFINITIONS/CLIENT_WEBSITE_CMS_TECHNICAL_BLUEPRINT_v1.0.md",
+      "sha256": "47f772592b429069ac46008bfe53bb71f8960da7a1f1a264eb9de904d16f8ea1",
+      "bytes": 4652,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/03_SYSTEM_DEFINITIONS/CROSS_SYSTEM_IDENTITY_SSO_AND_AUTHORIZATION.md",
+      "origin": "Original verified master/03_SYSTEM_DEFINITIONS/CROSS_SYSTEM_IDENTITY_SSO_AND_AUTHORIZATION.md",
+      "sha256": "47af8e5b28d59f1d9aad3aea0f1ec16615823d661cc9ddbbe3fb07cc13557e19",
+      "bytes": 2428,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/03_SYSTEM_DEFINITIONS/FULL_SOLUTION_TARGET_ARCHITECTURE_v1.0.md",
+      "origin": "Original verified master/03_SYSTEM_DEFINITIONS/FULL_SOLUTION_TARGET_ARCHITECTURE_v1.0.md",
+      "sha256": "c8dda8d6db8939efabef2fcc640b33626c071fe28ba9da37bcabfb84070ecc79",
+      "bytes": 3172,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/03_SYSTEM_DEFINITIONS/LOCALIZATION_CONTENT_MEDIA_AND_DESIGN_SYSTEM.md",
+      "origin": "Original verified master/03_SYSTEM_DEFINITIONS/LOCALIZATION_CONTENT_MEDIA_AND_DESIGN_SYSTEM.md",
+      "sha256": "1e713a5d155ddee222caa7c11ec69ee851147b0e2999cf44bc3dff101f7bac5a",
+      "bytes": 1940,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/03_SYSTEM_DEFINITIONS/SYSTEM_01_PUBLIC_WEBSITE_STUDENT.md",
+      "origin": "Original verified master/03_SYSTEM_DEFINITIONS/SYSTEM_01_PUBLIC_WEBSITE_STUDENT.md",
+      "sha256": "afdf2da0bcf1ef2d3f48ad34feb80487fd5d20f5c747742f1b8b8e4888c8febe",
+      "bytes": 2103,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/03_SYSTEM_DEFINITIONS/SYSTEM_02_PUBLIC_WEBSITE_CMS.md",
+      "origin": "Original verified master/03_SYSTEM_DEFINITIONS/SYSTEM_02_PUBLIC_WEBSITE_CMS.md",
+      "sha256": "f4394d3c47fa3f72816721cc1a43637d5e407f434256b07951357e185fadc5c6",
+      "bytes": 2297,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/03_SYSTEM_DEFINITIONS/SYSTEM_03_CLIENT_PANEL.md",
+      "origin": "Original verified master/03_SYSTEM_DEFINITIONS/SYSTEM_03_CLIENT_PANEL.md",
+      "sha256": "9aae8ed78ff9f5536b89d976164b7b8de12215954bebdb3d5f10b35fba62969a",
+      "bytes": 2015,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/03_SYSTEM_DEFINITIONS/SYSTEM_04_ADMIN_OPERATIONS_PANEL.md",
+      "origin": "Original verified master/03_SYSTEM_DEFINITIONS/SYSTEM_04_ADMIN_OPERATIONS_PANEL.md",
+      "sha256": "99698f521798cbf6e957a6adc01554313cc84b3cffbacb47d55101bcdab95ebd",
+      "bytes": 2260,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/03_SYSTEM_DEFINITIONS/SYSTEM_05_CLIENT_WEBSITE_CMS.md",
+      "origin": "Original verified master/03_SYSTEM_DEFINITIONS/SYSTEM_05_CLIENT_WEBSITE_CMS.md",
+      "sha256": "bfb26a15d4f91edd2b90e766040c9536e5d6b37e0818ef70dcd30d31f2c9a141",
+      "bytes": 2354,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/03_SYSTEM_DEFINITIONS/SYSTEM_06_CLIENT_PUBLIC_WEBSITE_FACTORY.md",
+      "origin": "Original verified master/03_SYSTEM_DEFINITIONS/SYSTEM_06_CLIENT_PUBLIC_WEBSITE_FACTORY.md",
+      "sha256": "650ba5af973b81cb932f4c3f9a75cf188aa409c7fd80fe041c39abd1bafaf7ab",
+      "bytes": 2461,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/03_SYSTEM_DEFINITIONS/SYSTEM_BOUNDARIES_AND_DATA_OWNERSHIP.md",
+      "origin": "Original verified master/03_SYSTEM_DEFINITIONS/SYSTEM_BOUNDARIES_AND_DATA_OWNERSHIP.md",
+      "sha256": "c81a2c320a2ec7e40bb085637020c05eeb3f958f4ec548b7274f744949e3fb99",
+      "bytes": 2325,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/04_SECURITY/INCIDENT_LOGGING_MONITORING_BACKUP_DR.md",
+      "origin": "Original verified master/04_SECURITY/INCIDENT_LOGGING_MONITORING_BACKUP_DR.md",
+      "sha256": "fed8149fe0447e8ef92fb71807a1da7a4150c1b28c6724ab2f0f0181d73978ce",
+      "bytes": 2082,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/04_SECURITY/SECURE_SDLC_SUPPLY_CHAIN.md",
+      "origin": "Original verified master/04_SECURITY/SECURE_SDLC_SUPPLY_CHAIN.md",
+      "sha256": "26ec3e21f75ee5f0431aa237f79c9d6c24ad89c443c93d62f7fa67e7e2956e54",
+      "bytes": 2021,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/04_SECURITY/SECURITY_ACCEPTANCE_GATES.md",
+      "origin": "Original verified master/04_SECURITY/SECURITY_ACCEPTANCE_GATES.md",
+      "sha256": "7e579e3230129efe384e950c98a0dd0eb29d00e4d5f69ee517325ffceb8924fb",
+      "bytes": 2828,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/04_SECURITY/SECURITY_ARCHITECTURE_AND_THREAT_MODEL.md",
+      "origin": "Original verified master/04_SECURITY/SECURITY_ARCHITECTURE_AND_THREAT_MODEL.md",
+      "sha256": "9e1fb5469efa893db354dcd9b705c98dfbd78fa189c76bb2194adb9e4a085022",
+      "bytes": 2631,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/04_SECURITY/SECURITY_MASTER_BASELINE.md",
+      "origin": "Original verified master/04_SECURITY/SECURITY_MASTER_BASELINE.md",
+      "sha256": "8aa235fa5d42bdabe69c1d76b1b83e3d306a5397de994da8b707a3b28e6d8cc1",
+      "bytes": 7944,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/04_SECURITY/SECURITY_STANDARDS_REFERENCE.md",
+      "origin": "Original verified master/04_SECURITY/SECURITY_STANDARDS_REFERENCE.md",
+      "sha256": "0ecbe3b6b4db9c4a045fff9816b46b8b678d8760783fd6dc757616fd9fce78de",
+      "bytes": 1801,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/04_SECURITY/SECURITY_TEST_MATRIX.csv",
+      "origin": "Original verified master/04_SECURITY/SECURITY_TEST_MATRIX.csv",
+      "sha256": "2efa07445b5e61ab0638429409a652672117ec38f47d099dda48dff5bb67d293",
+      "bytes": 2464,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/05_DELIVERY_ROADMAP/DEFINITION_OF_DONE_AND_RELEASE_GATES.md",
+      "origin": "Original verified master/05_DELIVERY_ROADMAP/DEFINITION_OF_DONE_AND_RELEASE_GATES.md",
+      "sha256": "2c213ae67cfc0a0babccfe6ab5c71e458823f2f89827fb4ba358f40526ee5df5",
+      "bytes": 1426,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/05_DELIVERY_ROADMAP/MASTER_EXECUTION_ROADMAP.md",
+      "origin": "Original verified master/05_DELIVERY_ROADMAP/MASTER_EXECUTION_ROADMAP.md",
+      "sha256": "e84ef3191d1195ce2c3866ce9c3a816ccfcc2a7b34f4627a0579113714f71bb1",
+      "bytes": 1954,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/05_DELIVERY_ROADMAP/PHASE_1_COMPLETION_PLAN.md",
+      "origin": "Original verified master/05_DELIVERY_ROADMAP/PHASE_1_COMPLETION_PLAN.md",
+      "sha256": "deaf50537ee6f3c729b0c02b9b1d6fab730a9bc45d9af73189693a6ee47c75ca",
+      "bytes": 1723,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/05_DELIVERY_ROADMAP/PHASE_2_ADMIN_PANEL_PLAN.md",
+      "origin": "Original verified master/05_DELIVERY_ROADMAP/PHASE_2_ADMIN_PANEL_PLAN.md",
+      "sha256": "88c4f72f3f5c197084fea29159a3596ff150a1fd962f9aab199aa81ea3b5d7fb",
+      "bytes": 1046,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/05_DELIVERY_ROADMAP/PHASE_3_CLIENT_PANEL_PLAN.md",
+      "origin": "Original verified master/05_DELIVERY_ROADMAP/PHASE_3_CLIENT_PANEL_PLAN.md",
+      "sha256": "35108cc5838931d960846e0f403cf2386d8d7f72c9318b0a56b6ad3933404a44",
+      "bytes": 707,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/05_DELIVERY_ROADMAP/PHASE_4_CLIENT_CMS_PLAN.md",
+      "origin": "Original verified master/05_DELIVERY_ROADMAP/PHASE_4_CLIENT_CMS_PLAN.md",
+      "sha256": "2dc4c06cbf241e828fafd9e1931703c2b7a43d084945003bfc84ccff3b5a43c0",
+      "bytes": 908,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/master/05_DELIVERY_ROADMAP/PHASE_5_CLIENT_WEBSITE_FACTORY_PLAN.md",
+      "origin": "Original verified master/05_DELIVERY_ROADMAP/PHASE_5_CLIENT_WEBSITE_FACTORY_PLAN.md",
+      "sha256": "81b42a57ee43e505b83e6c9730cb9d62165284b80f236fa72644c333d2fbcd40",
+      "bytes": 823,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/current/STUDENT_LAUNCH_SCOPE.md",
+      "origin": "Current delivered MOTION01 context; historical assessments are not Client Panel acceptance",
+      "sha256": "329fba22695dec63e01bab63ee7523fc99eff15caf73241bb39563e4fee78690",
+      "bytes": 8586,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/current/UNIVERSAL_ARCHITECTURE.md",
+      "origin": "Current delivered MOTION01 context; historical assessments are not Client Panel acceptance",
+      "sha256": "d0d9257400be7372de963bec4f9815a4b992e5f22c81b4618ad158356f750228",
+      "bytes": 6497,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/current/UNIVERSAL_OWNER_GUIDE.md",
+      "origin": "Current delivered MOTION01 context; historical assessments are not Client Panel acceptance",
+      "sha256": "e6e00f0baf45f788a0e88179971ee1d8c9042a9ab048c2c8e2ae5b96fb6df2c0",
+      "bytes": 3249,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/current/MOTION_READING_CHECKPOINT.md",
+      "origin": "Current delivered MOTION01 context; historical assessments are not Client Panel acceptance",
+      "sha256": "b6b0926b1a51cec25332822e4178ad19e06515858b6c345dfd0563a07a5e001c",
+      "bytes": 2688,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/current/MOTION_THREAT_MODEL.md",
+      "origin": "Current delivered MOTION01 context; historical assessments are not Client Panel acceptance",
+      "sha256": "fdf13e01c7134d9f86b23e6587c3384d8ba2280b074a5e96345edd299f3966d2",
+      "bytes": 2845,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/current/MOTION_CHANGE_REPORT.md",
+      "origin": "Current delivered MOTION01 context; historical assessments are not Client Panel acceptance",
+      "sha256": "0ea4c38be74600da67f9b407d04c4ef7d77920d60b1554204432896fbcb45d76",
+      "bytes": 2850,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/current/AUTHORITY_REGISTER.md",
+      "origin": "Current delivered MOTION01 context; historical assessments are not Client Panel acceptance",
+      "sha256": "d447abaa089dd1d2be6789c7ef65647f4762893b9cb0220b6e94e97fd8e589fa",
+      "bytes": 6236,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/current/VERIFICATION_REPORT.md",
+      "origin": "Current delivered MOTION01 context; historical assessments are not Client Panel acceptance",
+      "sha256": "5ce52450a7d9f1049e2fc17bc4f687ed91986acc5d432ce6efba1e95927bc9f5",
+      "bytes": 6799,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/current/VERIFICATION_SUMMARY.json",
+      "origin": "Current delivered MOTION01 context; historical assessments are not Client Panel acceptance",
+      "sha256": "96eeac9997dcc83f21b514b82a75da6ebe665ee0411685c03406aec211967315",
+      "bytes": 2587,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/current/SECURITY_OWNER_TITLES.csv",
+      "origin": "Current delivered MOTION01 context; historical assessments are not Client Panel acceptance",
+      "sha256": "15d530eb16cbb30d028f9f1d03e85da2e09d1395d159d52787a3d91b59124de5",
+      "bytes": 64003,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/current/ROOT02_ASVS_5_0_0_MATRIX.csv",
+      "origin": "Current delivered MOTION01 context; historical assessments are not Client Panel acceptance",
+      "sha256": "5589be78b73725cb94a4b66612dd927e8abb56a6c688e37a53ed21433f5989b0",
+      "bytes": 331965,
+      "copy": "VERBATIM"
+    },
+    {
+      "path": "authority/CLIENT_ACCOUNT_BLUEPRINT_ORIGINAL_TEXT.txt",
+      "origin": "authority/master/02_FOUNDATIONAL_BLUEPRINTS/iDigitalRoot_Client_Account_Dashboard_Final_Technical_Blueprint_v1.0.docx",
+      "originSha256": "29791ffa525b91c2ce075b619b4706317fb6729948113ba773b713a98794a64d",
+      "sha256": "0f2249d64945002271721cfbb78050e423b2138f35b257b2ba18e38b43cdf576",
+      "bytes": 40904,
+      "copy": "MECHANICAL_TEXT_EXPORT; paragraph/table paragraph order; no semantic edits; original DOCX controls if formatting matters"
+    }
+  ]
+}

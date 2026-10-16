@@ -1,0 +1,270 @@
+iDigitalRoot portable textual handoff from iDigitalRoot_Full_Handoff_v2.zip
+Source is original verified ZIP; paths label sections. Original DOCX extract sections are READING AIDS ONLY, not replacement binaries.
+No nested Stage ZIPs are included in this text copy. No schema or user approvals are newly granted.
+
+
+
+######## BEGIN EXACT ZIP MEMBER: CUSTOMIZED_CONTINUATION_PROMPT.txt ########
+
+iDigitalRoot — EXACT POST-STAGE9C v1.5 CONTINUATION PROMPT (handoff 2026-09-23 v2.0)
+
+I am uploading the ONE authoritative continuation/archive file:
+`IDIGITALROOT_FULL_HANDOFF_RELEASE_2026-09-23_POST_STAGE9C_v2.0.zip`
+
+OBJECTIVE: Resume iDigitalRoot, our human-delivered managed digital-presence and website platform, from the *exact Stage 9C Public/Client Semantic Closure Pass 4 v1.5 stopping point*. This archive contains the original six product sources, original architecture Stages 1–9B, standalone Stages 10–22, cross-stage integration v1.0, reconciled blueprint candidate v1.1, Stage 9C v1.2–v1.5, supporting evidence, and our post-v1.5 conversation handoff. Its v2.0 label identifies a handoff archive, NOT a frozen or newly improved technical blueprint.
+
+FIRST ACTION: Inventory the uploaded ZIP, extract it where tool support allows, check `RELEASE_MANIFEST.json` and `SHA256SUMS.txt` against actual bytes, and read `VERIFICATION_REPORT.md`. Do not equate ZIP integrity with completeness of every past conversation. Do not pretend inaccessible history was read. If too large, process in explicit, check-pointed batches with an inspect/remaining list.
+
+REQUIRED READING ORDER:
+1. `README_FIRST.md`, `MASTER_HANDOFF.md`, `CURRENT_STATE.md`, `SOURCE_AND_COVERAGE_REGISTER.md`.
+2. `REQUIREMENTS_AND_USER_RULES.md`, `DECISION_AND_APPROVAL_LEDGER.md`, `CHRONOLOGY.md`, `FAILURES_CORRECTIONS_AND_LESSONS.md`, `CONFLICTS_AND_MISSING_MATERIAL.md`, `OPEN_ITEMS_AND_NEXT_STEPS.md`.
+3. Exact evidence: `CURRENT_STAGE9C/LATEST_METRICS_v1.5.json`, `CURRENT_STAGE9C/ALL_123_STATUS_v1.5.csv`, `CURRENT_STAGE9C/PUBLIC_CLIENT_16_REVIEW_v1.5.csv`, `CURRENT_STAGE9C/SIX_TECHNICAL_BLOCKERS_v1.5.csv`, `CURRENT_STAGE9C/NEXT_PASS_AND_PRE_CODE_GATES_v1.5.md`, the v1.4 full SQL and field evidence matrices, Stage 9B original 135 endpoints, original 256 permissions, 142 later change proposals, 17 conflicts, and the source/implementation registers.
+4. Before making a technical change, read the exact full original sources that govern it: `SOURCE_FILES/ORIGINAL_AUTHORITATIVE_SOURCES/`, original Stages 1–9B and exact later predecessor ZIPs under `SOURCE_FILES/ORIGINAL_RELEASE_ARCHIVES/`. Use original DOCX, not only text extracts. Original product sources govern requirements; subsequent explicit user-approved choices supersede early candidate stack; actual Stage 5B SQL governs actual proposed physical columns; approved revisions have to be evidenced, not assumed. Do NOT silently merge optional parallel factory material.
+
+ESTABLISHED PRESENT STATE:
+- No final architecture freeze, no actual codebase/Cloudflare modification authorized, no new role permissions, no activated Stage 9C routes and zero real runtime tests executed. The 12 live release gates remain open.
+- Of the stable 123 historic Stage 10 API-gap IDs (107 Admin, 15 Client, 1 Public), v1.5 reports 1 existing typed API reuse review, 21 critical *unapproved* bounded drafts, 3 social-profile *unapproved* bounded drafts and 98 full field/entity open. The 16 Public/Client cases received semantic review, but are NOT all closed; 107 Admin remain for focused semantic review. Candidate method/path/security classes from v1.3 and 82 preliminary table matches from v1.4 do not prove DTO closure or approved joins. Original 155 UI gaps and 142 later heterogeneous changes must not be conflated with 297 missing endpoints.
+- The latest owner question was why we still had gaps. The prior answer acknowledged repetitive review releases and committed to definitive technical closure instead. This full handoff was requested next; do not treat the packaging as a new technical Stage 9C milestone.
+
+DO THE ACTUAL NEXT WORK NOW: Form ONE source-evidenced 123-case definitive adjudication ledger, not another review-only release. Reuse or extend exact original Stage 9B typed operations where proven (including checking existing inquiry-status API-0008); for genuinely missing operations produce field-complete request/response/negative DTOs, authenticated realm, precise route, exact Stage 5B DDL column/foreign-key/transaction proof, Stage 7 site/account/object permission checks, Stage 8 audit/outbox/notification/CSRF/idempotency/concurrency semantics and explicit runtime tests. Distinguish CLOSED + evidence from DRAFT + open proof and POLICY-DEFERRED; quantify unresolved counts accurately. Finish the 16 Public/Client blockers and then the 107 Admin cases in coherent evidence-driven groups; reconcile 29 later under-specified route proposals and 17 cross-stage conflicts. Preserve original stable IDs and every supersession. If exact source cannot justify a field/permission, fail closed and document the precise technical evidence gap, not an invented implementation.
+
+PERMANENT USER RULES: Astro + TypeScript, justified optional React islands, Cloudflare Workers/D1/R2 $0-first without weakening security, WSL target `/home/limitedream/websites/C0000-idigitalroot`, ONE npm workspace WITHOUT GIT, immutable ZIP/SHA-256 releases. Build iDigitalRoot as Client Zero first; internal site frontend generator, separate site CMS generator, integration/testing layer and server deployment factory come later as independent workstreams. Public inquiry is eight-step with approved human lead conversion and single-use invitation, not open signup. Client Account and internal Admin remain independent from each client-site CMS. Launch Arabic RTL/English LTR, Admin-managed future locales, WCAG/mobile/mixed bidi; no silent source editing by CMS. Strict site/account/object scopes, staff privileged MFA, separately protected audit custody and provider-confirmed financial truth. No paid action, production provisioning, user workspace mutation, infrastructure/DNS change, role grant or application deployment without my separate explicit approval. Do not make me a trial runner. Require source-exact independent offline verification and honest status: design vs implemented vs tested vs deployed vs approved. Keep safe no-publish/no-charge/deny default.
+
+AUTHORITATIVE NEXT GATES: After genuinely closing technical work, complete source-to-data/API/permission/UI/test integration and independently verify exact candidate; submit integrated blueprint for my explicit architecture freeze. Only then use WP-001 source evidence and separately approved WP-005 as first conditional code-building packet. Do not demand that all 9,894 historical test/QA rows be executed before the first code packet, but do not claim any real Stage 19 acceptance passed without actual runtime receipts. Ask me only for genuine business decisions (e.g. tax/legal terms, client MFA policy, finance thresholds, provider spend, backup custody), or specific explicit authorization for real changes.
+
+If access is incomplete, identify exact inaccessible sources and continue on well-grounded safe work with coverage register. Preserve source files as durable uploaded references (upload does not create unlimited or permanent memory). Your FIRST response should give me a concise, evidence-based ingestion checkpoint: what you actually opened and verified, what remains unread or unavailable, precise current closure status and the first definite Stage 9C technical action. Then proceed on authorized no-spend work without asking me to re-upload facts that are already in this ZIP.
+
+
+######## END EXACT ZIP MEMBER: CUSTOMIZED_CONTINUATION_PROMPT.txt ########
+
+
+######## BEGIN EXACT ZIP MEMBER: README_FIRST.md ########
+
+# iDigitalRoot — Full handoff release 2026-09-23 v2.0
+
+STATUS: **ARCHITECTURE DESIGN CANDIDATE, NOT FROZEN; Stage 9C Public/Client Pass 4 v1.5 is latest exact technical predecessor.**
+
+## One required archive
+`IDIGITALROOT_FULL_HANDOFF_RELEASE_2026-09-23_POST_STAGE9C_v2.0.zip` is self-contained and includes exact-byte copies of 21 accessible ZIP releases (including original iDigitalRoot handoff), six original governing product source documents plus a non-governing Admin text copy, original stage archives, latest status/evidence extracts, consolidated documentation, standalone continuation prompt, manifests and verifiers. Historic nested ZIPs are deliberately preserved; they are not automatically superseded by newer filenames. Upload this ZIP and paste `CUSTOMIZED_CONTINUATION_PROMPT.txt` in the next chat. No second ZIP needed.
+
+## Read in order
+1. `README_FIRST.md`, `MASTER_HANDOFF.md`, `CURRENT_STATE.md`, `SOURCE_AND_COVERAGE_REGISTER.md`.
+2. `REQUIREMENTS_AND_USER_RULES.md`, `DECISION_AND_APPROVAL_LEDGER.md`, `CONFLICTS_AND_MISSING_MATERIAL.md`, `FAILURES_CORRECTIONS_AND_LESSONS.md`, `CHRONOLOGY.md`.
+3. `CURRENT_STAGE9C/LATEST_METRICS_v1.5.json`, `CURRENT_STAGE9C/ALL_123_STATUS_v1.5.csv`, `CURRENT_STAGE9C/NEXT_PASS_AND_PRE_CODE_GATES_v1.5.md` and focused review/evidence files.
+4. Source files governing any implementation choice: unchanged original six, original Stages 1–9B, Stages 10–22, cross-stage candidate v1.0, reconciliation v1.1, and Stage 9C v1.2–v1.5. Access via `SOURCE_FILES/ORIGINAL_RELEASE_ARCHIVES/` and extracted source paths; read full exact predecessor as needed.
+5. `OPEN_ITEMS_AND_NEXT_STEPS.md`, `ARTIFACT_REGISTER.csv`, `RELEASE_MANIFEST.json`, `SHA256SUMS.txt`, `VERIFICATION_REPORT.md`.
+
+## Exact stopping point
+Owner asked why gaps persist. Latest reply confirmed the same **123 historic gap IDs** remain for traceability, not necessarily 123 new endpoints: 1 existing API reuse review, 21 bounded security-critical **unapproved** DTO drafts, 3 bounded social-profile **unapproved** drafts, and 98 open field/entity contracts. The next authorized action is **safe offline technical contract closure**, not new infrastructure/code changes. The 16 Public/Client cases have source-focused review; 107 Admin cases remain to receive equivalent deep semantic review. Start a definitive consolidated close/open registry rather than repeating review-only releases. No architecture freeze, endpoint activation, production tests or permissions granted.
+
+## Evidence boundary
+Historical conversation timeline below is a **reconstructed summary of accessible conversation context**, not a verbatim chat transcript; only the two actual uploaded prompts under `CONVERSATION_RECORDS/` are preserved verbatim. Full previous chat transcript and independent proof of every previously reported verification result were not exposed. File integrity is verified for accessible ZIPs; not every historic claim is independently rerun. Original DOCX texts have faithful machine-extraction reading aids, but the DOCX originals remain authoritative.
+
+
+######## END EXACT ZIP MEMBER: README_FIRST.md ########
+
+
+######## BEGIN EXACT ZIP MEMBER: MASTER_HANDOFF.md ########
+
+# Complete working handoff — iDigitalRoot
+
+## Vision, business model and authority
+Managed human-delivered digital presence and website services—not a self-service AI website builder. Four independent responsibility boundaries: (1) iDigitalRoot public and marketing site; (2) invited Client Account with multi-project/multi-site relationship visibility and approvals; (3) individually authenticated internal Admin & Operations operating plane with exact scope, MFA and protected audit; (4) a **separate CMS for each client website**, with site-specific content/products/media/users and scoped cryptographic one-site SSO. Public visitors use an eight-stage progressive inquiry, including consent and attribution; authorized staff review, qualify, propose and explicitly convert a lead. Conversion preserves original lead history, and secure single-use invitation activates the Client Account; no public account self-registration.
+
+## Full product experiences
+Public localized services/solutions/blueprints, Root Check, Knowledge Center, accessibility/SEO, public inquiry and localized legal/consent content. Client dashboard: permitted website/project previews and version approvals, onboarding, service and domain/email metadata, billing and renewal information, support, safe notifications and site-specific SSO. Internal Admin: CMS, inquiry/CRM/client/project blueprint operations, commerce/finance, subscriptions, domains/mail, support, staff authorization/security, deployments, monitoring and backup controls. Client Account is neither a generic CMS editor nor a hosting/DNS console nor secrets store. Internal Admin never has unbounded raw secrets/source-code access.
+
+## Chosen candidate engineering baseline and environment
+Astro + TypeScript, optional justified React islands, Cloudflare Workers, Cloudflare D1 central relational platform, Cloudflare R2 objects, $0-first/Cloudflare-first; Windows owner WSL2 target `/home/limitedream/websites/C0000-idigitalroot`; one npm workspace without Git; independently deployable Public/Client/Admin apps, public/protected API Workers, shared type/validation/authorization/localization packages. Separate development/staging/production. Reproducible immutable ZIPs with SHA-256 manifests, tested approval gates and rollback. Arabic RTL + English LTR launch; Admin-managed future locales; per-locale draft/approval/legal versioning and protected translations. HTML rich editing and approved embeds need sanitization, CSP, allowlists, versioned review, media quarantines and safe preview. No routine CMS source editing. Client CMSs remain independent, with single-use audience/site/nonce-bound SSO and separate local sessions. Security cannot be weakened solely to meet free quotas.
+
+## Authority / release lineage
+Initial handoff 2026-09-23 v1.0 carries six governing originals and original Stages 1–9B. Subsequent design candidates Stages 10–22, cross-stage integrated blueprint candidate v1.0, reconciliation candidate v1.1, and Stage 9C passes v1.2, v1.3, v1.4, v1.5. This v2.0 **handoff** is a consolidation and archive, not a newly approved technical architecture revision. Latest detailed Stage 9C is **v1.5 candidate**. Source requirements control product intent; explicit later user decisions supersede earlier candidate implementation choices; existing endpoint IDs and exact schema evidence control technical provenance until proposed changes are formally adjudicated. Where conflicting or ambiguous, do not claim resolution merely because a later draft exists.
+
+## Verified-by-source structural milestone inventory (candidate designs, not production)
+Stages 1–2 source hierarchy / 60 ownership families / 17 conceptual contracts / 16 boundaries / 18 invariants. Stage 3 proposed no-Git workspace. Stage 4 216 logical entities in 19 domains. Stages 5/5B proposed 200 central D1 tables (initial 65 + 135) with separate 11 client CMS logical types, projections and protected archive; disposable SQLite checks only. Stage 6 sessions, invitation/reauth/recovery, privileged MFA; Workers Free hashing CPU benchmark still open. Stage 7 256 candidate permissions and 15 proposed role bundles; client `services.read` must be distinct from staff permission, Root Check client read proposed and unapproved. Stage 8 34 threat cases and 71 audit/security events; real off-account audit custody open. Stage 9 135 original endpoints; Stage 9B 155 DTO types, 187 schemas and original 797+30 unexecuted runtime obligations. Stages 10–18 cover 183 screens, 1,062 actions, 515 field entries, public CMS, localization, R2/media, queues/outbox, independent CMS/SSO, commercial, Cloudflare release, monitoring/audit custody/recovery. Stage 19 inventoried 9,894 test+QA obligation rows incl 1,647 additional accessibility/localization rows; 12 real release gates remain open. Stage 20 mapped 32 dependency-driven engineering packets; Stage 21 Client Zero assigned 32 packets/11 release trains/18 user journeys. Stage 22 indexed 6,330 original source-index lines, but **semantic requirement proof incomplete**: 123 directly anchored source passages and 8,159 section-context linkage candidates were previously reported. Cross-stage review identified 17 conflicts, 155 Stage 10 UI-contract gaps and 142 later change proposals; these are not 297 proven new endpoints.
+
+## Current exact API program
+Reconciliation v1.1 identified 123 Stage 10 unmatched API work packets (107 Admin, 15 Client, 1 Public) after earlier treatment of 29 later proposals; another 29 later operation proposals lacked complete routes. Stage 9C v1.2 gave all 123 a proposed disposition; 21 security-critical bounded draft DTOs, 492 additional planned tests. v1.3 assigned candidate method/path/realm/transaction/guard classes to all 123, split 51 read vs 72 mutation candidates; route proposals NOT approvals. v1.4 linked all 123 to actual Stage 5B SQL candidate columns and a fail-closed permission/audit envelope; 82 preliminary table matches and 41 lacking those matches, NOT approved joins. v1.5 semantically reviewed 16 Public/Client cases; three social-profile bounded draft schemas; 64 additional test specs; 107 Admin carry forward. Current four-way disposition counts **98 open, 21 critical drafts unapproved, 3 social drafts unapproved, 1 existing typed reuse review**. All 123 still lack approved activation. Official v1.5 metrics: 0 real runtime tests executed, 0 new role grants, 0 activated routes, architecture_frozen=false.
+
+## Original historical field/route issues that must survive
+Keep API-0029 invitation token-bearing preview GET review, API-0065 sensitive Lead export GET review, API-0076 DELETE role-assignment JSON body review, API-0127 full PUT Root Check config though legacy DTO named Patch; preserve original IDs unless formally changed. Existing API-0008 may cover optional inquiry status; verify against original endpoint and source requirements. API-0043 client one-site CMS handoff and API-0131 private service consume need full signed ticket redemption, nonce and revocation proof. `services.read` staff permission does not automatically grant self-owned client access. Original Stage 5B field catalog omitted shared `id` despite SQL containing it; actual SQL outranks the shorthand catalog for physical field truth. Invoices must not expose mutable/unverified PDFs, support attachments require proven ownership/storage, mailboxes require exact account relationships, protected previews require exact project/version scope.
+
+## Safe development policy and deployment boundary
+Only offline design/read-only file verification is currently authorized. No modification of user's WSL files or real infrastructure, Cloudflare provisioning, DNS, payments, provider activation, account settings, or spend without precise owner approval. Owner is approval authority, not trial runner. Complete architecture scope/lineage tests and explicit freeze before conditional code-building WP-005. WP-001 is first bounded source/evidence acceptance packet. Initial construction of source-linked, offline contracts is currently permitted. Synthetic validations are NOT real Workers/D1/provider/browser acceptance. 12 live release gates remain OPEN. Freeze/future version should carry clear SOURCE-FROZEN / DESIGN CANDIDATE / OPEN / FUTURE distinction.
+
+## Immediate goal
+Stop serial review-only gap releases. Build one defensible, machine-readable **123-case final adjudication ledger**: reuse/extend/new/defer/owner-policy, prove exact fields from originals + Stage 5B physical SQL + Stage 9B actual DTOs, map real endpoint ID or explicit change ID, object/site/account permission, transactional writes, audit/outbox and positive/negative test receipts, and assign distinct closure status. Resolve 16 Public/Client blockers then 107 Admin cases in rational batches; reconcile 29 later operation proposals and 17 cross-stage conflicts. Only call a case CLOSED after source, DTO, SQL, scope, audit and tests are specified; evidence must say planned vs run. Route activation forbidden pending acceptance. Do not assert a deadline for implementation while unknown complexity remains.
+
+
+######## END EXACT ZIP MEMBER: MASTER_HANDOFF.md ########
+
+
+######## BEGIN EXACT ZIP MEMBER: CURRENT_STATE.md ########
+
+# Exact stopping state — 2026-09-23
+
+Latest technical candidate: `IDIGITALROOT_STAGE9C_PUBLIC_CLIENT_SEMANTIC_CLOSURE_PASS4_RELEASE_v1.5.zip`. Its original-byte archive is in `SOURCE_FILES/ORIGINAL_RELEASE_ARCHIVES/` and its key exact extracted evidence is in `CURRENT_STAGE9C/`.
+
+Current counts proved by `CURRENT_STAGE9C/ALL_123_STATUS_v1.5.csv`: {'EXISTING_TYPED_REUSE_REVIEW': 1, 'CRITICAL_FIELD_BOUNDED_DESIGN_DRAFT_UNAPPROVED': 21, 'SOURCE_AND_ENTITY_FIELD_CLOSURE_OPEN': 98, 'FIELD_BOUNDED_CANDIDATE_NOT_APPROVED': 3}. Total 123 original gap IDs retained. 16 Public/Client semantically reviewed, 107 Admin unmodified carry-forward. 1 existing typed reuse REVIEW; 21 critical bounded DRAFTS; 3 social bounded DRAFTS; 98 FIELD/ENTITY OPEN. None approved as route or role grant. v1.5 says 0 runtime tests executed, 64 new unexecuted test specifications, architecture_frozen=false. Stage 9B real 797+30 tests and all 12 live Stage 19 gates remain unexecuted/open.
+
+Latest question from owner: why gaps persist? Prior assistant explained historic IDs retained despite triage and that review/documentation outpaced full technical resolution, promised definitive closure rather than further perpetual release passes. User then explicitly requested THIS full ZIP and customized next-chat prompt; this handoff responds to that request, **not** a new technical closure milestone. Do not misrepresent v2.0 handoff as v1.6 engineering progress.
+
+Next authorized action: no-spend exact-source definitive Stage 9C field/entity/transaction/permission/audit/DTO closure ledger for all 123, prioritize security-related dependencies and complete 16 Public/Client then 107 Admin; track open vs true closed with proof. Subsequent 29 later operation proposals and 17 cross-stage conflicts; source-semantic integration; freeze decision; separately authorized work packet WP-001 evidence then conditional WP-005 codebase foundation. No mutation approval has been granted.
+
+
+######## END EXACT ZIP MEMBER: CURRENT_STATE.md ########
+
+
+######## BEGIN EXACT ZIP MEMBER: REQUIREMENTS_AND_USER_RULES.md ########
+
+# Governing user requirements and constraints
+
+- iDigitalRoot is a managed digital-presence business: human-delivered service, not self-service AI website builder. Build platform itself first as Client Zero; later independently specify internal site frontend generator, site CMS/backend generator, integration/testing layer and provisioning/operations factory. Related factory ZIPs are parallel unapproved evidence until formally reconciled.
+- Four independent application boundaries: localized Public Website with full eight-step inquiry; invitation-only multi-site Client Account, scope-restricted internal Admin & Operations, independent CMS for each client website; staff-specific roles/permissions and durable audit.
+- Public inquiry captures versioned consent/attribution. Authorized lead conversion explicitly creates single-use account activation; preserve lead history. Public signup forbidden in selected model.
+- Astro/TypeScript, justified React islands, Cloudflare Workers/D1/R2; Cloudflare-first and no-cost-first, not at expense of security; npm workspace NO GIT; WSL `/home/limitedream/websites/C0000-idigitalroot` proposed target. DEV/STAGING/PROD separation, immutable ZIP+SHA256 and rollback, no automatic production release.
+- Initial Arabic RTL and English LTR; future Admin-managed languages, per-locale legal terms and review, WCAG and mobile/mixed-bidi coverage; safe HTML WYSIWYG and trusted embeds without unreviewed source edits.
+- Deny/no-publish/no-charge defaults while decisions unresolved; safe session/MFA/reauth/CSRF/replay protections, exact site/account/object scopes, provider-confirmed truth, independent encrypted backups/audit custody, disclosure of incomplete proofs.
+- Do source-exact exhaustive engineering rather than pushing discovery/trial runs to owner. Owner authorization required before ANY real workspace/infrastructure mutation, spend, deployment, provisioning or production approval. No scripts sent to owner that merely find assistant defects.
+- Preserve each original file and historical change. Do not treat latest candidate filename as signed approval or promote synthetic/offline checks to production proofs. Where present reports differ from source bytes, flag contradictions and resolve from exact artifact lineage.
+
+
+######## END EXACT ZIP MEMBER: REQUIREMENTS_AND_USER_RULES.md ########
+
+
+######## BEGIN EXACT ZIP MEMBER: DECISION_AND_APPROVAL_LEDGER.md ########
+
+# Decisions, authority and approvals
+
+| Decision | Status | Boundary/evidence |
+|---|---|---|
+| Managed human-delivered service; public inquiry then authorized lead conversion then invitation | Selected product rule | Original six + subsequent user acceptance; not public self-registration |
+| Separate Public/Client/Admin/client-site CMS responsibilities | Selected product boundary | Initial handoff and subsequent architecture stages |
+| Astro + TypeScript, justified React islands, Cloudflare Workers/D1/R2, $0-first | Selected implementation baseline | Initial handoff and later explicit choice; constraints can require further verified technical change |
+| One npm workspace NO GIT, immutable ZIP+SHA-256 releases, dev/stage/prod | Selected engineering direction | Initial handoff, Stage 17 candidate; actual workspace not approved for mutation |
+| Stage 1–22 and Stage 9C v1.2–1.5 technical artifacts | DESIGN CANDIDATE | Offline evidence only; NOT accepted production code, final freeze or endpoint/permission approvals |
+| Initial independent CMS and one-site cryptographic SSO | Selected boundary, design candidate protocol | Stage 15; local session, nonce, rotation and service-consume proof outstanding |
+| 123 historic gap IDs | Keep stable | Stage 10 and latest v1.5 status; must measure true closure independently of retained IDs |
+| User desires definitive closure instead of repetitive reviews | Active owner instruction | Latest conversation immediately before handoff request |
+| Actual source/code/infra mutation, accounts, Cloudflare provisioning, DNS, spending | NOT AUTHORIZED | Must seek specific separate approval after exact verified scope |
+| Final architecture freeze; production launch | NOT GRANTED | 12 live acceptance gates remain open |
+| Client MFA policy, finance approval/refund limits, actual rates, legal/retention/tax terms, backup/key custody, paid provider selection | OWNER DECISIONS OPEN | Full exact 17-item register preserved in `IMPLEMENTATION/EXACT_17_OWNER_DECISION_REGISTER.csv` |
+
+This handoff v2.0 archives source and updates continuation text; it grants NO new implementation authority.
+
+
+######## END EXACT ZIP MEMBER: DECISION_AND_APPROVAL_LEDGER.md ########
+
+
+######## BEGIN EXACT ZIP MEMBER: FAILURES_CORRECTIONS_AND_LESSONS.md ########
+
+# Historical mistakes, corrections and preventions
+
+- Previously delivered archived handoff links in another chat were reported by owner as unclickable. Only give current-turn-created and verified sandbox file links. This release uses exact generated paths and ZIP CRC/manifest validation.
+- Stage 5B shorthand field catalog omitted shared `id`; actual extracted SQL physically includes it. For column/foreign-key proof use actual SQL DDL, not catalog display names or semantic word matches.
+- Stage 10 gap IDs were repeatedly carried unchanged into v1.5, so 123/123 triaged is not 123/123 field-closed. Use disjoint CLOSED, DRAFT and OPEN statuses, measured by full evidence, not number of review passes or candidate paths.
+- 155 UI gaps + 142 proposed downstream changes are heterogeneous and overlapping; never count 297 as 297 required new endpoints.
+- Staff `services.read` cannot be copied into client context; client self-scope permission is proposed only until controlled change approved and security-tested.
+- Stage 9B sensitive API caveats: invitation token-bearing GET (`API-0029`), Lead export GET (`API-0065`), DELETE role-assignment JSON body (`API-0076`), full PUT Root Check config with old Patch DTO label (`API-0127`). Preserve IDs and block silent route/DTO rewrites.
+- Stage 14 outbox is authoritative in D1; Cloudflare Queue is transport, NOT permanent evidence or long-term disaster recovery store. Design limits must be reverified at actual infrastructure approval date.
+- v1.5 still has 107 Admin gap cases without targeted source-semantic review. Do not produce new generic high-count structural checks in lieu of real field/relationship proof.
+- Offline integrity/schema/negative simulation checks are useful but DO NOT prove real staging browser, D1, Workers or provider behavior. No real runtime acceptance tests or approval evidenced.
+- Initial archive's related Cloudflare client-site technical handoff v2.0 is optional historical context, not authority for primary platform architecture until explicitly reconciled.
+
+
+######## END EXACT ZIP MEMBER: FAILURES_CORRECTIONS_AND_LESSONS.md ########
+
+
+######## BEGIN EXACT ZIP MEMBER: SOURCE_AND_COVERAGE_REGISTER.md ########
+
+# Source inspection and coverage
+
+## Directly accessible and archived
+- 21 standalone ZIP archives in `SOURCE_FILES/ORIGINAL_RELEASE_ARCHIVES/`: CRC tested and copied byte-for-byte; all entries listed/archived. Their internal reports and claims are *historical assertions* unless the actual evidence was reproduced this turn.
+- Original initial handoff's six governing source documents (three DOCX and three Markdown) extracted as exact bytes under `SOURCE_FILES/ORIGINAL_AUTHORITATIVE_SOURCES/`; its extra Admin Markdown reading aid is non-governing. DOCX paragraphs and tables programmatically extracted into labelled reading aids, not a substitute for the originals.
+- Original Stages 1–2 Markdown and Stage 3–9B archive bytes separately extracted under `SOURCE_FILES/ORIGINAL_STAGES_1_TO_9B/`, in addition to the intact initial ZIP.
+- Latest original v1.5 status/review/metrics and predecessor v1.4/v1.3/v1.2, v1.1, Stage 21 and Stage 22 exact evidence selected into `CURRENT_STAGE9C/` and `IMPLEMENTATION/`; all primary predecessor archives also remain intact.
+- Loose available uploaded prompt, original pasted Stage 10 continuation prompt, 123 gap CSV/MD, retained scripts and two loose stage evidence folders were included where present.
+
+## What is NOT directly available
+- Complete verbatim transcript exports for earlier and current historical conversation, private scratchpads, files only described but not uploaded or embedded in accessible archives, real Cloudflare credentials/resource state, actual WSL user workspace, live application/staging proof, real browser or provider confirmation. This release contains two exact uploaded prompts in `CONVERSATION_RECORDS/`, **not** a verbatim reconstruction of all chats.
+- No assertion that every line inside every nested historical ZIP has been semantically read by the packaging process; original bytes available for systematic continuation. Predecessor embedded ZIPs and stage context retained for full deep inspection in next chat.
+
+## Source-tier rules
+A = originals actually available as bytes / precise latest structured records; B = machine-extracted text/index/primary release documents; C = user-assistant reported history in accessible conversation; D = model memory/summary (not substituted for files); E = explicit inference/remaining unknown. The release's chronology is tier C reconstruction, not a verbatim transcript. Manifest integrity only validates captured bytes, not complete historical coverage.
+
+Original source coverage table: `SOURCE_FILES/ORIGINAL_SIX_SOURCE_CHECKSUMS.csv`; extraction counts: `SOURCE_FILES/DOCX_EXTRACTION_COVERAGE.csv`; full package rows: `ARTIFACT_REGISTER.csv` and `SOURCE_FILES/ARCHIVE_INTEGRITY_INDEX.csv`.
+
+
+######## END EXACT ZIP MEMBER: SOURCE_AND_COVERAGE_REGISTER.md ########
+
+
+######## BEGIN EXACT ZIP MEMBER: CONFLICTS_AND_MISSING_MATERIAL.md ########
+
+# Outstanding conflicts and inaccessible evidence
+
+1. No complete verbatim historical chat export: chronology reconstructed and explicitly labelled. Original accessible archives and prompt attachments preserved; independent evidence for historical reported test counts is available only in those stored release reports where present.
+2. 17 cross-stage conflicts reviewed in integrated candidate: exact candidate dispositions in `CURRENT_STAGE9C/17_CROSS_STAGE_CONFLICTS_v1.1.csv`; none silently promoted to owner-approved freeze.
+3. Field closure: latest 123-case status includes 98 open, 21 critical unapproved drafts, 3 social unapproved drafts, 1 reuse review. 16 Public/Client targets were reviewed but NOT all closed, and 107 Admin still need focused source-semantic review.
+4. 29 later operation proposals lack complete route/DTO treatment; full original 142 heterogeneous change proposals archived. 123, 155 and 297 counts refer to different baselines, avoid conflation.
+5. Actual Workers password hashing performance, authorized host names/providers, staff/finance thresholds, legal retention, independent evidence custody and real restoration targets remain open. See exact 17 owner decisions register in IMPLEMENTATION.
+6. Current user's WSL workspace and Cloudflare accounts were not accessed. No proof any previous draft physical schema was migrated, or that source + app contracts are implemented.
+7. First-hand exact text of some earlier conversation replies is visible in supplied conversation context but not available as machine-readable raw exported file; release provides a faithful labelled summary, NOT fabricated transcript.
+8. Optional related factory archives remain outside primary authority unless explicit owner-controlled merger.
+
+
+######## END EXACT ZIP MEMBER: CONFLICTS_AND_MISSING_MATERIAL.md ########
+
+
+######## BEGIN EXACT ZIP MEMBER: OPEN_ITEMS_AND_NEXT_STEPS.md ########
+
+# Next execution in agreed order
+
+**NOW, OFFLINE AND ALREADY AUTHORIZED**: build one definitive Stage 9C full closure register for exactly 123 inherited IDs. For each case inspect original 6 sources, exact Stage 9B endpoint/DTO, Stage 5B DDL/foreign keys, Stage 7 scoped permission rules, Stage 8 audit/outbox events, Stage 10 UI/action tests and later change proposals. Classify `REUSE_VERIFIED`, `EXTEND_FIELD_COMPLETE`, `NEW_FIELD_COMPLETE`, `POLICY_DEFERRED`, or `OPEN_TECHNICAL_EVIDENCE` plus independent decision/approval status. Preserve existing API IDs and original source SHA. Do not mark field complete on speculative names or lexical column matches. Prioritize 16 Public/Client (including invoice-download immutability, support attachment ownership, MFA recovery, SSO) then 107 Admin in coherent bounded groups. Technical design closure is assistant-owned.
+
+**THEN**: adjudicate all 29 later route-incomplete operation proposals, permission deltas (including staff-vs-client services.read), revised DTO/schema overlays and physically exact SQL joins, 17 cross-stage conflicts; complete semantic original requirement trace; tie positive/negative test evidence and audit/jobs/outbox; independently validate closed definitions against retained source. Publish authoritative controlled revision and measured open count, not a decorative new release.
+
+**BEFORE REAL CODE**: settle genuine business choices only when exact decisions are needed; produce integrated final technical blueprint for user explicit freeze; execute scoped WP-001 evidence packet, and request separate explicit mutation consent for WP-005 npm/Astro/Workers skeleton after exact WSL read-only inventory. Stage 19's 12 real acceptance gates apply in deployment/staging/release and are NOT substitutes for initial code authorization.
+
+**AFTER AUTHORIZED BUILD**: execute dependency-driven 32 Client Zero work packets, real tests and deployment controls, independent CMS later, then separate future internal generator/factory blueprints and workstreams. No real production rollout implied now.
+
+
+######## END EXACT ZIP MEMBER: OPEN_ITEMS_AND_NEXT_STEPS.md ########
+
+
+######## BEGIN EXACT ZIP MEMBER: CURRENT_STAGE9C/NEXT_PASS_AND_PRE_CODE_GATES_v1.5.md ########
+
+# Remaining engineering and implementation boundary
+
+1. Reconcile the 16 focused target dispositions against the full Stage 9B API/DTO registry, the Stage 4 ownership graph and the Stage 5B actual foreign-key DDL, not just lexical candidate columns.
+2. For the remaining Public/Client contracts, source-authorize the minimal projections and exact data joins; preserve private redaction and no-account-enumeration.
+3. Continue the same source-to-physical-column semantic adjudication for the 107 Admin gaps, then controlled review of the 29 later operation proposals and all predecessor conflicts.
+4. Complete and approve Stage 7 permission deltas, Stage 8 audit/outbox event IDs, transaction boundaries, retry/concurrency guarantees, field-complete DTOs, and explicit Stage 9C contract change control.
+5. Complete independent end-to-end semantic source trace and test specification reconciliation; seek separate owner decisions only for true business policy choices.
+6. Final architecture freeze and separate work-packet-specific owner consent must precede mutation of their workspace/infrastructure. The historical 12 real acceptance gates and all real runtime tests remain OPEN.
+
+This release does **not** claim the 16 target gaps were fully closed.
+
+
+######## END EXACT ZIP MEMBER: CURRENT_STAGE9C/NEXT_PASS_AND_PRE_CODE_GATES_v1.5.md ########
+
+
+######## BEGIN EXACT ZIP MEMBER: CURRENT_STAGE9C/LATEST_METRICS_v1.5.json ########
+
+{
+  "release": "Stage9C focused Public/Client pass4 v1.5",
+  "source_gaps_total": 123,
+  "public_client_semantically_reviewed": 16,
+  "admin_unmodified_carry_forward": 107,
+  "draft_social_profile_operations": 3,
+  "existing_api_reuse_candidates": 1,
+  "new_target_test_specifications_not_executed": 64,
+  "real_runtime_tests_executed": 0,
+  "new_role_permissions_granted": 0,
+  "activated_routes": 0,
+  "predecessor_exact_sha256": "87f7f2a8ede87182992a1dc03760eaea56a17f2c2712faa3b0cdd92d2ba129df",
+  "architecture_frozen": false
+}
+
+
+######## END EXACT ZIP MEMBER: CURRENT_STAGE9C/LATEST_METRICS_v1.5.json ########

@@ -1,0 +1,18 @@
+{
+  "file": "IDIGITALROOT_CLIENT_PANEL_BLUEPRINT_AND_AI_HANDOFF_2026-10-16_v1.1.zip",
+  "sha256": "eaf9c8015387da6063f97368bdc8451488e0d8458b84891f94f5f80183395b1d",
+  "bytes": 2276739,
+  "files": 75,
+  "expandedBytes": 3201223,
+  "status": "PASS_HANDOFF_INTEGRITY_ONLY",
+  "manifestChecksums": "PASS",
+  "zipCrc": "PASS",
+  "freshExtraction": "PASS",
+  "nestedPublicSource": "PASS_SHA_CRC_ALL_SOURCE_CHECKSUMS",
+  "masterCompanion": "PASS_SHA_CRC_MANIFEST_CHECKSUMS",
+  "tamperedSecurityAuthority": "REJECTED_AS_EXPECTED",
+  "clientImplementation": "NOT_BUILT",
+  "clientSecurityAssessment": "NOT_ASSESSED_CLIENT_PANEL",
+  "providerMutation": false,
+  "deployment": false
+}
