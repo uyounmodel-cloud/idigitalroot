@@ -1,13 +1,13 @@
 {
   "status": "PASS_LOCAL_EXACT_SEALED_SOURCE",
-  "reviewBuild": "ROOT-02",
+  "reviewBuild": "MOTION-01",
   "source": {
-    "source_file": "IDIGITALROOT_ROOT02_SOURCE_2026-10-15_rc4.zip",
-    "source_sha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
-    "bytes": 1814683,
-    "files": 344
+    "source_file": "IDIGITALROOT_MOTION01_SOURCE_2026-10-16_rc2.zip",
+    "source_sha256": "a3a11293559b72dac65973184412b38fbbf76b61cf89e4acec845db812dfbd2b",
+    "bytes": 1832582,
+    "files": 351
   },
-  "freshRunnerSteps": 31,
+  "freshRunnerSteps": 32,
   "checks": {
     "native-workflows": 11,
     "native-negative": 12,
@@ -15,11 +15,12 @@
     "cms-studio": 19,
     "universal-browser": 13,
     "menu-isolation": 10,
+    "motion": 6,
     "cms-accessibility": 16,
     "public-accessibility": 68
   },
-  "newCorporateRoutes": 30,
-  "publishedArticleViews": 4,
+  "responsiveMotionViews": 50,
+  "editorialFieldCompatibilityLocalizedPages": 30,
   "cmsWorkspaceLanguageViews": 54,
   "cmsDialogProbes": 36,
   "browserConsoleCheck": {
@@ -28,30 +29,40 @@
     "scope": "Normal CSP; exact operator, eight public views plus CMS home/page gallery/audience editor/saved preview."
   },
   "sourceChecksumsAfterTests": "PASS",
-  "backendCmsAnalyticsDomainMigrationsDependenciesUnchanged": true,
+  "unchangedContracts": {
+    "backendDomainFiles": 9,
+    "analyticsDomainFiles": 16,
+    "cmsDomainFiles": 14,
+    "status": "PASS",
+    "dependencyDeclarationsAndLocks": "UNCHANGED",
+    "frozenMigrationBytes": "UNCHANGED",
+    "remoteMutation": false,
+    "sourceSha256": "a3a11293559b72dac65973184412b38fbbf76b61cf89e4acec845db812dfbd2b"
+  },
   "operator": {
     "status": "PASS",
-    "sourceSha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
+    "sourceSha256": "a3a11293559b72dac65973184412b38fbbf76b61cf89e4acec845db812dfbd2b",
+    "previousSourceSha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
     "checks": [
       {
-        "name": "first exact operator start/stop; original retained; ROOT02 private draft persisted",
+        "name": "first exact operator start, compatible ROOT02 copy, original unchanged, own private draft persisted and normal stop",
         "status": "PASS"
       },
       {
-        "name": "reopen exact operator start/stop; original retained; ROOT02 private draft persisted",
+        "name": "reopen exact operator start, compatible ROOT02 copy, original unchanged, own private draft persisted and normal stop",
         "status": "PASS"
       }
     ],
-    "reviewDataPolicy": "Separate fresh ROOT02 dataset; earlier Horizon/Clarity data is preserved, not adopted or merged",
     "previousDataByteInventoryUnchanged": true,
+    "compatibleRoot02Copied": true,
+    "editorialContract": "PASS",
     "privateDraft": {
       "status": "PASS",
-      "entityId": "page_fcbe3290-1531-4f21-9120-cd934833214c",
+      "entityId": "page_fc1f99bb-0c1d-49f4-81ec-35e806d88b56",
       "mode": "read",
       "publicStatus": 404,
       "retainedRevisions": 1
     },
-    "registryDuringTest": "https://127.0.0.1:9",
     "offlineDependencies": true,
     "warmStartReusedDependencies": true,
     "sourceChecksumsAfterTests": "PASS",

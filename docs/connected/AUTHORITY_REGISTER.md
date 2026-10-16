@@ -1,3 +1,11 @@
+# Current visual successor: MOTION01 — 16 October 2026
+
+Owner requests a more expressive motion-design version, preserving the current four-audience company content, distribution and connected CMS. This supersedes ROOT02 visually only; it is a candidate awaiting explicit owner acceptance. Read MOTION_READING_CHECKPOINT.md, MOTION_OWNER_GUIDE.md, MOTION_THREAT_MODEL.md and VERIFICATION_REPORT.md.
+
+Source `IDIGITALROOT_MOTION01_SOURCE_2026-10-16_rc2.zip` SHA256 `a3a11293559b72dac65973184412b38fbbf76b61cf89e4acec845db812dfbd2b`. Review `IDIGITALROOT_MOTION01_REVIEW_2026-10-16_R1.zip` SHA256 `295078128300f4d73080e7442d615de3bfac7cc4b5a6445637e828968db61a25`. Exact local technical verification PASS; Phase1 OPEN, production release BLOCKED. Nothing deployed. Original approved authorities and prior source/review ZIPs remain unchanged. Current backend/CMS/analytics domain/dependency/schema bytes match ROOT02. Compatible review content may be copied into a separate candidate without resetting/publishing or altering originals. Client/Admin/Toolbox/Workspace remain planned.
+
+The entries below are historical; their original approvals do not approve this successor.
+
 > Current review: **ROOT 02**, source SHA256 7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa. The owner authorized a new corporate public structure and confirmed four audience story pages and team-reviewed quotes, retaining the praised CMS design. This supersedes earlier preservation of the student-only page/template distribution. Read UNIVERSAL_READING_CHECKPOINT.md, UNIVERSAL_ARCHITECTURE.md and VERIFICATION_REPORT.md. No owner/independent acceptance transfers to new bytes. Phase1 OPEN; no provider deployment authorized.
 
 The inherited source includes historical Horizon/Clarity authority notes for provenance. The source RELEASE_MANIFEST.json and UNIVERSAL_READING_CHECKPOINT.md state the current scope. Earlier “current” labels and presentation-only restrictions below are historical, superseded by the latest explicit owner decision.

@@ -1,3 +1,5 @@
+> Visual successor, 16 October: MOTION01 retains this content/model contract. Its code-owned motion design and compatible review-data copy are documented in MOTION_OWNER_GUIDE.md and MOTION_THREAT_MODEL.md. ROOT02 visual labels/data-start notes below describe the predecessor. New candidate is not owner accepted.
+
 # Open ROOT 02
 
 Download the new ROOT 02 review ZIP from the repository downloads folder, extract it into a new folder, close an earlier preview launcher, and double-click OPEN_CONNECTED_PREVIEW.cmd. Keep its window open. The website and CMS show ROOT 02 so you can confirm the correct build. First startup verifies offline dependencies and builds in native Ubuntu/WSL storage; it prints progress. Do not open an old extracted package or overwrite an existing candidate's files.

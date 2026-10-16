@@ -1,39 +1,39 @@
-# iDigitalRoot / ROOT 02
+# iDigitalRoot / MOTION 01
 
-**A new company website for everyone, with one complete story page for each audience.** The student-only public structure has been replaced. The CMS design you liked is retained.
+**The new motion-design review. Same company story, four audiences and connected CMS.**
 
-[**Download ROOT 02 — 90 MB**](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_ROOT02_REVIEW_2026-10-15_R2.zip) · [Installation guide](downloads/ROOT02_INSTALLATION_GUIDE.txt)
+[**Download MOTION01 — 94 MB**](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_MOTION01_REVIEW_2026-10-16_R1.zip) · [Installation guide](downloads/MOTION01_INSTALLATION_GUIDE.txt) · [Watch the actual site move](docs/connected/screenshots/motion01-motion-preview.webm)
 
-Close an older preview, extract this ZIP into a **new folder**, then double-click **OPEN_CONNECTED_PREVIEW.cmd**. Use your existing Windows + Ubuntu/WSL environment. Both applications identify **ROOT 02**. This starts separate review data; your older folders and drafts remain intact. Reopening this candidate keeps its own saved changes. Verified Linux x64 dependencies are included.
+![MOTION01 — actual browser view](docs/connected/screenshots/motion01-home-first-screen.png)
 
-## Four audiences, one company
+The public design now has a dimensional animated Root, larger audience portals, expressive typography, contrasting editorial sections, pointer response and scroll reveals. The pause control remembers your preference; your device's Reduce Motion setting takes priority. Content and navigation work without JavaScript. No stock video, external font/CDN or animation library is needed.
 
-Students · Employees & Professionals · Entrepreneurs & Startups · Businesses & Organizations. Each gets its own complete story page, appropriate design and a quote wizard that starts with its audience already selected and editable. The team reviews needs and prepares the quote. No signup, automatic payment or instant price.
+## Open this version
 
-![New iDigitalRoot company website](docs/connected/screenshots/root02-public-home.png)
+Close the older preview, extract this ZIP into a **new folder**, then double-click **OPEN_CONNECTED_PREVIEW.cmd** with your existing Windows+Ubuntu/WSL setup. Confirm **MOTION01** on the website and CMS. An old shortcut still opens the old design. Keep the launcher open while browsing.
 
-[Students](docs/connected/screenshots/root02-students.png) · [Professionals](docs/connected/screenshots/root02-professionals.png) · [Entrepreneurs](docs/connected/screenshots/root02-entrepreneurs.png) · [Businesses](docs/connected/screenshots/root02-businesses.png) · [Arabic desktop](docs/connected/screenshots/root02-public-home-ar.png) · [Arabic phone](docs/connected/screenshots/root02-business-ar-phone.png)
+Compatible ROOT02 review content is copied into a separate candidate folder; originals remain unchanged. MOTION01 keeps its own subsequent edits. Nothing is reset or automatically published. Older incompatible review datasets remain separate. [Editing and data-preservation guide](docs/connected/MOTION_OWNER_GUIDE.md)
 
-The shared company site explains website/domain/email/managed foundations, How We Work and the planned Client Account. A real published Knowledge library supports CMS-managed articles. The previous student subpages redirect to the single student story.
+## Explore the design
 
-## The CMS you liked, connected locally
+[Full homepage](docs/connected/screenshots/motion01-public-home.png) · [Students](docs/connected/screenshots/motion01-students.png) · [Professionals](docs/connected/screenshots/motion01-professionals.png) · [Entrepreneurs](docs/connected/screenshots/motion01-entrepreneurs.png) · [Businesses](docs/connected/screenshots/motion01-businesses.png) · [Arabic desktop](docs/connected/screenshots/motion01-public-home-ar.png) · [Arabic phone](docs/connected/screenshots/motion01-business-ar-phone.png) · [Knowledge](docs/connected/screenshots/motion01-knowledge.png)
 
-Choose a clearly named audience or shared page. Edit its words, photos, sections and main button in the saved-page canvas. Save & preview stays private. Publish names the exact page/language and requires explicit review. Articles, services, menus/footer, media, translations and analytics retain their dedicated workspaces.
+The four audience stories, shared services, How We Work, Knowledge and team-reviewed quote remain connected. All30 localized page definitions retain the exact editable headings/paragraphs/field positions/CTA contracts from ROOT02. No signup, charge, instant quote or fake working account is added.
 
-![Retained Website Console](docs/connected/screenshots/root02-cms-home.png)
+## Your connected CMS stays familiar
 
-![Audience pages in one CMS](docs/connected/screenshots/root02-cms-pages.png)
+The Horizon console layout is retained. Edit a named page, Save & preview privately, then explicitly review and publish the named entity/language. Protected preview uses the new visual design with static decoration. Menus/footer/articles/services/media/translations/analytics retain their own workspaces and publication scopes.
 
-[Actual audience editor](docs/connected/screenshots/root02-cms-audience-editor.png) · [Protected saved preview](docs/connected/screenshots/root02-cms-preview.png)
+![Connected CMS](docs/connected/screenshots/motion01-cms-home.png)
 
-Menu drafts now immediately expose Preview and Publish controls. Private menu previews match system/light/dark appearance, and the narrow menu opens without scripts. Saving/cancelling review leaves public content untouched; publication changes only the reviewed entity and language. CMS UI language, editing language and preview language remain independent.
+[Audience editor](docs/connected/screenshots/motion01-cms-audience-editor.png) · [Protected saved preview](docs/connected/screenshots/motion01-cms-preview.png)
 
-## Verification and release status
+## Evidence and limits
 
-[Exact-source verification](docs/connected/VERIFICATION_REPORT.md) · [Architecture](docs/connected/UNIVERSAL_ARCHITECTURE.md) · [Editing guide](docs/connected/UNIVERSAL_OWNER_GUIDE.md) · [Threat model](docs/connected/UNIVERSAL_THREAT_MODEL.md) · [151-title security matrix](docs/connected/ROOT02_SECURITY_MATRIX.csv) · [345-requirement ASVS matrix](docs/connected/ROOT02_ASVS_5_0_0_MATRIX.csv) · [Checksums](downloads/SHA256SUMS.txt) · [Immutable source](downloads/IDIGITALROOT_ROOT02_SOURCE_2026-10-15_rc4.zip)
+[Exact-source verification](docs/connected/VERIFICATION_REPORT.md) · [Test matrix](docs/connected/TEST_MATRIX.csv) · [Motion threat model](docs/connected/MOTION_THREAT_MODEL.md) · [151-title security matrix](docs/connected/MOTION01_SECURITY_MATRIX.csv) · [345-requirement ASVS matrix](docs/connected/MOTION01_ASVS_5_0_0_MATRIX.csv) · [Immutable source](downloads/IDIGITALROOT_MOTION01_SOURCE_2026-10-16_rc2.zip) · [Checksums](downloads/SHA256SUMS.txt)
 
-Clean fresh-extraction install/build, actual local Workers/D1/R2, four audience inquiries, real analytics/reporting, article publishing, CMS editing, menu/draft isolation, adversarial and automated accessibility checks passed on the exact sealed source. The actual operator passed cold/warm startup and edit persistence without altering earlier review data. These are local agent verification results, not owner or independent acceptance.
+Fresh pinned install, official Cloudflare build/actual local Workers/D1/R2, real inquiries/analytics, CMS editing/publication/draft isolation, motion/reduced-motion/no-JS, EN/AR responsive and automated accessibility checks passed on the exact sealed source. Exact operator cold/warm startup, copied ROOT02 preservation and private-draft persistence were verified. The short recording is actual browser output. Performance diagnostics are local observations, not a production benchmark.
 
-**Review candidate. Phase1 OPEN. Nothing deployed.** Owner Windows/manual/independent and legal/provider/integrated security/QA/release gates remain open. Client Account/Admin dashboards, full12 Toolbox tools and16 Workspace positions are still planned, not operational. All student tools remain mandatory commercial scope. This public rebuild does not claim the commercial platform is finished.
+**Candidate awaiting owner review. Phase1 OPEN. Nothing deployed.** Windows/manual/native Arabic/independent security/QA/legal/provider/release gates remain open. Client/Admin dashboards and all12 Toolbox/16 Workspace positions are still planned, not operational. No commercial-platform completion or zero-vulnerability claim.
 
-Historical approved authorities and earlier immutable archives remain preserved. [Current metadata](downloads/CONNECTED_CURRENT.json) · [Authority register](docs/connected/AUTHORITY_REGISTER.md)
+[Current metadata](downloads/CONNECTED_CURRENT.json) · [Authority register](docs/connected/AUTHORITY_REGISTER.md). GitHub preserves the delivered source/packages/docs/setup; original master transfer, live review databases, credentials and all machine state are not automatically backed up here.

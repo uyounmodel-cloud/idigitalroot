@@ -1,3 +1,5 @@
+> Visual successor, 16 October: MOTION01 retains this content/model contract. Its code-owned motion design and compatible review-data copy are documented in MOTION_OWNER_GUIDE.md and MOTION_THREAT_MODEL.md. ROOT02 visual labels/data-start notes below describe the predecessor. New candidate is not owner accepted.
+
 # ROOT 02 — one company site, four audience stories
 
 Owner confirmed 15 October 2026: Students, Employees & Professionals, Entrepreneurs & Startups, Businesses & Organizations; editable audience preselection; a quote prepared by the team. This replaces the previous student-only public information architecture. It does not create isolated tenant editions or a functioning Client Account.

@@ -1,0 +1,79 @@
+{
+  "status": "PASS_LOCAL_EXACT_SEALED_SOURCE",
+  "reviewBuild": "MOTION-01",
+  "source": {
+    "source_file": "IDIGITALROOT_MOTION01_SOURCE_2026-10-16_rc2.zip",
+    "source_sha256": "a3a11293559b72dac65973184412b38fbbf76b61cf89e4acec845db812dfbd2b",
+    "bytes": 1832582,
+    "files": 351
+  },
+  "freshRunnerSteps": 32,
+  "checks": {
+    "native-workflows": 11,
+    "native-negative": 12,
+    "native-global-ui": 6,
+    "cms-studio": 19,
+    "universal-browser": 13,
+    "menu-isolation": 10,
+    "motion": 6,
+    "cms-accessibility": 16,
+    "public-accessibility": 68
+  },
+  "responsiveMotionViews": 50,
+  "editorialFieldCompatibilityLocalizedPages": 30,
+  "cmsWorkspaceLanguageViews": 54,
+  "cmsDialogProbes": 36,
+  "browserConsoleCheck": {
+    "status": "PASS",
+    "errors": [],
+    "scope": "Normal CSP; exact operator, eight public views plus CMS home/page gallery/audience editor/saved preview."
+  },
+  "sourceChecksumsAfterTests": "PASS",
+  "unchangedContracts": {
+    "backendDomainFiles": 9,
+    "analyticsDomainFiles": 16,
+    "cmsDomainFiles": 14,
+    "status": "PASS",
+    "dependencyDeclarationsAndLocks": "UNCHANGED",
+    "frozenMigrationBytes": "UNCHANGED",
+    "remoteMutation": false,
+    "sourceSha256": "a3a11293559b72dac65973184412b38fbbf76b61cf89e4acec845db812dfbd2b"
+  },
+  "operator": {
+    "status": "PASS",
+    "sourceSha256": "a3a11293559b72dac65973184412b38fbbf76b61cf89e4acec845db812dfbd2b",
+    "previousSourceSha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
+    "checks": [
+      {
+        "name": "first exact operator start, compatible ROOT02 copy, original unchanged, own private draft persisted and normal stop",
+        "status": "PASS"
+      },
+      {
+        "name": "reopen exact operator start, compatible ROOT02 copy, original unchanged, own private draft persisted and normal stop",
+        "status": "PASS"
+      }
+    ],
+    "previousDataByteInventoryUnchanged": true,
+    "compatibleRoot02Copied": true,
+    "editorialContract": "PASS",
+    "privateDraft": {
+      "status": "PASS",
+      "entityId": "page_fc1f99bb-0c1d-49f4-81ec-35e806d88b56",
+      "mode": "read",
+      "publicStatus": 404,
+      "retainedRevisions": 1
+    },
+    "offlineDependencies": true,
+    "warmStartReusedDependencies": true,
+    "sourceChecksumsAfterTests": "PASS",
+    "ownerWindowsRun": "UNVERIFIED",
+    "providerMutation": false,
+    "deployment": false
+  },
+  "ownerApproved": false,
+  "ownerWindowsRun": "UNVERIFIED",
+  "phase1": "OPEN",
+  "productionRelease": "BLOCKED",
+  "providerMutation": false,
+  "deployment": false
+}

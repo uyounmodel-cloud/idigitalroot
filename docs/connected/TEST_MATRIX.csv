@@ -1,0 +1,47 @@
+gate,status,evidence,scope_limit
+source-checksums,PASS,evidence/fresh-extraction/source-checksums.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+pinned-install,PASS,evidence/fresh-extraction/pinned-install.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+backend-pinned-install,PASS,evidence/fresh-extraction/backend-pinned-install.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+cms-pinned-install,PASS,evidence/fresh-extraction/cms-pinned-install.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+analytics-pinned-install,PASS,evidence/fresh-extraction/analytics-pinned-install.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+audit-tools-install,PASS,evidence/fresh-extraction/audit-tools-install.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+backend-build,PASS,evidence/fresh-extraction/backend-build.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+cms-build,PASS,evidence/fresh-extraction/cms-build.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+analytics-build,PASS,evidence/fresh-extraction/analytics-build.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+astro-check,PASS,evidence/fresh-extraction/astro-check.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+official-workers-build,PASS,evidence/fresh-extraction/official-workers-build.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+frontend-boundary,PASS,evidence/fresh-extraction/frontend-boundary.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+shared-renderer-compile,PASS,evidence/fresh-extraction/shared-renderer-compile.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+preview-assets,PASS,evidence/fresh-extraction/preview-assets.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+frontend-runtime-contract,PASS,evidence/fresh-extraction/frontend-runtime-contract.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+integration-security,PASS,evidence/fresh-extraction/integration-security.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+backend-tests,PASS,evidence/fresh-extraction/backend-tests.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+cms-contract-security,PASS,evidence/fresh-extraction/cms-contract-security.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+analytics-tests,PASS,evidence/fresh-extraction/analytics-tests.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+synthetic-bootstrap,PASS,evidence/fresh-extraction/synthetic-bootstrap.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+core-local-d1,PASS,evidence/fresh-extraction/core-local-d1.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+analytics-local-d1,PASS,evidence/fresh-extraction/analytics-local-d1.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+native-workflows,PASS,evidence/fresh-extraction/native-workflows.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+native-negative,PASS,evidence/fresh-extraction/native-negative.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+native-global-ui,PASS,evidence/fresh-extraction/native-global-ui.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+studio-owner-workflows,PASS,evidence/fresh-extraction/studio-owner-workflows.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+universal-site-browser,PASS,evidence/fresh-extraction/universal-site-browser.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+menu-draft-isolation,PASS,evidence/fresh-extraction/menu-draft-isolation.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+motion-browser,PASS,evidence/fresh-extraction/motion-browser.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+studio-accessibility,PASS,evidence/fresh-extraction/studio-accessibility.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+universal-accessibility,PASS,evidence/fresh-extraction/universal-accessibility.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+full-browser-inventory,PASS,evidence/fresh-extraction/full-browser-inventory.log,Exact sealed source on local Linux; not owner/independent/provider acceptance
+native-workflows check count 11,PASS,evidence/browser-and-native/native-workflows.json,Automated coverage only
+native-negative check count 12,PASS,evidence/browser-and-native/native-negative.json,Automated coverage only
+native-global-ui check count 6,PASS,evidence/browser-and-native/native-global-ui.json,Automated coverage only
+cms-studio check count 19,PASS,evidence/browser-and-native/studio/checks.json,Automated coverage only
+universal-browser check count 13,PASS,evidence/browser-and-native/universal/checks.json,Automated coverage only
+menu-isolation check count 10,PASS,evidence/browser-and-native/menu-isolation/checks.json,Automated coverage only
+motion check count 6,PASS,evidence/browser-and-native/motion/checks.json,Automated coverage only
+cms-accessibility check count 16,PASS,evidence/browser-and-native/studio/accessibility.json,Automated coverage only
+public-accessibility check count 68,PASS,evidence/browser-and-native/universal/accessibility.json,Automated coverage only
+owner Windows review,OPEN,VERIFICATION_REPORT.md,No acceptance/deployment implied
+native Arabic/manual accessibility/vestibular usability,OPEN,VERIFICATION_REPORT.md,No acceptance/deployment implied
+production real-device/network load/performance,OPEN,VERIFICATION_REPORT.md,No acceptance/deployment implied
+provider identity/Access/MFA/backup/alerts,OPEN,VERIFICATION_REPORT.md,No acceptance/deployment implied
+legal approval/integrated independent security/QA/release,OPEN,VERIFICATION_REPORT.md,No acceptance/deployment implied

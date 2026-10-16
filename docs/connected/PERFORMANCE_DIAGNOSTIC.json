@@ -1,0 +1,69 @@
+{
+  "scope": "Local headless Chromium, cold browser cache, 4x CPU throttle, real local built Workers. Diagnostic evidence only; no production/network/real-device performance claim.",
+  "rows": [
+    {
+      "width": 1440,
+      "path": "/",
+      "cls": 0.006298109809027778,
+      "lcp": 744,
+      "longTasks": [
+        83
+      ],
+      "resources": [
+        {
+          "path": "/_astro/ErrorLayout.DQ4H7Cdn.css",
+          "transferSize": 46563,
+          "decodedBodySize": 46263
+        },
+        {
+          "path": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D9h4MCgf.js",
+          "transferSize": 41246,
+          "decodedBodySize": 40946
+        },
+        {
+          "path": "/fonts/InterVariable.woff2",
+          "transferSize": 352540,
+          "decodedBodySize": 352240
+        },
+        {
+          "path": "/fonts/NotoSansArabic.ttf",
+          "transferSize": 844976,
+          "decodedBodySize": 844676
+        }
+      ],
+      "scrollY": 1500,
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "path": "/ar/businesses",
+      "cls": 0.006283953846153847,
+      "lcp": 456,
+      "longTasks": [],
+      "resources": [
+        {
+          "path": "/_astro/ErrorLayout.DQ4H7Cdn.css",
+          "transferSize": 46563,
+          "decodedBodySize": 46263
+        },
+        {
+          "path": "/_astro/BaseLayout.astro_astro_type_script_index_0_lang.D9h4MCgf.js",
+          "transferSize": 41246,
+          "decodedBodySize": 40946
+        },
+        {
+          "path": "/fonts/NotoSansArabic.ttf",
+          "transferSize": 844976,
+          "decodedBodySize": 844676
+        },
+        {
+          "path": "/fonts/InterVariable.woff2",
+          "transferSize": 352540,
+          "decodedBodySize": 352240
+        }
+      ],
+      "scrollY": 1500,
+      "overflow": 0
+    }
+  ]
+}

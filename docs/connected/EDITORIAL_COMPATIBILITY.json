@@ -1,0 +1,188 @@
+{
+  "status": "PASS",
+  "sourceSha256": "a3a11293559b72dac65973184412b38fbbf76b61cf89e4acec845db812dfbd2b",
+  "pages": [
+    {
+      "locale": "en",
+      "path": "/",
+      "sections": 9,
+      "fields": 59
+    },
+    {
+      "locale": "en",
+      "path": "/for",
+      "sections": 3,
+      "fields": 14
+    },
+    {
+      "locale": "en",
+      "path": "/students",
+      "sections": 8,
+      "fields": 84
+    },
+    {
+      "locale": "en",
+      "path": "/professionals",
+      "sections": 7,
+      "fields": 52
+    },
+    {
+      "locale": "en",
+      "path": "/entrepreneurs",
+      "sections": 7,
+      "fields": 52
+    },
+    {
+      "locale": "en",
+      "path": "/businesses",
+      "sections": 7,
+      "fields": 52
+    },
+    {
+      "locale": "en",
+      "path": "/services",
+      "sections": 6,
+      "fields": 32
+    },
+    {
+      "locale": "en",
+      "path": "/how-we-work",
+      "sections": 4,
+      "fields": 20
+    },
+    {
+      "locale": "en",
+      "path": "/your-account",
+      "sections": 5,
+      "fields": 57
+    },
+    {
+      "locale": "en",
+      "path": "/knowledge",
+      "sections": 3,
+      "fields": 6
+    },
+    {
+      "locale": "en",
+      "path": "/company/about",
+      "sections": 4,
+      "fields": 16
+    },
+    {
+      "locale": "en",
+      "path": "/contact",
+      "sections": 3,
+      "fields": 14
+    },
+    {
+      "locale": "en",
+      "path": "/inquiry",
+      "sections": 1,
+      "fields": 2
+    },
+    {
+      "locale": "en",
+      "path": "/search",
+      "sections": 2,
+      "fields": 3
+    },
+    {
+      "locale": "en",
+      "path": "/client-login",
+      "sections": 1,
+      "fields": 2
+    },
+    {
+      "locale": "ar",
+      "path": "/",
+      "sections": 9,
+      "fields": 59
+    },
+    {
+      "locale": "ar",
+      "path": "/for",
+      "sections": 3,
+      "fields": 14
+    },
+    {
+      "locale": "ar",
+      "path": "/students",
+      "sections": 8,
+      "fields": 84
+    },
+    {
+      "locale": "ar",
+      "path": "/professionals",
+      "sections": 7,
+      "fields": 52
+    },
+    {
+      "locale": "ar",
+      "path": "/entrepreneurs",
+      "sections": 7,
+      "fields": 52
+    },
+    {
+      "locale": "ar",
+      "path": "/businesses",
+      "sections": 7,
+      "fields": 52
+    },
+    {
+      "locale": "ar",
+      "path": "/services",
+      "sections": 6,
+      "fields": 32
+    },
+    {
+      "locale": "ar",
+      "path": "/how-we-work",
+      "sections": 4,
+      "fields": 20
+    },
+    {
+      "locale": "ar",
+      "path": "/your-account",
+      "sections": 5,
+      "fields": 57
+    },
+    {
+      "locale": "ar",
+      "path": "/knowledge",
+      "sections": 3,
+      "fields": 6
+    },
+    {
+      "locale": "ar",
+      "path": "/company/about",
+      "sections": 4,
+      "fields": 16
+    },
+    {
+      "locale": "ar",
+      "path": "/contact",
+      "sections": 3,
+      "fields": 14
+    },
+    {
+      "locale": "ar",
+      "path": "/inquiry",
+      "sections": 1,
+      "fields": 2
+    },
+    {
+      "locale": "ar",
+      "path": "/search",
+      "sections": 2,
+      "fields": 3
+    },
+    {
+      "locale": "ar",
+      "path": "/client-login",
+      "sections": 1,
+      "fields": 2
+    }
+  ],
+  "previousSource": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
+  "scope": "Exact equality of every slot key/component/CTA/href and all heading/paragraph editorial index/kind/text, EN/AR."
+}

@@ -1,16 +1,16 @@
 {
-  "reviewBuild": "ROOT-02",
+  "reviewBuild": "MOTION-01",
   "reviewPackage": {
-    "file": "IDIGITALROOT_ROOT02_REVIEW_2026-10-15_R2.zip",
-    "sha256": "18c31102ad0c836c476a2f0fbedc6c5ea23b8585e6bbfcb2a8bb17647d244798",
-    "bytes": 89981365,
-    "uncompressedBytes": 94890191,
-    "files": 122,
-    "sourceSha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
+    "file": "IDIGITALROOT_MOTION01_REVIEW_2026-10-16_R1.zip",
+    "sha256": "295078128300f4d73080e7442d615de3bfac7cc4b5a6445637e828968db61a25",
+    "bytes": 93924197,
+    "uncompressedBytes": 99513773,
+    "files": 154,
+    "sourceSha256": "a3a11293559b72dac65973184412b38fbbf76b61cf89e4acec845db812dfbd2b",
     "crc": "PASS",
     "freshExtractionChecksums": "PASS",
     "technicalStatus": "PASS_LOCAL_EXACT_SOURCE",
-    "reviewBuild": "ROOT-02",
+    "reviewBuild": "MOTION-01",
     "ownerApproved": false,
     "ownerWindowsRun": "UNVERIFIED",
     "phase1": "OPEN",
@@ -19,19 +19,21 @@
     "deployment": false
   },
   "source": {
-    "source_file": "IDIGITALROOT_ROOT02_SOURCE_2026-10-15_rc4.zip",
-    "source_sha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
-    "bytes": 1814683,
-    "files": 344
+    "source_file": "IDIGITALROOT_MOTION01_SOURCE_2026-10-16_rc2.zip",
+    "source_sha256": "a3a11293559b72dac65973184412b38fbbf76b61cf89e4acec845db812dfbd2b",
+    "bytes": 1832582,
+    "files": 351
   },
   "ownerApproved": false,
   "phase1Status": "OPEN",
   "releaseStatus": "BLOCKED",
   "deployment": false,
   "providerMutation": false,
-  "installerVersion": "2026-10-15-ROOT02-R2",
-  "publicArchitecture": "One company site; four audience story pages; team-reviewed audience-aware quote wizard",
-  "cmsDesignRetained": "Horizon visual console; all-audience context; draft/preview fixes",
-  "previousReviewSourceSha256": "b380a611a1f7af5d2784c213503d01c23806f658960e174b675d7f826e6b40bd",
-  "dataPolicy": "Separate new review dataset; existing folders and drafts retained, not overwritten or automatically imported"
+  "installerVersion": "2026-10-16-MOTION01-R1",
+  "publicArchitecture": "ROOT02 company content/distribution retained; four audience stories and team-reviewed quote",
+  "publicVisualDesign": "Owner-requested expressive motion successor; not owner accepted",
+  "cmsDesignRetained": "Horizon visual console and protected saved-draft/publication scopes",
+  "previousReviewSourceSha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
+  "dataPolicy": "Copy only compatible stopped ROOT02 data into a separate candidate; original byte inventory unchanged; no auto-publication",
+  "continuityLimit": "Master transfer, live review databases and credentials are not GitHub backups; preserve separately"
 }

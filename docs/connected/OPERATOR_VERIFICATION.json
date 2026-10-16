@@ -1,26 +1,27 @@
 {
   "status": "PASS",
-  "sourceSha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
+  "sourceSha256": "a3a11293559b72dac65973184412b38fbbf76b61cf89e4acec845db812dfbd2b",
+  "previousSourceSha256": "7bdedafbaae67633d0b8281cc4fb0cb1da429143d372f5cc09e289f2b3dadefa",
   "checks": [
     {
-      "name": "first exact operator start/stop; original retained; ROOT02 private draft persisted",
+      "name": "first exact operator start, compatible ROOT02 copy, original unchanged, own private draft persisted and normal stop",
       "status": "PASS"
     },
     {
-      "name": "reopen exact operator start/stop; original retained; ROOT02 private draft persisted",
+      "name": "reopen exact operator start, compatible ROOT02 copy, original unchanged, own private draft persisted and normal stop",
       "status": "PASS"
     }
   ],
-  "reviewDataPolicy": "Separate fresh ROOT02 dataset; earlier Horizon/Clarity data is preserved, not adopted or merged",
   "previousDataByteInventoryUnchanged": true,
+  "compatibleRoot02Copied": true,
+  "editorialContract": "PASS",
   "privateDraft": {
     "status": "PASS",
-    "entityId": "page_fcbe3290-1531-4f21-9120-cd934833214c",
+    "entityId": "page_fc1f99bb-0c1d-49f4-81ec-35e806d88b56",
     "mode": "read",
     "publicStatus": 404,
     "retainedRevisions": 1
   },
-  "registryDuringTest": "https://127.0.0.1:9",
   "offlineDependencies": true,
   "warmStartReusedDependencies": true,
   "sourceChecksumsAfterTests": "PASS",
