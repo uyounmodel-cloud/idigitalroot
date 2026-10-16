@@ -2,7 +2,7 @@
 
 ## Client Account blueprint and AI handoff
 
-[**Read the complete blueprint**](docs/client-panel/CLIENT_PANEL_BLUEPRINT.md) · [**Copy the question-first prompt**](docs/client-panel/START_NEW_CONVERSATION_PROMPT.txt) · [**Download the handoff ZIP — 2.3 MB**](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_CLIENT_PANEL_BLUEPRINT_AND_AI_HANDOFF_2026-10-16_v1.1.zip)
+[**Read the complete blueprint**](docs/client-panel/CLIENT_PANEL_BLUEPRINT.md) · [**Copy the question-first prompt**](docs/client-panel/START_NEW_CONVERSATION_PROMPT.txt) · [**Download the handoff ZIP — 2.3 MB**](https://github.com/uyounmodel-cloud/idigitalroot/raw/refs/heads/main/downloads/IDIGITALROOT_CLIENT_PANEL_BLUEPRINT_AND_AI_HANDOFF_2026-10-16_v1.2.zip)
 
 Attach the small ZIP in a new conversation and paste its prompt. The AI must read the authority, ask unresolved questions in small rounds, and wait for explicit scope approval before creating the application. The package includes the complete Client blueprint, audience/feature/decision registers, original security authority and fresh151-risk/345-ASVS registers. **Planning proposal; Client/Admin/tools are not implemented or security-accepted.**
 

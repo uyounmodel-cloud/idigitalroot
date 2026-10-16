@@ -4,8 +4,8 @@
 
 ## Detailed authority and evidence rules
 
-- OWASP ASVS v5.0.0 is the detailed verification authority: strong L2 baseline for Internet-facing application functionality, applicable L3 for privileged/high-value/high-impact flows. All345 preserved requirement rows require applicability/target/evidence review, not automatic full compliance.
-- OWASP Top10:2025; OWASP API Security Top10:2023 until a later stable official release; final NIST SP800-218 SSDFv1.1. Monitor newer standards without silently substituting drafts. Current official Cloudflare Access/Workers/D1/R2 security guidance applies to actual provider configuration.
+- OWASP ASVS v5.0.0 is the detailed verification authority: strong L2 baseline for Internet-facing application functionality, applicable L3 for privileged/high-value/high-impact flows. All 345 preserved requirement rows require applicability/target/evidence review, not automatic full compliance.
+- OWASP Top 10:2025; OWASP API Security Top 10:2023 until a later stable official release; final NIST SP 800-218 SSDF v1.1. Monitor newer standards without silently substituting drafts. Current official Cloudflare Access/Workers/D1/R2 security guidance applies to actual provider configuration.
 - The complete151-title risk inventory is mandatory minimum coverage. The new CLIENT_PANEL_SECURITY_RISK_REGISTER and CLIENT_PANEL_ASVS_5_0_0_REGISTER start NOT_ASSESSED_CLIENT_PANEL. Existing Phase1 evidence/status is context, not Client acceptance.
 - Record per-feature applicability, architectural rationale, prevention/control, unit/integration/abuse/browser/manual/config/operations evidence, review owner, residual risk and actual outcome. N/A requires a concrete architecture-specific rationale; any deviation/risk exception requires explicit informed acceptance. An unrun test is NOT_RUN or BLOCKED, never PASS.
 

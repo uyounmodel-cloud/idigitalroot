@@ -11,7 +11,7 @@ This is a new Client Account planning handoff. Historical instructions and appro
 5. Read **every file** in `authority/master/04_SECURITY/`. These are verbatim originals, with hashes/provenance in SOURCES_AND_AUTHORITY.json.
 6. Read current authority/context documents, especially STUDENT_LAUNCH_SCOPE, UNIVERSAL_ARCHITECTURE, MOTION_READING_CHECKPOINT, current verification and authority register. Historical approval/status boundaries matter.
 7. Read CLIENT_PANEL_BLUEPRINT.md, FEATURE_INVENTORY.csv, DISCOVERY_QUESTIONS.csv, every new SECURITY/ file and QA_AND_RELEASE_GATES.md. New Client risk registers start NOT_ASSESSED; no public test PASS is inherited.
-8. Return the verified checkpoint and ask the first4–6 unresolved questions, prioritizing scope/sequence, first-release audience packs, account activation/identity and organizational roles. Do not create application code/screens/migrations or ask the owner to repeat fixed decisions.
+8. Return the verified checkpoint and ask the first 4–6 unresolved questions, prioritizing scope/sequence, first-release audience packs, account activation/identity and organizational roles. Do not create application code/screens/migrations or ask the owner to repeat fixed decisions.
 
 If no file-reading tools exist, state what cannot be inspected and request the smallest missing access/text. Never claim a ZIP/DOCX/full file was read from its filename or summary.
 

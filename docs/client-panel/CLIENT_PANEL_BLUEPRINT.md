@@ -1,6 +1,6 @@
 # iDigitalRoot Client Account — complete product and technical blueprint
 
-Version1.1 · 16 October2026 · **DISCOVERY PROPOSAL, NOT AN APPROVED IMPLEMENTATION SCOPE**
+Version 1.2 · 16 October 2026 · **DISCOVERY PROPOSAL, NOT AN APPROVED IMPLEMENTATION SCOPE**
 
 ## 1. Purpose, authority and current state
 
@@ -109,7 +109,7 @@ Booking/ecommerce/memberships/large integrations remain scoped service requests 
 
 All tools use the authenticated account/site/owner scope appropriate to their data. Feature visibility is convenience; entitlement, object and action checks happen server-side. Use durable storage for meaningful work, explicit save/autosave, version handling, quotas, export, retention and truthful error/recovery. No arbitrary persistent vault or executable content. Public outputs require a deliberate share/export/publish action and a narrow approved CMS handoff; no general central-to-site content synchronization.
 
-### 10.1 Required Student Toolbox — all12
+### 10.1 Required Student Toolbox — all 12
 
 | Tool | Minimum useful output / acceptance |
 |---|---|
@@ -126,7 +126,7 @@ All tools use the authenticated account/site/owner scope appropriate to their da
 | Contact Card | Genuine contact-file output and supported-client import test |
 | Root Export | Defined user-owned data export with scope/format/privacy/import limits stated |
 
-### 10.2 Required Student Workspace — all16 positions
+### 10.2 Required Student Workspace — all 16 positions
 
 University life: My Semester; Study Planner; Exam Countdown; Project Desk; Study Timer; Goals.
 Career/future: Application Tracker; **Career Kit (same Toolbox capability)**; Cover Letter Guide; Skills Passport; Career Roadmap.
@@ -188,7 +188,7 @@ Choose the safe transport during design: minimize browser URL/referrer/history/a
 
 ## 15. Privacy, files and security
 
-Security authority is the complete original `authority/master/04_SECURITY/` plus SECURITY/CLIENT_PANEL_SECURITY_REQUIREMENTS.md. Map every one of151 preserved titles and all applicable345 ASVS5.0 requirements to actual controls/tests/evidence. New registers start NOT_ASSESSED. Target strong L2 internet-facing coverage and applicable L3 privileged/high-value controls; OWASP Top10:2025/API2023, final NIST SSDF1.1 and current official Cloudflare guidance remain references. Never mark N/A without architecture-specific rationale or accept a deviation without explicit risk acceptance.
+Security authority is the complete original `authority/master/04_SECURITY/` plus SECURITY/CLIENT_PANEL_SECURITY_REQUIREMENTS.md. Map every one of151 preserved titles and all applicable 345 ASVS 5.0 requirements to actual controls/tests/evidence. New registers start NOT_ASSESSED. Target strong L2 internet-facing coverage and applicable L3 privileged/high-value controls; OWASP Top 10:2025/API2023, final NIST SSDF1.1 and current official Cloudflare guidance remain references. Never mark N/A without architecture-specific rationale or accept a deviation without explicit risk acceptance.
 
 Classify public identity outputs, private customer profile/contact, academic/research/career/budget material, project/customer communications, commercial/financial records, security credentials and audit evidence separately. Agree purpose/minimization, client ownership, operator access, minors/age rules, residency, retention/closure, sharing consent and legal terms. Shared customer/company accounts must not expose a member's personal academic/career data by default.
 
@@ -218,7 +218,7 @@ Before production define monitoring, rate/cost alerts, backup scope/encryption/a
 
 **D5 — Account/service operations:** domains/email metadata, catalogue/subscriptions, quotes/billing/renewals, requests, notifications, truthful Health and verified SSO integration as dependencies permit. Local simulation and actual provider validation are separate gates.
 
-**D6 — Workspaces:** implement all approved module packs with real save/edit/export/share/retention and privacy. Full Student12+16 is mandatory before the first commercial student release, even if local review milestones are delivered incrementally. No silent deferral or reduced scope. Other packs follow the approved discovery matrix.
+**D6 — Workspaces:** implement all approved module packs with real save/edit/export/share/retention and privacy. Full Student 12+16 is mandatory before the first commercial student release, even if local review milestones are delivered incrementally. No silent deferral or reduced scope. Other packs follow the approved discovery matrix.
 
 **D7 — Integrated security/QA:** full risk/ASVS/control mapping, negative/adversarial/concurrency/replay/resource-abuse and manual/independent review, EN/AR/accessibility/responsive/browser/performance/provider/restore evidence. Fix failures and reverify the exact successor.
 
